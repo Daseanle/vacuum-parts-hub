@@ -1,0 +1,129 @@
+{
+  "brand": "Shark",
+  "model": "Rocket Cordless Stick Vacuum (IX140 / IZ140 / IX141)",
+  "manual_pdf": "shark-ix140-series.pdf",
+  "seo_keywords": [
+    "Shark IX141 troubleshooting",
+    "Shark cordless vacuum no suction",
+    "Shark rocket brush roll not spinning",
+    "Shark IX141 battery replacement",
+    "Shark vacuum overheating shut off",
+    "clean shark ix141 filters"
+  ],
+  "problems": [
+    {
+      "id": "vacuum-not-picking-up-debris-no-suction",
+      "title": "Vacuum is not picking up debris / No suction",
+      "description": "The vacuum motor is running but it is not picking up dirt, or the suction feels very weak. The nozzle light might be red.",
+      "possible_causes": [
+        "Dust cup is full",
+        "Filters are dirty or clogged",
+        "Blockage in the floor nozzle, wand, or handheld unit",
+        "Clog access cover is open"
+      ],
+      "solution_steps": [
+        "Empty the dust cup.",
+        "Check filters to see if they need cleaning. Rinse and completely air-dry for at least 24 hours.",
+        "Check the floor nozzle for blockages and clear if required.",
+        "Remove the wand and check for blockages at both ends.",
+        "Check the 'Clog Access' on the wand (if applicable) and clear debris."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Filter Kit (Foam & Felt + HEPA)",
+          "search_query": "Shark IX141 Filter Replacement Kit"
+        },
+        {
+          "name": "Dust Cup",
+          "search_query": "Shark IX140 Series Dust Cup"
+        }
+      ]
+    },
+    {
+      "id": "brushroll-does-not-spin",
+      "title": "Brushroll does not spin",
+      "description": "The vacuum is on, but the roller at the bottom is not turning. The nozzle light may be red or off.",
+      "possible_causes": [
+        "Debris wrapped around brushroll",
+        "Vacuum is not tilted back far enough",
+        "Connection issue between nozzle, wand, and handheld",
+        "Boost mode usage on area rugs"
+      ],
+      "solution_steps": [
+        "Immediately turn off the vacuum.",
+        "Remove any string, carpet fibers, or hair wrapped around the brushroll (use scissors if needed).",
+        "Ensure the handheld vacuum is tilted back far enough to engage the brushroll.",
+        "Disconnect and reattach the wand and floor nozzle to ensure a solid electrical connection.",
+        "If vacuuming area rugs, make sure you are not using Boost mode."
+      ],
+      "required_parts": [
+        {
+          "name": "Motorized Floor Nozzle",
+          "search_query": "Shark IX140 Floor Nozzle Replacement"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-turns-off-on-its-own",
+      "title": "Vacuum turns off on its own",
+      "description": "The unit shuts down unexpectedly during use.",
+      "possible_causes": [
+        "Battery is dead",
+        "Vacuum is overheating due to blockages",
+        "Filters are clogged restricting airflow"
+      ],
+      "solution_steps": [
+        "Check battery indicator lights. If low, charge the vacuum.",
+        "Empty dust cup and clean filters.",
+        "Check wand, accessories, and inlet openings for blockages.",
+        "Allow unit and battery to cool for at least 45 minutes to reset the thermal thermostat.",
+        "Restart with the power switch."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery Pack",
+          "search_query": "Shark IX141 Battery Replacement"
+        },
+        {
+          "name": "Charger",
+          "search_query": "Shark IX141 Charger"
+        }
+      ]
+    },
+    {
+      "id": "battery-lights-flashing",
+      "title": "Battery Indicator Lights are Flashing",
+      "description": "The LED lights on the handheld vacuum are blinking in specific patterns.",
+      "possible_causes": [
+        "Bottom LED flashing: Battery needs charge",
+        "Top and Bottom LEDs flashing: Battery temperature not optimal",
+        "Top 2 or Bottom 2 LEDs flashing: System error"
+      ],
+      "solution_steps": [
+        "If bottom light is flashing: Charge the battery immediately.",
+        "If top and bottom lights are flashing: Leave battery plugged in; charging will resume once temp normalizes.",
+        "If Top 2 or Bottom 2 lights are flashing: This indicates a call to Customer Service is needed (or replace the battery)."
+      ],
+      "required_parts": [
+        {
+          "name": "Lithium-Ion Battery",
+          "search_query": "Shark IX141 Battery"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-lifts-area-rugs",
+      "title": "Vacuum lifts area rugs",
+      "description": "The suction is too strong and is pulling up rugs.",
+      "possible_causes": [
+        "Boost mode is engaged",
+        "Suction is too high for delicate rugs"
+      ],
+      "solution_steps": [
+        "Turn off Boost mode (release the trigger).",
+        "Use the selector switch to ensure you are not on 'Carpet' mode if the rug is delicate."
+      ],
+      "required_parts": []
+    }
+  ]
+}
