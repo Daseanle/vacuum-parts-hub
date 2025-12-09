@@ -1,0 +1,54 @@
+{
+  "brand": "Dyson",
+  "model": "Ball Animal 2 Upright",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-ball-animal-2.pdf",
+  "seo_keywords": [
+    "Dyson Ball Animal 2 no suction at base",
+    "Dyson Ball Animal 2 hose replacement",
+    "Dyson Ball brush bar reset button",
+    "Dyson Ball Animal 2 filter cleaning"
+  ],
+  "problems": [
+    {
+      "id": "no-suction-at-base",
+      "title": "No Suction at Floor Head / Hose works fine",
+      "description": "The vacuum has suction through the hose/wand, but not at the bottom cleaner head.",
+      "possible_causes": [
+        "Clog in the lower duct (COV tube)",
+        "Changeover valve failed",
+        "Brush bar not spinning"
+      ],
+      "solution_steps": [
+        "Recline the machine fully to engage the floor suction.",
+        "Check the 'U-bend' pipe at the back bottom for clogs.",
+        "Inspect the changeover valve (the part that switches air from hose to floor) for breakage."
+      ],
+      "required_parts": [
+        {
+          "name": "Internal Hose / COV Assembly",
+          "search_query": "Dyson Ball Animal 2 Internal Hose"
+        }
+      ]
+    },
+    {
+      "id": "hose-split-torn",
+      "title": "Hose Split / Whistling Noise",
+      "description": "Loud hissing noise and loss of suction. The main stretch hose has a tear.",
+      "possible_causes": [
+        "Wear and tear from stretching",
+        "Sharp object punctured hose"
+      ],
+      "solution_steps": [
+        "Inspect the stretch hose, especially near the handle connection.",
+        "Duct tape is a temporary fix, but the hose needs replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Stretch Hose Assembly",
+          "search_query": "Dyson Ball Animal 2 Hose Replacement"
+        }
+      ]
+    }
+  ]
+}
