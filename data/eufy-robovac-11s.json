@@ -1,0 +1,53 @@
+{
+  "brand": "Eufy",
+  "model": "RoboVac 11S / 11S MAX",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "eufy-11s.pdf",
+  "seo_keywords": [
+    "Eufy 11S beeping 4 times",
+    "Eufy 11S battery replacement",
+    "Eufy RoboVac side brush spinning but not cleaning",
+    "Eufy 11S circle dance"
+  ],
+  "problems": [
+    {
+      "id": "four-beeps-red-light",
+      "title": "4 Beeps + Red Light (Brush Stuck)",
+      "description": "The robot stops and beeps 4 times.",
+      "possible_causes": [
+        "Rolling brush is stuck with hair",
+        "Brush motor failure"
+      ],
+      "solution_steps": [
+        "Remove the rolling brush guard.",
+        "Take out the brush and cut away hair using the cleaning tool.",
+        "Clean the yellow bearings at the ends of the brush."
+      ],
+      "required_parts": [
+        {
+          "name": "RoboVac 11S Replacement Parts Kit (Brushes & Filters)",
+          "search_query": "Eufy 11S Replacement Parts"
+        }
+      ]
+    },
+    {
+      "id": "short-runtime-dead-battery",
+      "title": "Short Runtime / Dies Quickly",
+      "description": "The robot only runs for 15-20 minutes before returning to dock.",
+      "possible_causes": [
+        "Battery degradation (common after 12-18 months)",
+        "Charging contacts dirty"
+      ],
+      "solution_steps": [
+        "Wipe charging contacts on base and robot.",
+        "If the robot is over a year old, the Li-ion battery needs replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery (14.4V)",
+          "search_query": "Eufy 11S Battery Replacement"
+        }
+      ]
+    }
+  ]
+}
