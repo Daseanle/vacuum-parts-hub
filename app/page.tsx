@@ -1,32 +1,31 @@
-import Link from 'next/link';
 import { getAllModelSlugs } from '@/lib/vacuum-data';
+import ModelList from '@/components/ModelList';
 
 export default async function Home() {
-  // 获取所有已生成的指南
+  // 1. 在服务端获取所有数据
   const guides = await getAllModelSlugs();
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-6xl font-bold text-blue-600 mb-8">VacuumPartsHub</h1>
-      <p className="text-xl mb-12 text-gray-600">The AI-Powered Repair Guide & Parts Locator.</p>
+    <main className="flex min-h-screen flex-col items-center py-24 px-4 bg-gray-50">
+      {/* 头部区域 */}
+      <div className="text-center mb-12 max-w-2xl">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-blue-600 mb-6 tracking-tight">
+          VacuumPartsHub
+        </h1>
+        <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
+          Don't throw it away. <span className="font-bold text-gray-800">Fix it.</span>
+          <br />
+          Free AI-powered repair guides & parts locator.
+        </p>
+      </div>
       
-      <div className="grid gap-4 w-full max-w-2xl">
-        <h2 className="text-2xl font-bold">Available Guides:</h2>
-        {guides.length > 0 ? (
-          guides.map((item) => (
-            <Link 
-              key={item.model}
-              href={`/guide/${item.model}`}
-              className="p-6 bg-white rounded-lg shadow hover:shadow-md border border-gray-200 block"
-            >
-              <span className="text-lg font-medium text-blue-600 capitalize">
-                {item.model.replace(/-/g, ' ')}
-              </span>
-            </Link>
-          ))
-        ) : (
-          <p>No guides found. Please check data folder.</p>
-        )}
+      {/* 2. 把数据传给客户端组件，进行渲染和交互 */}
+      <ModelList models={guides} />
+      
+      {/* 底部 SEO 文本 */}
+      <div className="mt-20 text-center text-sm text-gray-400 max-w-lg">
+        <p>Supported Brands: Dyson, Shark, Bissell, iRobot, Black+Decker & more.</p>
+        <p className="mt-2">© 2025 VacuumPartsHub. All rights reserved.</p>
       </div>
     </main>
   );
