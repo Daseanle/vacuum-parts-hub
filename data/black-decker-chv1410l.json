@@ -1,0 +1,55 @@
+{
+  "brand": "Black+Decker",
+  "model": "Dustbuster Handheld Vacuum (CHV1410L)",
+  "manual_pdf": "chv1410l.pdf",
+  "seo_keywords": [
+    "Black and Decker dustbuster filter",
+    "CHV1410L not charging",
+    "Dustbuster weak suction",
+    "CHV1410L charger replacement"
+  ],
+  "problems": [
+    {
+      "id": "weak-suction",
+      "title": "Weak Suction / Motor sounds strained",
+      "description": "The vacuum turns on but barely picks up dirt.",
+      "possible_causes": [
+        "Filter is completely clogged",
+        "Bowl is full",
+        "Battery is low"
+      ],
+      "solution_steps": [
+        "Empty the dust bowl.",
+        "Remove the VF110 filter and wash it with warm soapy water. It must be bone dry before reusing.",
+        "If the filter is old and gray, washing won't help. Replace it."
+      ],
+      "required_parts": [
+        {
+          "name": "VF110 Replacement Filter",
+          "search_query": "Black and Decker VF110 Filter"
+        }
+      ]
+    },
+    {
+      "id": "not-charging",
+      "title": "Vacuum Not Charging",
+      "description": "No light when placed on the charging base.",
+      "possible_causes": [
+        "Charger not plugged in",
+        "Contacts are dirty",
+        "Charging base failure"
+      ],
+      "solution_steps": [
+        "Ensure the outlet is working.",
+        "Wipe the metal contacts on the vacuum and the base.",
+        "If the charger is lost or broken, you need a specific replacement base."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Charger Base",
+          "search_query": "Black+Decker CHV1410L Charger"
+        }
+      ]
+    }
+  ]
+}
