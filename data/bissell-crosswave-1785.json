@@ -1,0 +1,61 @@
+{
+  "brand": "Bissell",
+  "model": "CrossWave All-in-One Wet Dry Vac (1785 Series)",
+  "image_url": "https://m.media-amazon.com/images/I/61Kq99iZlNL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-crosswave-1785.pdf",
+  "seo_keywords": [
+    "Bissell CrossWave streaking floor",
+    "CrossWave not spraying water",
+    "Bissell CrossWave smell",
+    "CrossWave 1785 filter replacement",
+    "Bissell CrossWave brush roll not turning"
+  ],
+  "problems": [
+    {
+      "id": "leaving-streaks",
+      "title": "Leaving Streaks / Not Cleaning Well",
+      "description": "The floor looks dirty or streaky after cleaning, or the machine leaves wet puddles.",
+      "possible_causes": [
+        "Dirty brush roll",
+        "Using too much formula",
+        "Wheels are dirty"
+      ],
+      "solution_steps": [
+        "Remove the brush roll and wash it. Let it dry completely.",
+        "Wipe the wheels with a paper towel.",
+        "Ensure you are using the correct Multi-Surface formula, not plain water or bleach."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brush Roll & Filter Bundle",
+          "search_query": "Bissell CrossWave 1785 Brush Roll Filter Kit"
+        },
+        {
+          "name": "Multi-Surface Pet Formula",
+          "search_query": "Bissell CrossWave Cleaning Solution"
+        }
+      ]
+    },
+    {
+      "id": "not-spraying",
+      "title": "Not Spraying Water / Solution",
+      "description": "Trigger is pressed but no solution comes out of the foot.",
+      "possible_causes": [
+        "Clean water tank not seated",
+        "Solution tank is empty",
+        "Clogged spray tip"
+      ],
+      "solution_steps": [
+        "Remove and reseat the clean water tank. You should hear a click.",
+        "Check if the tank is full.",
+        "Clean the spray nozzle on the foot with a pin or warm water."
+      ],
+      "required_parts": [
+        {
+          "name": "Clean Water Tank Assembly",
+          "search_query": "Bissell CrossWave Clean Water Tank"
+        }
+      ]
+    }
+  ]
+}
