@@ -26,7 +26,7 @@
       ],
       "required_parts": [
         {
-          "name": "Clean Base Dirt Disposal Bags (Automatic Dirt Disposal)",
+          "name": "Clean Base Dirt Disposal Bags",
           "search_query": "iRobot Roomba Clean Base Bags"
         }
       ]
@@ -36,15 +36,3 @@
       "title": "Edge Sweeping Brush Not Spinning",
       "description": "The side brush stopped turning, leaving debris in corners.",
       "possible_causes": [
-        "Hair wrapped around the module",
-        "Brush module motor failure",
-        "Brush broken off"
-      ],
-      "solution_steps": [
-        "Unscrew the side brush and remove hair.",
-        "If the brush is bent or missing bristles, install a new one.",
-        "If a clean brush still won't spin, the module needs replacement."
-      ],
-      "required_parts": [
-        {
-          "name": "Edge-S
