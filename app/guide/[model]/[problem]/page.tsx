@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 
 function getAmazonLink(query: string) {
   // 记得后面把你申请到的 Tag 换上去
-  const tag = "vacuumhub-20"; 
+  const tag = "vacuumpartshu-20"; 
   return `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=${tag}`;
 }
 
