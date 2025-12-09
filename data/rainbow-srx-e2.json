@@ -1,0 +1,56 @@
+{
+  "brand": "Rainbow",
+  "model": "SRX / E2 Type 12 Black",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "rainbow-srx.pdf",
+  "seo_keywords": [
+    "Rainbow vacuum smells bad",
+    "Rainbow SRX HEPA filter replacement",
+    "Rainbow vacuum power nozzle not working",
+    "Rainbow E2 water basin latch"
+  ],
+  "problems": [
+    {
+      "id": "bad-smell-musty",
+      "title": "Bad Smell / Musty Odor",
+      "description": "Vacuum smells like mildew even with fresh water.",
+      "possible_causes": [
+        "HEPA neutralizer filter is saturated",
+        "Water separator nut is dirty",
+        "Basin was left wet"
+      ],
+      "solution_steps": [
+        "Remove the back cover and replace the HEPA Neutralizer filter (needs changing every 2 years).",
+        "Remove the separator nut (under the unit) and clean the spider assembly.",
+        "Always dry the basin after use."
+      ],
+      "required_parts": [
+        {
+          "name": "Rainbow E2/SRX HEPA Neutralizer Filter",
+          "search_query": "Rainbow Vacuum HEPA Filter"
+        }
+      ]
+    },
+    {
+      "id": "power-nozzle-not-spinning",
+      "title": "Power Nozzle Brush Not Spinning",
+      "description": "The carpet head doesn't vibrate.",
+      "possible_causes": [
+        "Belt broken",
+        "Connection pin bent",
+        "Trigger lock not engaged"
+      ],
+      "solution_steps": [
+        "Unplug and remove the bottom plate of the power head.",
+        "Check the belt. If stretched or snapped, replace it.",
+        "Check the electrical connection wand."
+      ],
+      "required_parts": [
+        {
+          "name": "Power Nozzle Belt (3-Pack)",
+          "search_query": "Rainbow Vacuum Belts"
+        }
+      ]
+    }
+  ]
+}
