@@ -1,51 +1,54 @@
 {
   "brand": "iRobot",
-  "model": "Roomba i7+ (7550)",
-  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
-  "manual_pdf": "roomba-i7.pdf",
+  "model": "Roomba j7+ Self-Emptying Robot",
+  "image_url": "https://m.media-amazon.com/images/I/71eXN-T1qUL._AC_SL1500_.jpg",
+  "manual_pdf": "roomba-j7.pdf",
   "seo_keywords": [
-    "Roomba i7 not emptying",
-    "Roomba i7 rollers replacement",
-    "Roomba i7 side brush spinning issue",
-    "Roomba i7 battery"
+    "Roomba j7+ not emptying bin",
+    "Roomba j7 red light ring",
+    "Roomba j7 bags replacement",
+    "Roomba j7 side brush not spinning"
   ],
   "problems": [
     {
-      "id": "rollers-noisy-worn",
-      "title": "Rollers Noisy / Worn Out",
-      "description": "Robot makes loud rattling noise or leaves dirt.",
+      "id": "not-emptying-bin",
+      "title": "Not Emptying / Red Light on Base",
+      "description": "The robot docks but does not empty the bin, or the base shows a red light.",
       "possible_causes": [
-        "Rubber treads worn down",
-        "Hair inside roller caps"
+        "Disposal bag is full",
+        "Clog in the base evacuation tube",
+        "Bin lid not sealed"
       ],
       "solution_steps": [
-        "Pop out the green rollers.",
-        "Remove the yellow end caps and clean hair.",
-        "Replace rollers every 6-12 months."
+        "Check if the bag in the Clean Base is full. Replace it (do not reuse).",
+        "Check the bottom of the Clean Base for clogs in the clear tube.",
+        "Ensure the robot's dust bin lid is fully closed."
       ],
       "required_parts": [
         {
-          "name": "Dual Multi-Surface Rubber Brushes",
-          "search_query": "Roomba i7 Rollers"
+          "name": "Clean Base Dirt Disposal Bags",
+          "search_query": "iRobot Roomba Clean Base Bags"
         }
       ]
     },
     {
-      "id": "base-red-light",
-      "title": "Base Red Light / Full Bag",
-      "description": "Clean Base indicator is solid red.",
+      "id": "spinning-brush-failure",
+      "title": "Edge Sweeping Brush Not Spinning",
+      "description": "The side brush stopped turning, leaving debris in corners.",
       "possible_causes": [
-        "Bag is full",
-        "Clog in base dock"
+        "Hair wrapped around the module",
+        "Brush module motor failure",
+        "Brush broken off"
       ],
       "solution_steps": [
-        "Replace the disposal bag.",
-        "Clear debris from the bottom of the base."
+        "Unscrew the side brush and remove hair.",
+        "If the brush is bent or missing bristles, install a new one.",
+        "If a clean brush still won't spin, the module needs replacement."
       ],
       "required_parts": [
         {
-          "name": "Clean Base Disposal Bags",
-          "search_query": "Roomba Clean Base Bags"
+          "name": "Edge-Sweeping Brush & Filter Kit",
+          "search_query": "Roomba j7 Replacement Parts"
         }
       ]
     }
