@@ -1,0 +1,59 @@
+{
+  "brand": "Shark",
+  "model": "IQ Robot Vacuum with Self-Empty Base (RV1001)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-rv1001.pdf",
+  "seo_keywords": [
+    "Shark IQ Robot not emptying",
+    "Shark RV1001 mapping issues",
+    "Shark Robot side brushes bent",
+    "Shark IQ battery replacement"
+  ],
+  "problems": [
+    {
+      "id": "robot-not-emptying",
+      "title": "Robot Not Emptying into Base",
+      "description": "The robot docks, the base vacuum runs, but the robot's bin is still full.",
+      "possible_causes": [
+        "Debris flap on robot bin is stuck",
+        "Base air path is clogged",
+        "Robot bin filter is too dirty (blocking airflow)"
+      ],
+      "solution_steps": [
+        "Check the flap on the bottom of the robot's dust bin. Ensure it moves freely.",
+        "Remove the clear plastic window on the bottom of the Base to clear clogs.",
+        "Wash the filter inside the robot's bin."
+      ],
+      "required_parts": [
+        {
+          "name": "Self-Empty Base Filters (Pre & Post Motor)",
+          "search_query": "Shark IQ Robot Base Filters"
+        },
+        {
+          "name": "Replacement Robot Dust Bin",
+          "search_query": "Shark RV1001 Dust Bin"
+        }
+      ]
+    },
+    {
+      "id": "side-brushes-bent",
+      "title": "Side Brushes Bent / Not Spinning",
+      "description": "Side brushes are curled up or fell off.",
+      "possible_causes": [
+        "Caught on rug tassels",
+        "Normal wear and tear"
+      ],
+      "solution_steps": [
+        "Pop off the side brushes.",
+        "If bent, you can soak them in hot water to straighten them.",
+        "If bristles are missing, snap on new ones."
+      ],
+      "required_parts": [
+        {
+          "name": "Side Brushes & Filter Kit",
+          "search_query": "Shark IQ Robot Replacement Parts"
+        }
+      ]
+    }
+  ]
+}
