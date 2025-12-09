@@ -1,0 +1,53 @@
+{
+  "brand": "Oreck",
+  "model": "Commercial XL Upright (XL2100RHS)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "oreck-xl.pdf",
+  "seo_keywords": [
+    "Oreck XL belt replacement",
+    "Oreck Commercial vacuum bags",
+    "Oreck XL not picking up",
+    "Oreck XL brush replacement"
+  ],
+  "problems": [
+    {
+      "id": "brush-not-spinning",
+      "title": "Brush Not Spinning / Squealing Sound",
+      "description": "Loud squeal or brush stopped.",
+      "possible_causes": [
+        "Belt broken or slipped",
+        "Brush roll worn out"
+      ],
+      "solution_steps": [
+        "Oreck belts stretch over time. Replace every 6 months.",
+        "Remove the bottom plate (Phillips screws) and loop on a new belt."
+      ],
+      "required_parts": [
+        {
+          "name": "Oreck XL Drive Belts (3-Pack)",
+          "search_query": "Oreck XL Belt"
+        }
+      ]
+    },
+    {
+      "id": "dust-blowing-out",
+      "title": "Dust Blowing Out of Bag",
+      "description": "Cloud of dust when turning on.",
+      "possible_causes": [
+        "Inner paper bag is full",
+        "Bag not attached to dock"
+      ],
+      "solution_steps": [
+        "Unzip the outer bag.",
+        "Check if the paper bag is attached to the inlet pipe.",
+        "Replace the paper bag."
+      ],
+      "required_parts": [
+        {
+          "name": "Oreck Commercial XL Bags (PK80009)",
+          "search_query": "Oreck XL Vacuum Bags"
+        }
+      ]
+    }
+  ]
+}
