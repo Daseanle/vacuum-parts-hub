@@ -1,0 +1,60 @@
+{
+  "brand": "Shark",
+  "model": "Navigator Lift-Away Professional (NV356E)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-nv356e.pdf",
+  "seo_keywords": [
+    "Shark NV356E hose replacement",
+    "Shark Navigator suction loss",
+    "Shark NV356E brush roll not spinning",
+    "Shark Navigator filters"
+  ],
+  "problems": [
+    {
+      "id": "split-hose-no-suction",
+      "title": "Split Hose / Loss of Suction",
+      "description": "Hissing sound and no suction from the floor nozzle. Usually a tear in the handle hose.",
+      "possible_causes": [
+        "Rip in the handle hose",
+        "Clog in the lower wand",
+        "Dirty foam filters"
+      ],
+      "solution_steps": [
+        "Inspect the short hose connecting the handle to the wand.",
+        "If torn, you don't need a new vacuum, just a replacement handle assembly.",
+        "Check the foam filters under the dust cup."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Handle with Hose",
+          "search_query": "Shark NV356E Hose Handle"
+        },
+        {
+          "name": "Filter Kit (Foam & Felt)",
+          "search_query": "Shark NV356E Filters"
+        }
+      ]
+    },
+    {
+      "id": "brush-not-spinning",
+      "title": "Brush Roll Not Spinning",
+      "description": "The green light on the nozzle is off or red.",
+      "possible_causes": [
+        "Belt is NOT replaceable (it's geared)",
+        "Nozzle hose is cracked",
+        "Switch is on 'Hard Floor' setting"
+      ],
+      "solution_steps": [
+        "Ensure switch is set to II (Brushroll On).",
+        "Check the small lower hose on the floor nozzle for cracks.",
+        "If the nozzle hose is split, you need a specific repair part or new nozzle."
+      ],
+      "required_parts": [
+        {
+          "name": "Floor Nozzle Hose Repair Part",
+          "search_query": "Shark Navigator Lower Nozzle Hose"
+        }
+      ]
+    }
+  ]
+}
