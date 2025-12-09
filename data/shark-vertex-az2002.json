@@ -1,0 +1,56 @@
+{
+  "brand": "Shark",
+  "model": "Vertex DuoClean PowerFins (AZ2002)",
+  "image_url": "https://m.media-amazon.com/images/I/71Xy-J+hQJL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-az2002.pdf",
+  "seo_keywords": [
+    "Shark Vertex brush roll indicator flashing",
+    "Shark AZ2002 soft roller not spinning",
+    "Shark Vertex smells bad",
+    "Shark AZ2002 filters"
+  ],
+  "problems": [
+    {
+      "id": "soft-roller-not-spinning",
+      "title": "Soft Roller Not Spinning / Light Flashing",
+      "description": "The front soft orange roller isn't turning, or the nozzle light flashes.",
+      "possible_causes": [
+        "Debris jammed behind the soft roller",
+        "Garage door not fully closed",
+        "Belt issue (rare)"
+      ],
+      "solution_steps": [
+        "Slide the 'Access' buttons to pop open the brush roll garage.",
+        "Pull out the soft roller and clean the hair behind it.",
+        "Wash the soft roller if it's dirty (let dry for 24h).",
+        "Firmly close the garage lid on both sides until it clicks."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Soft Roller",
+          "search_query": "Shark AZ2002 Soft Roller"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction",
+      "title": "Suction Loss / Filters Dirty",
+      "description": "Vacuum feels weak. This model has powerful suction, so any drop is noticeable.",
+      "possible_causes": [
+        "Foam/Felt filters are clogged with fine dust",
+        "HEPA filter is saturated",
+        "Clog in the wand"
+      ],
+      "solution_steps": [
+        "Check the foam filters under the dust cup. If they are black, wash them.",
+        "Replace the HEPA filter once a year."
+      ],
+      "required_parts": [
+        {
+          "name": "Vertex Filter Kit (Foam + Felt + HEPA)",
+          "search_query": "Shark AZ2002 Filter Replacement"
+        }
+      ]
+    }
+  ]
+}
