@@ -1,0 +1,53 @@
+{
+  "brand": "Shark",
+  "model": "Rocket Pet Pro Cordless (IZ163H)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-iz163h.pdf",
+  "seo_keywords": [
+    "Shark IZ163H battery replacement",
+    "Shark Rocket Pet Pro filters",
+    "Shark IZ163H suction loss",
+    "Shark cordless vacuum blinking codes"
+  ],
+  "problems": [
+    {
+      "id": "battery-indicator-codes",
+      "title": "Battery Lights Blinking / Not Charging",
+      "description": "Specific blink patterns on the battery.",
+      "possible_causes": [
+        "First and third lights flashing: Temperature issue",
+        "Bottom light flashing: Needs charge",
+        "Battery dead"
+      ],
+      "solution_steps": [
+        "If temp issue, let cool for 45 mins.",
+        "If battery won't hold charge after 2 years, replace it."
+      ],
+      "required_parts": [
+        {
+          "name": "Shark IZ163H Replacement Battery",
+          "search_query": "Shark IZ163H Battery"
+        }
+      ]
+    },
+    {
+      "id": "clogged-filters",
+      "title": "Loss of Suction / Motor Whine",
+      "description": "High pitched whine and no pickup.",
+      "possible_causes": [
+        "Pre-motor filters clogged",
+        "Post-motor filter dirty"
+      ],
+      "solution_steps": [
+        "Wash the foam/felt filters under the dust cup.",
+        "Access the HEPA filter near the handle and clean it."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Replacement Kit",
+          "search_query": "Shark IZ163H Filters"
+        }
+      ]
+    }
+  ]
+}
