@@ -3,7 +3,6 @@ import path from 'path';
 
 const dataDirectory = path.join(process.cwd(), 'data');
 
-// 定义数据类型，让代码知道 JSON 长什么样
 export interface VacuumPart {
   name: string;
   search_query: string;
@@ -26,19 +25,19 @@ export interface VacuumManual {
   problems: Problem[];
 }
 
-// 获取所有型号的 Slug (用于生成静态路径)
 export async function getAllModelSlugs() {
+  // 如果 data 目录不存在，防止报错
+  if (!fs.existsSync(dataDirectory)) {
+    return [];
+  }
   const fileNames = fs.readdirSync(dataDirectory);
   return fileNames.map((fileName) => {
     return {
-      params: {
-        model: fileName.replace(/\.json$/, ''),
-      },
+      model: fileName.replace(/\.json$/, ''),
     };
   });
 }
 
-// 根据型号 Slug 获取具体数据
 export async function getModelData(slug: string): Promise<VacuumManual | null> {
   const fullPath = path.join(dataDirectory, `${slug}.json`);
   if (!fs.existsSync(fullPath)) {
