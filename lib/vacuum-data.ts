@@ -25,15 +25,15 @@ export interface VacuumManual {
   problems: Problem[];
 }
 
+// lib/vacuum-data.ts 的 getAllModelSlugs 必须长这样：
 export async function getAllModelSlugs() {
-  // 如果 data 目录不存在，防止报错
   if (!fs.existsSync(dataDirectory)) {
     return [];
   }
   const fileNames = fs.readdirSync(dataDirectory);
   return fileNames.map((fileName) => {
     return {
-      model: fileName.replace(/\.json$/, ''),
+      model: fileName.replace(/\.json$/, ''), // 注意：这里直接返回 model，不要包在 params 里
     };
   });
 }
