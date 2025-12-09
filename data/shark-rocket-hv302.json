@@ -1,0 +1,52 @@
+{
+  "brand": "Shark",
+  "model": "Rocket Corded Stick Vacuum (HV302)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-hv302.pdf",
+  "seo_keywords": [
+    "Shark Rocket HV302 overheating",
+    "Shark Rocket brush roll stops",
+    "Shark HV302 filters",
+    "Shark Rocket lower hose replacement"
+  ],
+  "problems": [
+    {
+      "id": "shut-off-overheating",
+      "title": "Vacuum Shuts Off / Hot",
+      "description": "Motor stops during use and won't turn back on immediately.",
+      "possible_causes": [
+        "Thermal safety switch activated",
+        "Filters are blocked with dust"
+      ],
+      "solution_steps": [
+        "Unplug and wait 45 minutes.",
+        "Wash the foam and felt filters located under the top cover.",
+        "Check the tube for clogs."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Replacement Kit (Foam & Felt)",
+          "search_query": "Shark Rocket HV302 Filters"
+        }
+      ]
+    },
+    {
+      "id": "floor-nozzle-hose-split",
+      "title": "Floor Nozzle Hose Split",
+      "description": "You see a crack in the small hose connecting the head to the stick.",
+      "possible_causes": [
+        "Fatigue from steering"
+      ],
+      "solution_steps": [
+        "This hose is difficult to replace on its own.",
+        "Usually requires replacing the lower floor nozzle assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Floor Nozzle",
+          "search_query": "Shark HV302 Floor Nozzle"
+        }
+      ]
+    }
+  ]
+}
