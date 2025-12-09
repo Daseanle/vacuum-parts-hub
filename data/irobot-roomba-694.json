@@ -1,0 +1,56 @@
+{
+  "brand": "iRobot",
+  "model": "Roomba 694 Robot Vacuum",
+  "manual_pdf": "roomba-694.pdf",
+  "seo_keywords": [
+    "Roomba 694 charging error",
+    "Roomba 694 brush not spinning",
+    "Roomba 694 battery replacement",
+    "Roomba 694 side brush replacement",
+    "reset Roomba 694"
+  ],
+  "problems": [
+    {
+      "id": "charging-error-wont-charge",
+      "title": "Roomba won't charge / Charging Error",
+      "description": "The robot is on the dock but the light doesn't pulse, or it says 'Charging Error'.",
+      "possible_causes": [
+        "Dirty charging contacts",
+        "Battery is disconnected or dead",
+        "Home Base not plugged in"
+      ],
+      "solution_steps": [
+        "Clean the metal charging contacts on the Home Base and the bottom of the robot with a melamine foam (Magic Eraser) or alcohol wipe.",
+        "Remove the battery cover and ensure the battery is seated.",
+        "If the battery is over 2 years old, it likely needs replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "Roomba 600 Series Replacement Battery",
+          "search_query": "iRobot Roomba 600 Series Battery"
+        }
+      ]
+    },
+    {
+      "id": "brushes-not-spinning",
+      "title": "Brushes Not Spinning / Poor Pickup",
+      "description": "The robot runs but leaves dirt behind. The side brush or main rollers aren't turning.",
+      "possible_causes": [
+        "Side brush jammed with hair",
+        "Main brushes worn out",
+        "Filter clogged"
+      ],
+      "solution_steps": [
+        "Unscrew the side brush and remove hair wrapped around the shaft.",
+        "Open the brush frame and remove the two main brushes. Clean the yellow bearings.",
+        "Replace brushes if the rubber is worn or bristles are missing."
+      ],
+      "required_parts": [
+        {
+          "name": "Replenishment Kit (Brushes & Filters)",
+          "search_query": "Roomba 694 Replacement Parts Kit"
+        }
+      ]
+    }
+  ]
+}
