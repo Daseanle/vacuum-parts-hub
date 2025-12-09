@@ -1,0 +1,53 @@
+{
+  "brand": "iRobot",
+  "model": "Roomba i7+ (7550)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "roomba-i7.pdf",
+  "seo_keywords": [
+    "Roomba i7 not emptying",
+    "Roomba i7 rollers replacement",
+    "Roomba i7 side brush spinning issue",
+    "Roomba i7 battery"
+  ],
+  "problems": [
+    {
+      "id": "rollers-noisy-worn",
+      "title": "Rollers Noisy / Worn Out",
+      "description": "Robot makes loud rattling noise or leaves dirt.",
+      "possible_causes": [
+        "Rubber treads worn down",
+        "Hair inside roller caps"
+      ],
+      "solution_steps": [
+        "Pop out the green rollers.",
+        "Remove the yellow end caps and clean hair.",
+        "Replace rollers every 6-12 months."
+      ],
+      "required_parts": [
+        {
+          "name": "Dual Multi-Surface Rubber Brushes",
+          "search_query": "Roomba i7 Rollers"
+        }
+      ]
+    },
+    {
+      "id": "base-red-light",
+      "title": "Base Red Light / Full Bag",
+      "description": "Clean Base indicator is solid red.",
+      "possible_causes": [
+        "Bag is full",
+        "Clog in base dock"
+      ],
+      "solution_steps": [
+        "Replace the disposal bag.",
+        "Clear debris from the bottom of the base."
+      ],
+      "required_parts": [
+        {
+          "name": "Clean Base Disposal Bags",
+          "search_query": "Roomba Clean Base Bags"
+        }
+      ]
+    }
+  ]
+}
