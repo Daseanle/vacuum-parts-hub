@@ -1,0 +1,50 @@
+{
+  "brand": "Eufy",
+  "model": "RoboVac 30C",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "eufy-30c.pdf",
+  "seo_keywords": [
+    "Eufy 30C beeping",
+    "Eufy 30C battery replacement",
+    "Eufy 30C boundary strip not working",
+    "Eufy 30C side brush"
+  ],
+  "problems": [
+    {
+      "id": "ignores-boundary-strips",
+      "title": "Ignores Boundary Strips",
+      "description": "Robot crosses the magnetic tape it shouldn't.",
+      "possible_causes": [
+        "Sensors dirty",
+        "Strips not flat"
+      ],
+      "solution_steps": [
+        "Clean the Hall sensors on the bumper.",
+        "Ensure magnetic strips are flat on the floor."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Boundary Strips",
+          "search_query": "Eufy Boundary Strips"
+        }
+      ]
+    },
+    {
+      "id": "battery-dead",
+      "title": "Battery Dead / Won't Hold Charge",
+      "description": "Robot runs for 10 mins and dies.",
+      "possible_causes": [
+        "Battery end of life"
+      ],
+      "solution_steps": [
+        "Replace the battery pack (14.4V)."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery",
+          "search_query": "Eufy 30C Battery"
+        }
+      ]
+    }
+  ]
+}
