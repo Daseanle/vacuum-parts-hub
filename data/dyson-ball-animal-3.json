@@ -1,0 +1,47 @@
+{
+  "brand": "Dyson",
+  "model": "Ball Animal 3 Upright",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-animal-3.pdf",
+  "seo_keywords": [
+    "Dyson Animal 3 brush bar reset",
+    "Dyson Ball Animal 3 hard to push",
+    "Dyson Animal 3 hose clogged",
+    "Dyson Ball 3 suction control"
+  ],
+  "problems": [
+    {
+      "id": "hard-to-push",
+      "title": "Hard to Push on Carpets",
+      "description": "The vacuum sucks too hard to the floor.",
+      "possible_causes": [
+        "Suction setting is too high",
+        "Cleaner head gate is closed"
+      ],
+      "solution_steps": [
+        "Adjust the slider on the front of the cleaner head to the middle or (-) setting.",
+        "Ensure the brush bar is spinning to help glide."
+      ],
+      "required_parts": []
+    },
+    {
+      "id": "no-suction-at-wand",
+      "title": "No Suction at Wand / Hose",
+      "description": "Suction works at the floor but not through the hose.",
+      "possible_causes": [
+        "Wand not fully retracted",
+        "Changeover valve stuck"
+      ],
+      "solution_steps": [
+        "Push the red button and slide the wand all the way down until it clicks.",
+        "Check the hose entry point for clogs."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Wand Handle",
+          "search_query": "Dyson Ball Animal 3 Wand"
+        }
+      ]
+    }
+  ]
+}
