@@ -1,0 +1,52 @@
+{
+  "brand": "Dyson",
+  "model": "V7 Motorhead / Allergy",
+  "image_url": "https://m.media-amazon.com/images/I/710Rz8+iR4L._AC_SL1500_.jpg",
+  "manual_pdf": "dyson-v7.pdf",
+  "seo_keywords": [
+    "Dyson V7 battery replacement",
+    "Dyson V7 pulsing",
+    "Dyson V7 filter cleaning",
+    "Dyson V7 no suction"
+  ],
+  "problems": [
+    {
+      "id": "pulsing-motor",
+      "title": "Motor Pulsing (On/Off)",
+      "description": "Vacuum revs in pulses.",
+      "possible_causes": [
+        "Filter blocked",
+        "Blockage in wand"
+      ],
+      "solution_steps": [
+        "Wash the top filter.",
+        "If you have a HEPA model, wash the back filter too.",
+        "Check for clogs."
+      ],
+      "required_parts": [
+        {
+          "name": "V7 Filter Kit",
+          "search_query": "Dyson V7 Filter"
+        }
+      ]
+    },
+    {
+      "id": "battery-amber-light",
+      "title": "Amber Light / Red Light",
+      "description": "Amber light means temp issue, Red means fault.",
+      "possible_causes": [
+        "Battery failure"
+      ],
+      "solution_steps": [
+        "If light is solid red, battery is dead.",
+        "Replace with a V7 specific battery (V8 won't fit)."
+      ],
+      "required_parts": [
+        {
+          "name": "V7 Replacement Battery",
+          "search_query": "Dyson V7 Battery"
+        }
+      ]
+    }
+  ]
+}
