@@ -1,0 +1,49 @@
+{
+  "brand": "Tineco",
+  "model": "Pure One S11 Cordless Stick",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "tineco-s11.pdf",
+  "seo_keywords": [
+    "Tineco S11 loss of suction",
+    "Tineco S11 filter cleaning tool",
+    "Tineco S11 battery replacement",
+    "Tineco dustbin latch"
+  ],
+  "problems": [
+    {
+      "id": "suction-loss-filter",
+      "title": "Loss of Suction / Filter Alarm",
+      "description": "App shows filter needs cleaning.",
+      "possible_causes": [
+        "Pre-filter clogged with fine dust"
+      ],
+      "solution_steps": [
+        "Use the automatic pre-filter cleaning tool included with the vacuum.",
+        "Wash the HEPA filter."
+      ],
+      "required_parts": [
+        {
+          "name": "Pre-Filter & HEPA Kit",
+          "search_query": "Tineco Pure One S11 Filter"
+        }
+      ]
+    },
+    {
+      "id": "battery-failing",
+      "title": "Battery Dies Quickly",
+      "description": "Runtime is under 10 minutes.",
+      "possible_causes": [
+        "Battery degradation"
+      ],
+      "solution_steps": [
+        "The S11 has a detachable battery. Swap it out."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery Pack",
+          "search_query": "Tineco Pure One S11 Battery"
+        }
+      ]
+    }
+  ]
+}
