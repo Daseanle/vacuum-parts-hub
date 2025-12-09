@@ -1,0 +1,38 @@
+{
+  "brand": "Tineco",
+  "model": "Floor One S5 Smart Wet/Dry Vac",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "tineco-s5.pdf",
+  "seo_keywords": [
+    "Tineco S5 dirty water tank error",
+    "Tineco S5 not charging",
+    "Tineco S5 brush roller stuck",
+    "Tineco S5 solution"
+  ],
+  "problems": [
+    {
+      "id": "dirty-water-tank-full-error",
+      "title": "Dirty Water Tank Full (False Alarm)",
+      "description": "Vacuum stops and asks to empty tank, but it's not full.",
+      "possible_causes": [
+        "Debris on tank sensor",
+        "Short circuit from water on contacts"
+      ],
+      "solution_steps": [
+        "Clean the metal prongs inside the dirty water tank.",
+        "Wipe the contacts on the machine body where the tank sits.",
+        "Run a self-cleaning cycle."
+      ],
+      "required_parts": [
+        {
+          "name": "Tineco Cleaning Solution",
+          "search_query": "Tineco Solution"
+        },
+        {
+          "name": "Replacement Filter & Brush Kit",
+          "search_query": "Tineco S5 Replacement Parts"
+        }
+      ]
+    }
+  ]
+}
