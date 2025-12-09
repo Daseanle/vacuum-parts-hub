@@ -1,0 +1,55 @@
+{
+  "brand": "Roborock",
+  "model": "S7 / S7+ Robot Vacuum",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "roborock-s7.pdf",
+  "seo_keywords": [
+    "Roborock S7 mop not lifting",
+    "Roborock S7 not releasing water",
+    "Roborock S7 side brush error",
+    "Roborock S7 filter blocked error"
+  ],
+  "problems": [
+    {
+      "id": "mop-not-vibrating-or-lifting",
+      "title": "Mop Not Scrubbing or Lifting",
+      "description": "The VibraRise feature isn't working on carpets or stains.",
+      "possible_causes": [
+        "Mop bracket jammed",
+        "Carpet mode settings incorrect",
+        "Mop cloth installed incorrectly"
+      ],
+      "solution_steps": [
+        "Remove and slide the mop cloth fully onto the bracket.",
+        "Check app settings: 'Carpet Settings' -> 'Rise'.",
+        "Clean the lifting mechanism of dust."
+      ],
+      "required_parts": [
+        {
+          "name": "VibraRise Mop Cloths",
+          "search_query": "Roborock S7 Mop Pads"
+        }
+      ]
+    },
+    {
+      "id": "filter-blocked-error",
+      "title": "Error: Filter Blocked or Wet",
+      "description": "Robot stops and complains about the filter even if cleaned.",
+      "possible_causes": [
+        "Filter washed but not dry",
+        "Filter clogged with fine dust (flour/plaster)"
+      ],
+      "solution_steps": [
+        "Ensure filter dried for 24h.",
+        "Tap filter gently.",
+        "If used for >6 months, replace it."
+      ],
+      "required_parts": [
+        {
+          "name": "Washable HEPA Filter",
+          "search_query": "Roborock S7 Filters"
+        }
+      ]
+    }
+  ]
+}
