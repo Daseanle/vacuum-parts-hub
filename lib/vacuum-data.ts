@@ -21,6 +21,7 @@ export interface VacuumManual {
   brand: string;
   model: string;
   manual_pdf: string;
+  image_url: string;
   seo_keywords: string[];
   problems: Problem[];
 }
