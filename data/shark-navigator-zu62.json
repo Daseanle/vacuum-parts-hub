@@ -1,0 +1,51 @@
+{
+  "brand": "Shark",
+  "model": "Navigator Pet Pro (ZU62)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-zu62.pdf",
+  "seo_keywords": [
+    "Shark ZU62 suction release",
+    "Shark ZU62 brush roll hair wrap",
+    "Shark Navigator Pet Pro filters",
+    "Shark ZU62 belt"
+  ],
+  "problems": [
+    {
+      "id": "hard-to-push",
+      "title": "Hard to Push / Suction too strong",
+      "description": "Vacuum sticks to the carpet.",
+      "possible_causes": [
+        "Suction control collar is closed",
+        "Wrong floor setting"
+      ],
+      "solution_steps": [
+        "Twist the 'Suction Release' collar on the handle to open the vent (reduce suction).",
+        "Switch to 'Carpet' mode (brushroll on) to help movement."
+      ],
+      "required_parts": [
+        {
+          "name": "Zero-M Brushroll Cleaner Head",
+          "search_query": "Shark ZU62 Floor Nozzle"
+        }
+      ]
+    },
+    {
+      "id": "dust-cup-latch",
+      "title": "Dust Cup Latch Broken",
+      "description": "The bottom door of the dust cup won't stay closed.",
+      "possible_causes": [
+        "Plastic tab snapped off"
+      ],
+      "solution_steps": [
+        "The latch is not replaceable individually.",
+        "You need a new dust cup assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Dust Cup",
+          "search_query": "Shark ZU62 Dust Cup"
+        }
+      ]
+    }
+  ]
+}
