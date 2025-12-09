@@ -1,0 +1,53 @@
+{
+  "brand": "Hoover",
+  "model": "SmartWash Automatic Carpet Cleaner (FH52000)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "hoover-fh52000.pdf",
+  "seo_keywords": [
+    "Hoover SmartWash not picking up water",
+    "Hoover SmartWash brushes not spinning",
+    "Hoover SmartWash leaking",
+    "Hoover carpet solution"
+  ],
+  "problems": [
+    {
+      "id": "brushes-wont-spin",
+      "title": "FlexForce Brushes Not Spinning",
+      "description": "The two rollers at the bottom are stationary.",
+      "possible_causes": [
+        "Nozzle cover not snapped in",
+        "Debris jam"
+      ],
+      "solution_steps": [
+        "Remove the nozzle cover.",
+        "Pull out the brushes (they pull straight up).",
+        "Clean hair from the spindles."
+      ],
+      "required_parts": [
+        {
+          "name": "FlexForce Brush Roll Set",
+          "search_query": "Hoover SmartWash Brushes"
+        }
+      ]
+    },
+    {
+      "id": "leaking-water",
+      "title": "Leaking Water",
+      "description": "Puddles forming under the machine.",
+      "possible_causes": [
+        "Tank valve stuck",
+        "Solution tank cap loose"
+      ],
+      "solution_steps": [
+        "Reseat both clean and dirty tanks.",
+        "Check the orange rubber seals."
+      ],
+      "required_parts": [
+        {
+          "name": "Oxy Carpet Cleaning Formula",
+          "search_query": "Hoover Paws and Claws Solution"
+        }
+      ]
+    }
+  ]
+}
