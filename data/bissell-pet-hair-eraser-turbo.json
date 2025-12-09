@@ -1,0 +1,40 @@
+{
+  "brand": "Bissell",
+  "model": "Pet Hair Eraser Turbo Plus (24613)",
+  "image_url": "https://m.media-amazon.com/images/I/71+GjG9g7XL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-24613.pdf",
+  "seo_keywords": [
+    "Bissell Pet Hair Eraser Turbo brush not spinning",
+    "Bissell 24613 belt replacement",
+    "Bissell Turbo Plus filters",
+    "Bissell vacuum no suction"
+  ],
+  "problems": [
+    {
+      "id": "brush-not-turning",
+      "title": "Brush Roll Not Turning",
+      "description": "The brush stops and the red light may turn on.",
+      "possible_causes": [
+        "Belt is broken",
+        "Hair wrapped around brush ends",
+        "Automatic shut-off triggered"
+      ],
+      "solution_steps": [
+        "Turn off and unplug.",
+        "Remove the bottom plate.",
+        "Check the belt. If broken, replace it.",
+        "Clear debris from the brush roll area."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Belt",
+          "search_query": "Bissell 24613 Belt"
+        },
+        {
+          "name": "Tangle-Free Brush Roll",
+          "search_query": "Bissell 24613 Brush Roll"
+        }
+      ]
+    }
+  ]
+}
