@@ -2,9 +2,9 @@ import { getModelData, getAllModelSlugs } from '@/lib/vacuum-data';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+// 静态生成路径
 export async function generateStaticParams() {
-  const paths = await getAllModelSlugs();
-  return paths.map((path) => path.params);
+  return await getAllModelSlugs();
 }
 
 export default async function ModelPage({ params }: { params: { model: string } }) {
@@ -15,10 +15,9 @@ export default async function ModelPage({ params }: { params: { model: string } 
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      {/* 面包屑导航 */}
+    <div className="max-w-4xl mx-auto px-4 py-12 font-sans">
       <nav className="text-sm text-gray-500 mb-4">
-        <Link href="/" className="hover:underline">Home</Link> &gt; {data.brand} &gt; {data.model}
+        <Link href="/" className="hover:text-blue-600">Home</Link> &gt; {data.brand} &gt; {data.model}
       </nav>
 
       <header className="mb-10 text-center">
@@ -26,11 +25,10 @@ export default async function ModelPage({ params }: { params: { model: string } 
           {data.brand} {data.model} Repair Guide
         </h1>
         <p className="text-xl text-gray-600">
-          Select your problem below to find the solution and replacement parts.
+          Select your problem below to find the solution.
         </p>
       </header>
 
-      {/* 问题列表 - 核心入口 */}
       <div className="grid gap-6 md:grid-cols-2">
         {data.problems.map((problem) => (
           <Link 
@@ -42,29 +40,15 @@ export default async function ModelPage({ params }: { params: { model: string } 
               <h2 className="text-xl font-bold text-blue-600 group-hover:underline mb-2">
                 {problem.title}
               </h2>
-              <p className="text-gray-600 line-clamp-2">
+              <p className="text-gray-600 line-clamp-2 text-sm">
                 {problem.description}
               </p>
-              <div className="mt-4 text-sm text-gray-400 flex items-center">
+              <div className="mt-4 text-sm text-gray-400 font-medium">
                 View Solution &rarr;
               </div>
             </div>
           </Link>
         ))}
-      </div>
-
-      {/* SEO 关键词堆砌区 (对用户不可见但对爬虫友好) */}
-      <div className="mt-16 pt-8 border-t border-gray-100">
-        <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">
-          Common Searches
-        </h3>
-        <div className="flex flex-wrap gap-2">
-          {data.seo_keywords.map((kw, idx) => (
-            <span key={idx} className="bg-gray-100 text-gray-500 px-3 py-1 rounded-full text-xs">
-              {kw}
-            </span>
-          ))}
-        </div>
       </div>
     </div>
   );
