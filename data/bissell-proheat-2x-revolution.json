@@ -1,0 +1,53 @@
+{
+  "brand": "Bissell",
+  "model": "ProHeat 2X Revolution Pet Pro (1986)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-1986.pdf",
+  "seo_keywords": [
+    "Bissell ProHeat 2X belts",
+    "Bissell Revolution not spraying water",
+    "Bissell 1986 brushes not turning",
+    "Bissell ProHeat 2X leaking"
+  ],
+  "problems": [
+    {
+      "id": "brushes-not-turning",
+      "title": "Brushes Not Turning",
+      "description": "The scrubbing brushes at the bottom aren't moving.",
+      "possible_causes": [
+        "Broken belt (common)",
+        "Hair jam"
+      ],
+      "solution_steps": [
+        "Remove the clear nozzle cover.",
+        "Unscrew the side plate to access the belt.",
+        "Replace the rubber belt if snapped."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Belts (2-Pack)",
+          "search_query": "Bissell ProHeat 2X Belt"
+        }
+      ]
+    },
+    {
+      "id": "not-spraying",
+      "title": "Not Spraying Water",
+      "description": "Trigger pressed but carpet stays dry.",
+      "possible_causes": [
+        "Tank not seated",
+        "Nozzle clogged"
+      ],
+      "solution_steps": [
+        "Reseat the clean water tank.",
+        "Use the nozzle clean-out tool to unclog the spray tips."
+      ],
+      "required_parts": [
+        {
+          "name": "Nozzle Clean Out Tool",
+          "search_query": "Bissell Nozzle Tool"
+        }
+      ]
+    }
+  ]
+}
