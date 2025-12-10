@@ -1,0 +1,54 @@
+{
+  "brand": "Roborock",
+  "model": "Q Revo",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1500_.jpg",
+  "manual_pdf": "q-revo.pdf",
+  "seo_keywords": [
+    "Roborock Q Revo mop not spinning",
+    "Q Revo not washing mop",
+    "Roborock Q Revo bag full error",
+    "Q Revo side brush error"
+  ],
+  "problems": [
+    {
+      "id": "mops-not-spinning",
+      "title": "Mops Not Spinning / Falling Off",
+      "description": "The round mop pads aren't rotating or detach during cleaning.",
+      "possible_causes": [
+        "Mop pads not magnetically aligned",
+        "Debris in the mop motor shaft"
+      ],
+      "solution_steps": [
+        "Pull off the magnetic mop pads.",
+        "Clean hair from the hexagonal shaft.",
+        "Ensure the pads click firmly back into place."
+      ],
+      "required_parts": [
+        {
+          "name": "Spinning Mop Pads (Grey)",
+          "search_query": "Roborock Q Revo Mop Pads"
+        }
+      ]
+    },
+    {
+      "id": "dock-tray-clogged",
+      "title": "Dock Tray Overflowing / Not Washing",
+      "description": "Water pools in the dock base.",
+      "possible_causes": [
+        "Cleaning tray filter is clogged",
+        "Dirty water tank seal issue"
+      ],
+      "solution_steps": [
+        "Remove the cleaning tray from the base (it pulls out).",
+        "Rinse the mesh filter on the tray.",
+        "Ensure the dirty water tank lid is sealed tight."
+      ],
+      "required_parts": [
+        {
+          "name": "Detachable Cleaning Tray",
+          "search_query": "Roborock Q Revo Dock Tray"
+        }
+      ]
+    }
+  ]
+}
