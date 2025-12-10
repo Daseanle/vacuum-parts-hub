@@ -1,0 +1,53 @@
+{
+  "brand": "Eureka",
+  "model": "PowerSpeed Lightweight Upright (NEU180)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "eureka-neu180.pdf",
+  "seo_keywords": [
+    "Eureka PowerSpeed belt replacement",
+    "Eureka NEU180 not picking up",
+    "Eureka PowerSpeed filter",
+    "Eureka vacuum overheating"
+  ],
+  "problems": [
+    {
+      "id": "belt-broken-burning-smell",
+      "title": "Burning Smell / Belt Broken",
+      "description": "Smell of burnt rubber and brush roll stopped spinning.",
+      "possible_causes": [
+        "Belt snapped due to obstruction",
+        "Hair wrapped around brush"
+      ],
+      "solution_steps": [
+        "Unplug and turn over.",
+        "Remove the 4 screws on the bottom plate.",
+        "Remove the old belt and loop the new belt around the motor shaft and brush."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Belt (Style E020)",
+          "search_query": "Eureka NEU180 Belt"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction",
+      "title": "Loss of Suction",
+      "description": "Vacuum feels weak or is blowing dust.",
+      "possible_causes": [
+        "Foam filter is clogged",
+        "Hose is blocked"
+      ],
+      "solution_steps": [
+        "Open the dust cup lid and wash the foam filter.",
+        "Detach the hose from the base and check for clogs."
+      ],
+      "required_parts": [
+        {
+          "name": "Foam Filter Kit",
+          "search_query": "Eureka PowerSpeed Filter"
+        }
+      ]
+    }
+  ]
+}
