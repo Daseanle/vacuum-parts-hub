@@ -1,0 +1,52 @@
+{
+  "brand": "Dyson",
+  "model": "V12 Detect Slim",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-v12.pdf",
+  "seo_keywords": [
+    "Dyson V12 filter cleaning",
+    "Dyson V12 laser not working",
+    "Dyson V12 battery replacement",
+    "Dyson V12 airway blocked"
+  ],
+  "problems": [
+    {
+      "id": "filter-cleaning-alert",
+      "title": "Filter Alert Won't Go Away",
+      "description": "LCD screen insists filter needs washing.",
+      "possible_causes": [
+        "Filter not dry",
+        "Sensor recalibration needed"
+      ],
+      "solution_steps": [
+        "Wash filter and dry for 24h.",
+        "Twist filter off and on again to reset sensor."
+      ],
+      "required_parts": [
+        {
+          "name": "V12 Replacement HEPA Filter",
+          "search_query": "Dyson V12 Detect Filter"
+        }
+      ]
+    },
+    {
+      "id": "laser-head-failure",
+      "title": "Laser Head Not Lighting Up",
+      "description": "Green laser is dim or off.",
+      "possible_causes": [
+        "Laser switch off",
+        "Connection pins dirty"
+      ],
+      "solution_steps": [
+        "Toggle the small switch on the laser head.",
+        "Clean gold pins on the wand."
+      ],
+      "required_parts": [
+        {
+          "name": "Laser Slim Fluffy Head",
+          "search_query": "Dyson V12 Laser Head"
+        }
+      ]
+    }
+  ]
+}
