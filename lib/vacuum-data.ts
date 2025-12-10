@@ -20,8 +20,8 @@ export interface Problem {
 export interface VacuumManual {
   brand: string;
   model: string;
+  image_url: string; // <--- 必须加上这一行！
   manual_pdf: string;
-  image_url: string;
   seo_keywords: string[];
   problems: Problem[];
 }
