@@ -1,0 +1,56 @@
+{
+  "brand": "Ridgid",
+  "model": "12 Gallon Wet/Dry Vac (NXT)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "ridgid-12gal.pdf",
+  "seo_keywords": [
+    "Ridgid vacuum blowing dust",
+    "Ridgid VF4000 filter",
+    "Ridgid vacuum hose adapter",
+    "Ridgid wet vac filter"
+  ],
+  "problems": [
+    {
+      "id": "blowing-fine-dust",
+      "title": "Blowing Fine Dust",
+      "description": "White dust (drywall/concrete) shoots out the exhaust.",
+      "possible_causes": [
+        "Using standard filter for fine dust",
+        "Filter not locked"
+      ],
+      "solution_steps": [
+        "Standard filters (VF4000) cannot handle drywall dust.",
+        "Upgrade to a Fine Dust Filter (VF5000) or HEPA (VF6000)."
+      ],
+      "required_parts": [
+        {
+          "name": "Standard Filter (VF4000)",
+          "search_query": "Ridgid VF4000 Filter"
+        },
+        {
+          "name": "Fine Dust Filter (Blue - VF5000)",
+          "search_query": "Ridgid VF5000 Filter"
+        }
+      ]
+    },
+    {
+      "id": "suction-loss-hose",
+      "title": "Hose Clogged / Crushed",
+      "description": "Hose is kinked or suction is low.",
+      "possible_causes": [
+        "Hose stepped on",
+        "Debris jam"
+      ],
+      "solution_steps": [
+        "Ridgid hoses are tough but can crush. Pop it back out or replace.",
+        "Use a stick to clear clogs."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Locking Hose",
+          "search_query": "Ridgid Vacuum Hose"
+        }
+      ]
+    }
+  ]
+}
