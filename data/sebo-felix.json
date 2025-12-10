@@ -1,0 +1,55 @@
+{
+  "brand": "Sebo",
+  "model": "Felix / Dart Upright",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1500_.jpg",
+  "manual_pdf": "sebo-felix.pdf",
+  "seo_keywords": [
+    "Sebo Felix bag full light",
+    "Sebo Felix brush not spinning",
+    "Sebo Felix exhaust filter replacement",
+    "Sebo vacuum smells"
+  ],
+  "problems": [
+    {
+      "id": "bag-full-light-red",
+      "title": "Bag Full Light / Motor Shutoff",
+      "description": "The bag light is red and the machine turns off to protect the motor.",
+      "possible_causes": [
+        "Bag is full",
+        "Clog in the orange cap",
+        "Micro-filter is dirty"
+      ],
+      "solution_steps": [
+        "Replace the Sebo filter bag.",
+        "Check the visual blockage indicator.",
+        "Do not wash Sebo filters; they must be replaced."
+      ],
+      "required_parts": [
+        {
+          "name": "Sebo Filter Box (Bags + Microfilters)",
+          "search_query": "Sebo Felix Filter Box"
+        }
+      ]
+    },
+    {
+      "id": "brush-roll-jammed",
+      "title": "Brush Roll Jammed / Red Light on Head",
+      "description": "The power head light turns red and the brush stops.",
+      "possible_causes": [
+        "Debris wrapped around brush",
+        "Worn bristles"
+      ],
+      "solution_steps": [
+        "Press the button on the side to pop out the brush roller (no tools needed).",
+        "Cut away hair.",
+        "If bristles are worn flat, replace the brush strip."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brush Roller (ET-1)",
+          "search_query": "Sebo ET-1 Brush Roller"
+        }
+      ]
+    }
+  ]
+}
