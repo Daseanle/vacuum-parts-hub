@@ -1,0 +1,54 @@
+{
+  "brand": "Samsung",
+  "model": "Jet 75 / 90 Cordless Stick",
+  "image_url": "https://m.media-amazon.com/images/I/51+u+s+s+L._AC_SL1000_.jpg",
+  "manual_pdf": "samsung-jet.pdf",
+  "seo_keywords": [
+    "Samsung Jet 75 turning off",
+    "Samsung Jet 90 brush not spinning",
+    "Samsung Jet vacuum filter error",
+    "Samsung Jet battery replacement"
+  ],
+  "problems": [
+    {
+      "id": "display-filter-error",
+      "title": "Display shows 'Filter' or blockage",
+      "description": "The screen flashes a filter icon and the vacuum stops.",
+      "possible_causes": [
+        "Fine dust mesh is clogged",
+        "Micro filter is wet",
+        "Clog in the pipe"
+      ],
+      "solution_steps": [
+        "Twist and remove the dust bin. Separate the fine dust mesh and wash it.",
+        "Ensure the micro filter (the green one) is completely dry (24h).",
+        "Check the extension pipe for blockages."
+      ],
+      "required_parts": [
+        {
+          "name": "Samsung Jet Micro Filter & Mesh Kit",
+          "search_query": "Samsung Jet 75 Filter"
+        }
+      ]
+    },
+    {
+      "id": "battery-drain-fast",
+      "title": "Battery Drains Too Fast",
+      "description": "Vacuum runs for 5 mins and dies.",
+      "possible_causes": [
+        "Battery degradation",
+        "Using Max mode constantly"
+      ],
+      "solution_steps": [
+        "Samsung batteries are detachable.",
+        "If the battery is over 2 years old, swap it out."
+      ],
+      "required_parts": [
+        {
+          "name": "Samsung Jet Removable Battery (21.6V)",
+          "search_query": "Samsung Jet Battery"
+        }
+      ]
+    }
+  ]
+}
