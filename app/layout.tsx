@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "VacuumPartsHub",
-  description: "AI-Powered Vacuum Repair Guide",
+  description: "AI-Powered Vacuum Repair Guide & Parts Locator",
 };
 
 export default function RootLayout({
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gray-50">{children}</body>
+      <body className="bg-gray-50">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
