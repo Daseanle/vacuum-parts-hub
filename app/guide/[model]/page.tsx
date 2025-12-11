@@ -26,7 +26,8 @@ export default async function ModelPage({ params }: { params: { model: string } 
   // --- 核心修改：智能图片逻辑 ---
   // 1. 生成一个带文字的占位图链接 (灰色背景，深色文字)
   const placeholderText = `${data.brand} ${data.model}`;
-  const placeholderUrl = `https://placehold.co/600x400/f3f4f6/1f2937?text=${encodeURIComponent(placeholderText)}`;
+  // 600x400尺寸，背景色蓝色(2563eb)，文字白色(ffffff)
+  const placeholderUrl = `https://placehold.co/600x400/2563eb/ffffff?text=${encodeURIComponent(data.brand + '\n' + data.model)}`;
   
   // 2. 优先用 JSON 里的图，如果没有，就用占位图
   // 注意：如果你想强制所有页面都用占位图（为了统一），可以把下面这行改成：const displayImage = placeholderUrl;
