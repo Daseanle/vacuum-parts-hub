@@ -7,7 +7,6 @@ export async function generateStaticParams() {
   return await getAllModelSlugs();
 }
 
-// 增加 SEO 标题优化
 export async function generateMetadata({ params }: { params: { model: string } }): Promise<Metadata> {
   const data = await getModelData(params.model);
   if (!data) return { title: 'Guide Not Found' };
@@ -24,6 +23,15 @@ export default async function ModelPage({ params }: { params: { model: string } 
     return notFound();
   }
 
+  // --- 核心修改：智能图片逻辑 ---
+  // 1. 生成一个带文字的占位图链接 (灰色背景，深色文字)
+  const placeholderText = `${data.brand} ${data.model}`;
+  const placeholderUrl = `https://placehold.co/600x400/f3f4f6/1f2937?text=${encodeURIComponent(placeholderText)}`;
+  
+  // 2. 优先用 JSON 里的图，如果没有，就用占位图
+  // 注意：如果你想强制所有页面都用占位图（为了统一），可以把下面这行改成：const displayImage = placeholderUrl;
+  const displayImage = data.image_url ? data.image_url : placeholderUrl;
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 font-sans">
       <nav className="text-sm text-gray-500 mb-4">
@@ -31,19 +39,19 @@ export default async function ModelPage({ params }: { params: { model: string } 
       </nav>
 
       <header className="mb-12 text-center">
-        {/* --- 图片展示区域 Start --- */}
-        {data.image_url && (
-          <div className="flex justify-center mb-8">
-            <div className="relative w-64 h-64 bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-              <img
-                src={data.image_url}
-                alt={`${data.brand} ${data.model}`}
-                className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
-              />
-            </div>
+        {/* 图片区域：现在移除了条件判断，保证永远显示 */}
+        <div className="flex justify-center mb-8">
+          <div className="relative w-full max-w-md aspect-video bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 group">
+            {/* 使用普通的 img 标签，兼容性最好 */}
+            <img
+              src={displayImage}
+              alt={`${data.brand} ${data.model}`}
+              className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+              // 如果图片加载失败（比如亚马逊链接 403），这行代码无法在服务端生效
+              // 但至少我们有了 placeholderUrl 作为保底
+            />
           </div>
-        )}
-        {/* --- 图片展示区域 End --- */}
+        </div>
 
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
           {data.brand} {data.model}
