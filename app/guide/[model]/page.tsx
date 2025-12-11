@@ -30,7 +30,7 @@ export default async function ModelPage({ params }: { params: { model: string } 
   
   // 2. 优先用 JSON 里的图，如果没有，就用占位图
   // 注意：如果你想强制所有页面都用占位图（为了统一），可以把下面这行改成：const displayImage = placeholderUrl;
-  const displayImage = data.image_url ? data.image_url : placeholderUrl;
+  const displayImage = placeholderUrl;
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12 font-sans">
