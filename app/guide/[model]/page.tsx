@@ -23,18 +23,13 @@ export default async function ModelPage({ params }: { params: { model: string } 
     return notFound();
   }
 
-  // --- 核心修改：智能图片逻辑 ---
-  // 1. 生成一个带文字的占位图链接 (灰色背景，深色文字)
+  // 占位图逻辑（虽然用了CSS卡片，但这行留着防止报错）
   const placeholderText = `${data.brand} ${data.model}`;
-  // 600x400尺寸，背景色蓝色(2563eb)，文字白色(ffffff)
   const placeholderUrl = `https://placehold.co/600x400/2563eb/ffffff?text=${encodeURIComponent(data.brand + '\n' + data.model)}`;
-  
-  // 2. 优先用 JSON 里的图，如果没有，就用占位图
-  // 注意：如果你想强制所有页面都用占位图（为了统一），可以把下面这行改成：const displayImage = placeholderUrl;
   const displayImage = placeholderUrl;
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12 font-sans">
+    <div className="max-w-4xl mx-auto px-4 py-12 font-sans min-h-screen flex flex-col">
       <nav className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:text-blue-600">Home</Link> &gt; {data.brand} &gt; {data.model}
       </nav>
@@ -78,7 +73,7 @@ export default async function ModelPage({ params }: { params: { model: string } 
         </p>
       </header>
 
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2 mb-auto">
         {data.problems.map((problem) => (
           <Link 
             key={problem.id} 
@@ -99,6 +94,17 @@ export default async function ModelPage({ params }: { params: { model: string } 
           </Link>
         ))}
       </div>
+
+      {/* --- 底部 Footer --- */}
+      <footer className="mt-20 pt-8 border-t border-gray-100 text-center text-sm text-gray-400 pb-8">
+        <div className="space-x-4 mb-4">
+          <Link href="/about" className="hover:text-gray-600">About</Link>
+          <Link href="/privacy" className="hover:text-gray-600">Privacy Policy</Link>
+          <Link href="/terms" className="hover:text-gray-600">Terms</Link>
+        </div>
+        <p>© 2025 VacuumPartsHub. All rights reserved.</p>
+        <p className="mt-2 text-xs opacity-70">As an Amazon Associate we earn from qualifying purchases.</p>
+      </footer>
     </div>
   );
 }
