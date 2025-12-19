@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vacuumpartshub.com'),
   title: "VacuumPartsHub",
   description: "AI-Powered Vacuum Repair Guide & Parts Locator",
 };
