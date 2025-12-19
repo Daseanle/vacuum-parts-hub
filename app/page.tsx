@@ -1,5 +1,6 @@
 import { getAllModelSlugs } from '@/lib/vacuum-data';
 import ModelList from '@/components/ModelList';
+import Link from 'next/link';
 
 export default async function Home() {
   // 1. 在服务端获取所有数据
@@ -22,11 +23,21 @@ export default async function Home() {
       {/* 2. 把数据传给客户端组件，进行渲染和交互 */}
       <ModelList models={guides} />
       
-      {/* 底部 SEO 文本 */}
-      <div className="mt-20 text-center text-sm text-gray-400 max-w-lg">
-        <p>Supported Brands: Dyson, Shark, Bissell, iRobot, Black+Decker & more.</p>
-        <p className="mt-2">© 2025 VacuumPartsHub. All rights reserved.</p>
-      </div>
+      {/* 底部 SEO 文本 & Footer */}
+      <footer className="mt-20 text-center text-sm text-gray-400 max-w-lg">
+        <p className="mb-8">Supported Brands: Dyson, Shark, Bissell, iRobot, Black+Decker & more.</p>
+        
+        {/* 合规链接区域 */}
+        <div className="pt-8 border-t border-gray-200">
+          <div className="space-x-4 mb-4">
+            <Link href="/about" className="hover:text-gray-600">About</Link>
+            <Link href="/privacy" className="hover:text-gray-600">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-gray-600">Terms</Link>
+          </div>
+          <p>© 2025 VacuumPartsHub. All rights reserved.</p>
+          <p className="mt-2 text-xs opacity-70">As an Amazon Associate we earn from qualifying purchases.</p>
+        </div>
+      </footer>
     </main>
   );
 }
