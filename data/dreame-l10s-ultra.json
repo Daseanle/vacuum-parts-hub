@@ -1,0 +1,52 @@
+{
+  "brand": "Dreametech",
+  "model": "Dreame L10s Ultra",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "dreame-l10s.pdf",
+  "seo_keywords": [
+    "Dreame L10s Ultra not dispensing solution",
+    "Dreame L10s Ultra mop pads not spinning",
+    "Dreame L10s Ultra bag full error",
+    "Dreame L10s Ultra maintenance"
+  ],
+  "problems": [
+    {
+      "id": "solution-not-dispensing",
+      "title": "Not Dispensing Cleaning Solution",
+      "description": "The robot mops with water only, solution cartridge doesn't empty.",
+      "possible_causes": [
+        "Air lock in the cartridge",
+        "Cartridge seal not pierced"
+      ],
+      "solution_steps": [
+        "Remove the small rubber seal on the cartridge cap.",
+        "Poke a small hole in the top vent of the cartridge to improve flow."
+      ],
+      "required_parts": [
+        {
+          "name": "Multi-Surface Floor Cleaning Solution",
+          "search_query": "Dreame L10s Ultra Solution"
+        }
+      ]
+    },
+    {
+      "id": "mops-fall-off",
+      "title": "Mop Pads Falling Off",
+      "description": "The magnetic mop pads detach during operation.",
+      "possible_causes": [
+        "Velcro worn out",
+        "Crossing high thresholds"
+      ],
+      "solution_steps": [
+        "Replace the mop pads if the velcro is weak.",
+        "Set 'No-Go Zones' over high carpet thresholds."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Mop Pads & Dust Bags",
+          "search_query": "Dreame L10s Ultra Accessories"
+        }
+      ]
+    }
+  ]
+}
