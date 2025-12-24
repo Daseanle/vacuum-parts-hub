@@ -1,0 +1,52 @@
+{
+  "brand": "Shark",
+  "model": "Stratos Cordless with Clean Sense IQ (IZ862H)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-iz862h.pdf",
+  "seo_keywords": [
+    "Shark Stratos cordless smells bad",
+    "Shark IZ862H battery replacement",
+    "Shark Stratos cordless brush not spinning",
+    "Shark odor neutralizer cartridge"
+  ],
+  "problems": [
+    {
+      "id": "clean-sense-iq-erratic",
+      "title": "Clean Sense IQ Revving / Erratic",
+      "description": "Motor speeds up and slows down randomly even on clean floors.",
+      "possible_causes": [
+        "Sensors in the nozzle are dirty",
+        "Clog in the air path"
+      ],
+      "solution_steps": [
+        "Wipe the infrared sensors inside the floor nozzle entry.",
+        "Check for hair wrapped around the brush roll."
+      ],
+      "required_parts": [
+        {
+          "name": "Odor Neutralizer Cartridges (2-Pack)",
+          "search_query": "Shark Odor Neutralizer Cartridge"
+        }
+      ]
+    },
+    {
+      "id": "brush-roll-not-spinning",
+      "title": "Brush Roll Not Spinning",
+      "description": "Floor nozzle lights are off or flashing red.",
+      "possible_causes": [
+        "MultiFLEX wand connection failure",
+        "Debris jam"
+      ],
+      "solution_steps": [
+        "Clean the metal pins on the wand hinge.",
+        "Connect the handheld unit directly to the nozzle to test if the wand is broken."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement MultiFLEX Wand",
+          "search_query": "Shark Stratos Cordless Wand"
+        }
+      ]
+    }
+  ]
+}
