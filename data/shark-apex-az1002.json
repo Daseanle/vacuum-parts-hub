@@ -1,0 +1,57 @@
+{
+  "brand": "Shark",
+  "model": "Apex DuoClean with Zero-M (AZ1002)",
+  "image_url": "https://m.media-amazon.com/images/I/71Xy-J+hQJL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-apex.pdf",
+  "seo_keywords": [
+    "Shark Apex brush roll indicator flashing",
+    "Shark AZ1002 soft roller not spinning",
+    "Shark Apex hose replacement",
+    "Shark Apex filters foam"
+  ],
+  "problems": [
+    {
+      "id": "brush-roll-indicator-flashing",
+      "title": "Brush Roll Light Flashing",
+      "description": "The nozzle lights flash and the brush stops spinning.",
+      "possible_causes": [
+        "Soft roller garage not closed properly",
+        "Debris jam in the rear brush",
+        "Nozzle hose crack"
+      ],
+      "solution_steps": [
+        "Slide the 'Access' buttons to open the lid. Ensure it clicks firmly when closing.",
+        "Check the small hose at the bottom of the head for cracks.",
+        "Clear any hard debris."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Soft Roller",
+          "search_query": "Shark AZ1002 Soft Roller"
+        },
+        {
+          "name": "Lower Nozzle Hose Repair Part",
+          "search_query": "Shark AZ1002 Nozzle Hose"
+        }
+      ]
+    },
+    {
+      "id": "handle-hose-broken",
+      "title": "Handle Hose Split",
+      "description": "Suction loss and hissing near the handle.",
+      "possible_causes": [
+        "Wear and tear on the stretch hose"
+      ],
+      "solution_steps": [
+        "This is a non-repairable part of the handle assembly.",
+        "You must replace the entire handle/hose unit."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Handle & Hose Assembly",
+          "search_query": "Shark AZ1002 Handle Hose"
+        }
+      ]
+    }
+  ]
+}
