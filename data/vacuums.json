@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "dyson-v15-detect",
+    "brand": "Dyson",
+    "model": "V15 Detect",
+    "type": "Cordless Stick",
+    "releaseYear": "2021",
+    "features": ["Laser Slim Fluffy", "Piezo Sensor", "230AW Suction", "LCD Screen"],
+    "filterType": "Washable HEPA Filter",
+    "batteryLife": "60 minutes",
+    "commonIssues": ["Laser not working", "Filter cleaning alert won't clear", "Battery degradation"],
+    "amazonSearchTerm": "Dyson V15 Detect replacement parts filter battery"
+  },
+  {
+    "slug": "dyson-v11-torque-drive",
+    "brand": "Dyson",
+    "model": "V11 Torque Drive",
+    "type": "Cordless Stick",
+    "releaseYear": "2019",
+    "features": ["LCD Screen", "Dynamic Load Sensor", "185AW Suction"],
+    "filterType": "Purple HEPA Filter unit",
+    "batteryLife": "60 minutes",
+    "commonIssues": ["Trigger breaking", "Airway blocked message", "Filter sealing ring crack"],
+    "amazonSearchTerm": "Dyson V11 Torque Drive replacement parts trigger battery"
+  },
+  {
+    "slug": "dyson-v10-cyclone",
+    "brand": "Dyson",
+    "model": "Cyclone V10",
+    "type": "Cordless Stick",
+    "releaseYear": "2018",
+    "features": ["In-line configuration", "Three power modes", "150AW Suction"],
+    "filterType": "Long Purple Filter",
+    "batteryLife": "60 minutes",
+    "commonIssues": ["Battery lights flashing red", "Trigger sticking", "Bin runner breaking"],
+    "amazonSearchTerm": "Dyson V10 replacement battery filter parts"
+  },
+  {
+    "slug": "dyson-v8-absolute",
+    "brand": "Dyson",
+    "model": "V8 Absolute",
+    "type": "Cordless Stick",
+    "releaseYear": "2016",
+    "features": ["Direct Drive Head", "Soft Roller", "115AW Suction"],
+    "filterType": "Pre-motor stick & Post-motor HEPA",
+    "batteryLife": "40 minutes",
+    "commonIssues": ["Pulsing motor", "Battery dying quickly", "Max mode button failure"],
+    "amazonSearchTerm": "Dyson V8 battery replacement filter kit"
+  },
+  {
+    "slug": "dyson-ball-animal-2",
+    "brand": "Dyson",
+    "model": "Ball Animal 2",
+    "type": "Upright",
+    "releaseYear": "2017",
+    "features": ["Self-adjusting cleaner head", "Ball technology", "270AW Suction"],
+    "filterType": "Washable lifetime filter",
+    "batteryLife": "Corded (Unlimited)",
+    "commonIssues": ["Loss of suction at floor", "Hose splitting", "Brush bar not spinning"],
+    "amazonSearchTerm": "Dyson Ball Animal 2 hose replacement filters"
+  }
+]
