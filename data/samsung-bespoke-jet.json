@@ -1,0 +1,54 @@
+{
+  "brand": "Samsung",
+  "model": "Bespoke Jet Cordless Stick",
+  "image_url": "https://m.media-amazon.com/images/I/51+u+s+s+L._AC_SL1000_.jpg",
+  "manual_pdf": "samsung-bespoke.pdf",
+  "seo_keywords": [
+    "Samsung Bespoke Jet clean station error",
+    "Samsung Bespoke Jet not charging",
+    "Samsung Bespoke Jet dust bag full",
+    "Samsung Bespoke Jet filter cleaning"
+  ],
+  "problems": [
+    {
+      "id": "clean-station-red-light",
+      "title": "Clean Station Red Light / Not Emptying",
+      "description": "The All-in-One Clean Station light turns red and won't empty the vacuum.",
+      "possible_causes": [
+        "Dust bag is full",
+        "Dust bin flap is stuck",
+        "Clog in the station intake"
+      ],
+      "solution_steps": [
+        "Replace the dust bag in the Clean Station (never reuse).",
+        "Check if the bottom flap of the vacuum dust bin opens freely.",
+        "Remove the dust bag and check the intake filter behind it."
+      ],
+      "required_parts": [
+        {
+          "name": "Bespoke Jet Clean Station Dust Bags",
+          "search_query": "Samsung Bespoke Jet Dust Bag"
+        }
+      ]
+    },
+    {
+      "id": "spinning-sweeper-stopped",
+      "title": "Spinning Sweeper Not Turning",
+      "description": "The mop pads (Spinning Sweeper) stopped rotating.",
+      "possible_causes": [
+        "Motor overheating protection",
+        "Pads pressed too hard against floor"
+      ],
+      "solution_steps": [
+        "Lift the head off the floor and restart.",
+        "If they don't spin in the air, the motor attachment is faulty."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Wet Mop Pads",
+          "search_query": "Samsung Bespoke Jet Mop Pads"
+        }
+      ]
+    }
+  ]
+}
