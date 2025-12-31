@@ -1,0 +1,51 @@
+{
+  "brand": "Shark",
+  "model": "Stratos Cordless with Clean Sense IQ (IZ862H)",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1500_.jpg",
+  "manual_pdf": "shark-iz862h.pdf",
+  "seo_keywords": [
+    "Shark Stratos cordless smells bad",
+    "Shark IZ862H battery replacement",
+    "Shark Stratos clean sense IQ not working",
+    "Shark IZ862H filters"
+  ],
+  "problems": [
+    {
+      "id": "clean-sense-iq-error",
+      "title": "Clean Sense IQ Not Working",
+      "description": "The suction doesn't auto-adjust or the light bar behaves erratically.",
+      "possible_causes": [
+        "Sensors near the inlet are dirty",
+        "Blockage in the wand"
+      ],
+      "solution_steps": [
+        "Wipe the infrared sensors inside the dust cup inlet with a dry cloth.",
+        "Clear any debris blocking the wand path."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Replacement Kit",
+          "search_query": "Shark IZ862H Filter"
+        }
+      ]
+    },
+    {
+      "id": "odor-neutralizer-empty",
+      "title": "Bad Smell / Odor Dial Empty",
+      "description": "Vacuum smells or the dial icon shows empty.",
+      "possible_causes": [
+        "Odor Neutralizer Cartridge needs replacement"
+      ],
+      "solution_steps": [
+        "Replace the cartridge in the floor nozzle.",
+        "Align the arrows when inserting the new cartridge."
+      ],
+      "required_parts": [
+        {
+          "name": "Odor Neutralizer Cartridge",
+          "search_query": "Shark Odor Neutralizer Cartridge"
+        }
+      ]
+    }
+  ]
+}
