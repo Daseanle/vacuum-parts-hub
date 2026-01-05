@@ -1,0 +1,53 @@
+{
+  "brand": "Moosoo",
+  "model": "K17 Cordless Stick Vacuum",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1000_.jpg",
+  "manual_pdf": "moosoo-k17.pdf",
+  "seo_keywords": [
+    "Moosoo K17 battery replacement",
+    "Moosoo vacuum overheating",
+    "Moosoo K17 filter washing",
+    "Moosoo brush head not spinning"
+  ],
+  "problems": [
+    {
+      "id": "battery-dead",
+      "title": "Battery Won't Hold Charge",
+      "description": "Vacuum runs for seconds and dies, or won't charge.",
+      "possible_causes": [
+        "Cheap battery cells degraded",
+        "Adapter failure"
+      ],
+      "solution_steps": [
+        "Moosoo batteries are notorious for failing after 6-12 months.",
+        "Replace the detachable battery pack."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery for K17",
+          "search_query": "Moosoo K17 Battery"
+        }
+      ]
+    },
+    {
+      "id": "overheating-shutoff",
+      "title": "Overheating / Motor Stops",
+      "description": "Vacuum gets hot and turns off.",
+      "possible_causes": [
+        "HEPA filter clogged",
+        "Metal mesh filter blocked"
+      ],
+      "solution_steps": [
+        "Disassemble the dust cup.",
+        "Wash the HEPA and the metal honeycomb filter.",
+        "Replace HEPA if it's dark grey."
+      ],
+      "required_parts": [
+        {
+          "name": "K17 HEPA Filter & Sponge Kit",
+          "search_query": "Moosoo K17 Filter"
+        }
+      ]
+    }
+  ]
+}
