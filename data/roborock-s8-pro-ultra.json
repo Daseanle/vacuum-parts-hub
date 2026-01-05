@@ -1,0 +1,55 @@
+{
+  "brand": "Roborock",
+  "model": "S8 Pro Ultra Robot Vacuum",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1500_.jpg",
+  "manual_pdf": "roborock-s8.pdf",
+  "seo_keywords": [
+    "Roborock S8 Pro Ultra mop not washing",
+    "Roborock S8 not emptying dustbin",
+    "Roborock S8 side brush error",
+    "Roborock S8 bags"
+  ],
+  "problems": [
+    {
+      "id": "dock-not-washing-mop",
+      "title": "Dock Not Washing Mop / Water Error",
+      "description": "The dock fails to wash the mop or reports empty clean water tank when full.",
+      "possible_causes": [
+        "Dirty water tank seal is loose",
+        "Water filter in the dock is clogged",
+        "Maintenance brush is jammed"
+      ],
+      "solution_steps": [
+        "Check the rubber seals on both water tanks.",
+        "Remove the high-speed maintenance brush in the base and clean it.",
+        "Clean the water filter mesh at the bottom of the dock."
+      ],
+      "required_parts": [
+        {
+          "name": "S8 Pro Ultra Maintenance Brush",
+          "search_query": "Roborock S8 Pro Ultra Dock Brush"
+        }
+      ]
+    },
+    {
+      "id": "main-brush-jammed",
+      "title": "Main Brush Jammed Error",
+      "description": "Robot stops and reports DuoRoller jam.",
+      "possible_causes": [
+        "Hair wrapped around the ends of the dual rollers",
+        "Large debris object stuck"
+      ],
+      "solution_steps": [
+        "Remove the main brush cover.",
+        "Take out both red rollers.",
+        "Twist off the removable caps at the ends to remove hair rings."
+      ],
+      "required_parts": [
+        {
+          "name": "DuoRoller Brush Set (Red)",
+          "search_query": "Roborock S8 Main Brush"
+        }
+      ]
+    }
+  ]
+}
