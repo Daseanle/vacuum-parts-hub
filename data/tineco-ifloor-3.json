@@ -1,0 +1,60 @@
+{
+  "brand": "Tineco",
+  "model": "iFloor 3 / Floor One S3 Wet Dry Vac",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "tineco-ifloor3.pdf",
+  "seo_keywords": [
+    "Tineco iFloor 3 max light flashing",
+    "Tineco not sucking water",
+    "Tineco floor one s3 smells bad",
+    "Tineco brush roller replacement"
+  ],
+  "problems": [
+    {
+      "id": "max-light-flashing",
+      "title": "Max Light Flashing / Dirty Water Tank Error",
+      "description": "The machine stops and claims the dirty water tank is full, even when empty.",
+      "possible_causes": [
+        "Debris on the metal sensors in the tank",
+        "Foam in the tank (using wrong solution)",
+        "HEPA filter is wet"
+      ],
+      "solution_steps": [
+        "Clean the two metal sensor probes inside the dirty water tank lid.",
+        "Ensure the HEPA filter is completely dry before use.",
+        "Only use Tineco solution to prevent foaming."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement HEPA Assembly",
+          "search_query": "Tineco iFloor 3 Filter"
+        },
+        {
+          "name": "Tineco Deodorizing Cleaning Solution",
+          "search_query": "Tineco Cleaning Solution"
+        }
+      ]
+    },
+    {
+      "id": "bad-smell",
+      "title": "Bad Smell / Odor",
+      "description": "The vacuum smells like wet dog or mildew when running.",
+      "possible_causes": [
+        "Dirty brush roll (moldy)",
+        "Clogged suction pipe",
+        "Dirty HEPA filter"
+      ],
+      "solution_steps": [
+        "Run the self-cleaning cycle.",
+        "Remove the brush roll and let it air dry in the sun.",
+        "Replace the brush roll if it is old and smelly (recommended every 4 months)."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brush Roller",
+          "search_query": "Tineco iFloor 3 Brush Roller"
+        }
+      ]
+    }
+  ]
+}
