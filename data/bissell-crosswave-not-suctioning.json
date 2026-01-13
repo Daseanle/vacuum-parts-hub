@@ -1,0 +1,43 @@
+{
+  "brand": "Bissell",
+  "model": "CrossWave - Not Suctioning",
+  "manual_pdf": "crosswave-manual.pdf",
+  "seo_keywords": [
+    "CrossWave Not Suctioning",
+    "Fix CrossWave Not Suctioning",
+    "Bissell CrossWave troubleshooting",
+    "CrossWave  replacement",
+    "how to manual for CrossWave"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:21:02.438319",
+  "source_keyword": "CrossWave Not Suctioning",
+  "problem_type": "not suctioning",
+  "trending_score": 66,
+  "problems": [
+    {
+      "id": "not-suctioning-issue",
+      "title": "Fixing: Not Suctioning on CrossWave",
+      "description": "Comprehensive guide to resolving not suctioning issues. If your CrossWave is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out ",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the  for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the ."
+      ],
+      "required_parts": [
+        {
+          "name": "CrossWave ",
+          "search_query": "CrossWave  replacement"
+        }
+      ]
+    }
+  ]
+}

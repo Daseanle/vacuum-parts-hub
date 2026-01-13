@@ -1,0 +1,43 @@
+{
+  "brand": "Hoover",
+  "model": "WindTunnel 3 - guide",
+  "manual_pdf": "windtunnel-3-manual.pdf",
+  "seo_keywords": [
+    "WindTunnel 3 guide",
+    "Fix WindTunnel 3 guide",
+    "Hoover WindTunnel 3 troubleshooting",
+    "WindTunnel 3 HEPA Filter replacement",
+    "how to manual for WindTunnel 3"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:20:58.421342",
+  "source_keyword": "WindTunnel 3 guide",
+  "problem_type": "guide",
+  "trending_score": 67,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on WindTunnel 3",
+      "description": "Comprehensive guide to resolving guide issues. If your WindTunnel 3 is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out HEPA Filter",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the HEPA Filter for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the HEPA Filter."
+      ],
+      "required_parts": [
+        {
+          "name": "WindTunnel 3 HEPA Filter",
+          "search_query": "WindTunnel 3 HEPA Filter replacement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # =================CONFIGURATION=================
-PROJECT_DIR="/Volumes/MOVESPEED/下载/AIcode/KunlunGrowth"
-VENV_PYTHON="$PROJECT_DIR/tools/KGCRM/venv/bin/python3"
-SCRIPT_PATH="$PROJECT_DIR/tools/seo/auto_seo.py"
+PROJECT_DIR="/Volumes/MOVESPEED/下载/AIcode/vacuum-parts-hub"
+# Using system python3 as no external dependencies are required for this generator
+VENV_PYTHON="/usr/bin/python3" 
+SCRIPT_PATH="$PROJECT_DIR/scripts/auto_seo_vacuum.py"
 LOG_FILE="$PROJECT_DIR/logs/seo_cron.log"
 
 # =================EXECUTION=================

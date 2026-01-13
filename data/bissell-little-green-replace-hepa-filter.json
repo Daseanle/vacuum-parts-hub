@@ -1,0 +1,43 @@
+{
+  "brand": "Bissell",
+  "model": "Little Green - guide",
+  "manual_pdf": "little-green-manual.pdf",
+  "seo_keywords": [
+    "Little Green guide",
+    "Fix Little Green guide",
+    "Bissell Little Green troubleshooting",
+    "Little Green HEPA Filter replacement",
+    "how to manual for Little Green"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:21:01.431968",
+  "source_keyword": "Little Green guide",
+  "problem_type": "guide",
+  "trending_score": 83,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on Little Green",
+      "description": "Comprehensive guide to resolving guide issues. If your Little Green is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out HEPA Filter",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the HEPA Filter for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the HEPA Filter."
+      ],
+      "required_parts": [
+        {
+          "name": "Little Green HEPA Filter",
+          "search_query": "Little Green HEPA Filter replacement"
+        }
+      ]
+    }
+  ]
+}
