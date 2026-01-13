@@ -1,0 +1,59 @@
+{
+  "brand": "Bissell",
+  "model": "Little Green Portable Cleaner (1400B)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-1400b.pdf",
+  "seo_keywords": [
+    "Bissell Little Green leaking from bottom",
+    "Little Green no suction",
+    "Bissell 1400B hose repair",
+    "Little Green spray nozzle clogged"
+  ],
+  "problems": [
+    {
+      "id": "leaking-from-bottom",
+      "title": "Leaking from Bottom",
+      "description": "Water pools underneath the unit while running or sitting.",
+      "possible_causes": [
+        "Dirty water tank seal is missing or damaged",
+        "Clean water tank cap is loose",
+        "Internal hose crack"
+      ],
+      "solution_steps": [
+        "Check the black rubber gasket on the dirty water tank bottom.",
+        "Tighten the cap on the clean water tank.",
+        "If leaking from the vent, the dirty tank is too full. Empty it."
+      ],
+      "required_parts": [
+        {
+          "name": "Dirty Water Tank (Collection Tank)",
+          "search_query": "Bissell 1400B Dirty Water Tank"
+        },
+        {
+          "name": "Clean Water Tank Cap",
+          "search_query": "Bissell 1400B Tank Cap"
+        }
+      ]
+    },
+    {
+      "id": "hose-cracked-no-suction",
+      "title": "Hose Cracked / No Suction",
+      "description": "The flexible hose has a tear or the suction is very weak at the tool end.",
+      "possible_causes": [
+        "Hose wear and tear (common after 2 years)",
+        "Tool attachment is clogged"
+      ],
+      "solution_steps": [
+        "Inspect the hose for splits. Duct tape is a temporary fix.",
+        "Remove the tool and rinse it under a faucet to clear hair.",
+        "If the hose is ripped, the entire hose assembly must be replaced (requires disassembly)."
+      ],
+      "required_parts": [
+        {
+          "name": "3-Inch Tough Stain Tool",
+          "search_query": "Bissell Little Green Tool Attachment"
+        }
+      ]
+    }
+  ]
+}

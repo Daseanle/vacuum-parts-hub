@@ -1,0 +1,58 @@
+{
+  "brand": "Bissell",
+  "model": "CrossWave Pet Pro (2306)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-2306.pdf",
+  "seo_keywords": [
+    "Bissell CrossWave Pet Pro smelling bad",
+    "Bissell 2306 not spraying",
+    "CrossWave Pet Pro brush not spinning",
+    "Bissell pet hair strainer"
+  ],
+  "problems": [
+    {
+      "id": "dog-hair-clog",
+      "title": "Clogged with Pet Hair / Low Suction",
+      "description": "Machine leaves clumps of wet hair on the floor.",
+      "possible_causes": [
+        "Pet hair strainer in dirty tank is full",
+        "Brush window clogged",
+        "Filter saturated"
+      ],
+      "solution_steps": [
+        "Empty the dirty tank and clean the red hair strainer.",
+        "Check the suction path at the foot.",
+        "Replace the filter if it is coated in mud/hair."
+      ],
+      "required_parts": [
+        {
+          "name": "Pet Hair Strainer Assembly",
+          "search_query": "Bissell CrossWave Pet Strainer"
+        },
+        {
+          "name": "Pet Pro Multi-Surface Brush Roll",
+          "search_query": "Bissell 2306 Brush Roll"
+        }
+      ]
+    },
+    {
+      "id": "bad-odor",
+      "title": "Bad Smell While Cleaning",
+      "description": "The machine smells like wet dog.",
+      "possible_causes": [
+        "Dirty brush roll stored wet",
+        "Dirty water tank not rinsed"
+      ],
+      "solution_steps": [
+        "Always remove the brush roll to dry after use.",
+        "Use the Pet Multi-Surface Formula with Febreze."
+      ],
+      "required_parts": [
+        {
+          "name": "Pet Multi-Surface Formula with Febreze",
+          "search_query": "Bissell Pet Pro Cleaning Solution"
+        }
+      ]
+    }
+  ]
+}

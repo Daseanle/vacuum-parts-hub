@@ -1,0 +1,76 @@
+{
+  "brand": "Bissell",
+  "model": "Featherweight Stick Vacuum (2033 Series)",
+  "manual_pdf": "bissell-2033.pdf",
+  "seo_keywords": [
+    "Bissell 2033 filter replacement",
+    "Bissell featherweight not suctioning",
+    "Bissell 2033 dirt cup latch broken",
+    "Bissell stick vacuum overheating",
+    "clean bissell featherweight filter"
+  ],
+  "problems": [
+    {
+      "id": "vacuum-wont-pick-up-dirt",
+      "title": "Vacuum won't pick up dirt / Low Suction",
+      "description": "The vacuum is running but pushing dirt around or has very weak suction.",
+      "possible_causes": [
+        "Filter is dirty or clogged",
+        "Dirt cup is full",
+        "Clog in the foot or nozzle",
+        "Crack in the dirt cup"
+      ],
+      "solution_steps": [
+        "Empty the dirt cup.",
+        "Remove the filter and wash it with warm water. Let it air dry for 24 hours.",
+        "Check the nozzle opening on the foot for clogs.",
+        "Ensure the dirt cup is properly locked into place."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Mesh Filter (2-Pack)",
+          "search_query": "Bissell 2033 Filter Replacement"
+        }
+      ]
+    },
+    {
+      "id": "dirt-cup-latch-broken",
+      "title": "Dirt Cup won't stay attached (Latch Broken)",
+      "description": "The bottom dirt container falls off or the release latch is snapped.",
+      "possible_causes": [
+        "Broken latch mechanism",
+        "Worn out plastic tab"
+      ],
+      "solution_steps": [
+        "Inspect the plastic latch on the dirt cup.",
+        "If broken, the entire dirt cup usually needs to be replaced (it's very cheap)."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Dirt Cup / Filter Assembly",
+          "search_query": "Bissell 2033 Dirt Cup Replacement"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-shutting-off",
+      "title": "Vacuum shuts off while using",
+      "description": "The unit gets hot and turns off suddenly.",
+      "possible_causes": [
+        "Thermal protector activated due to overheating",
+        "Severe clog in filter"
+      ],
+      "solution_steps": [
+        "Unplug the vacuum immediately.",
+        "Check and clean the filter (this is the #1 cause).",
+        "Let the motor cool down for at least 30 minutes before restarting."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Filter",
+          "search_query": "Bissell 2033 Filter"
+        }
+      ]
+    }
+  ]
+}

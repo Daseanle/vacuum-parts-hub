@@ -1,0 +1,52 @@
+{
+  "brand": "Dyson",
+  "model": "V15 Detect / Absolute",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "dyson-v15.pdf",
+  "seo_keywords": [
+    "Dyson V15 laser not working",
+    "Dyson V15 particle count not working",
+    "Dyson V15 filter cleaning",
+    "Dyson V15 battery"
+  ],
+  "problems": [
+    {
+      "id": "laser-not-working",
+      "title": "Laser Light Not Working",
+      "description": "The green laser on the fluffy head is off.",
+      "possible_causes": [
+        "Switch on the head is off",
+        "Connection issue"
+      ],
+      "solution_steps": [
+        "Check the small toggle switch on the cleaner head.",
+        "Wipe the connection pins."
+      ],
+      "required_parts": [
+        {
+          "name": "Laser Slim Fluffy Cleaner Head",
+          "search_query": "Dyson V15 Laser Head Replacement"
+        }
+      ]
+    },
+    {
+      "id": "filter-cleaning-message",
+      "title": "Filter Cleaning Message Persists",
+      "description": "Screen says filter needs washing after washing.",
+      "possible_causes": [
+        "Filter not dry",
+        "Sensor saturated"
+      ],
+      "solution_steps": [
+        "Dry for 48 hours.",
+        "Replace if old."
+      ],
+      "required_parts": [
+        {
+          "name": "V15 HEPA Filter",
+          "search_query": "Dyson V15 Filter"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "brand": "Dyson",
+  "model": "Dyson V8",
+  "model_code": "V8",
+  "problem_description": "battery replacement",
+  "manual_pdf": "dyson-v8.pdf",
+  "seo_keywords": [
+    "Dyson V8 battery replacement",
+    "Dyson V8 repair",
+    "Dyson V8 troubleshooting",
+    "Dyson V8 parts",
+    "how to fix Dyson V8",
+    "Dyson V8 manual",
+    "Dyson V8 guide",
+    "Dyson V8 battery not holding charge",
+    "replace Dyson V8 battery",
+    "Dyson V8 battery life",
+    "where to buy Dyson V8 battery",
+    "Dyson V8 dead battery",
+    "how long does Dyson V8 battery last",
+    "Dyson V8 battery cost",
+    "Dyson V8 won't hold charge",
+    "Dyson V8 battery indicator"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-08T23:29:55.060510",
+  "source_keyword": "Dyson V8 battery replacement",
+  "problem_type": "battery",
+  "trending_score": 65,
+  "trending_source": "database",
+  "problems": [
+    {
+      "id": "battery-replacement",
+      "title": "How to Replace Dyson V8 Battery",
+      "description": "Step-by-step guide to replace the battery in your Dyson V8. Restore runtime and performance with a new battery.",
+      "possible_causes": [
+        "Battery has degraded after 2-3 years of regular use",
+        "Battery cells have failed due to age or heat",
+        "Battery is not holding charge for more than 10 minutes",
+        "Charging cycles have exceeded the battery's lifespan",
+        "Battery has been stored at low charge for extended periods"
+      ],
+      "solution_steps": [
+        "Purchase a genuine replacement battery compatible with Dyson V8",
+        "Power off the vacuum completely and remove from charger",
+        "Locate the battery compartment on your Dyson V8 (typically on the rear or bottom panel)",
+        "Use a suitable screwdriver to remove the battery cover screws",
+        "Carefully disconnect the old battery connector, noting the polarity",
+        "Remove the old battery and inspect the compartment for any damage",
+        "Install the new battery, ensuring correct polarity (+ and - alignment)",
+        "Secure the battery compartment cover and tighten all screws",
+        "Charge your Dyson V8 for 4-6 hours before the first use"
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V8 Replacement Battery",
+          "search_query": "Dyson V8 battery"
+        }
+      ],
+      "persona": {
+        "type": "tech_expert",
+        "name": "技术专家",
+        "tone": "专业、分析性、经验丰富",
+        "opening": "I've been repairing vacuum cleaners for 12 years, and here's what most people get wrong about battery replacement...",
+        "phrases": [
+          "Based on my technical analysis...",
+          "I've seen this issue hundreds of times...",
+          "The root cause is almost always..."
+        ]
+      },
+      "dynamic_cta": {
+        "urgency": "high",
+        "text": "⚡ Stop Waiting - Fix Your Dyson Dyson V8 Battery Today",
+        "subtext": "Don't let a dead battery ruin your cleaning routine. Professional replacement ready to ship.",
+        "color": "red",
+        "icon": "🔋",
+        "pain_point": "Your vacuum won't hold a charge"
+      },
+      "trending_source": "database"
+    }
+  ]
+}

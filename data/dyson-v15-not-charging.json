@@ -1,0 +1,50 @@
+{
+  "brand": "Dyson",
+  "model": "Dyson V15 not charging",
+  "manual_pdf": "dyson-v15-not-charging.pdf",
+  "seo_keywords": [
+    "Dyson V15 not charging",
+    "Dyson V15 not charging repair",
+    "Dyson V15 not charging troubleshooting",
+    "Dyson V15 not charging parts",
+    "how to fix Dyson V15 not charging",
+    "Dyson V15 not charging manual",
+    "Dyson V15 not charging guide",
+    "where to buy Dyson V15 not charging parts",
+    "Dyson V15 not charging replacement battery",
+    "Dyson V15 not charging not working",
+    "fix Dyson V15 not charging problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:45.496116",
+  "source_keyword": "Dyson V15 not charging",
+  "problem_type": "charging",
+  "trending_score": 65,
+  "problems": [
+    {
+      "id": "charging-issues",
+      "title": "Charging Problems & Solutions",
+      "description": "Troubleshooting and fixing charging issues with Dyson V15 not charging.",
+      "possible_causes": [
+        "Dirty charging contacts",
+        "Faulty charger or docking station",
+        "Battery cannot accept charge anymore",
+        "Charging port damage"
+      ],
+      "solution_steps": [
+        "Clean the metal contacts on both vacuum and charger",
+        "Try a different power outlet",
+        "Check if the charger LED indicator is working",
+        "Inspect the charging port for debris or damage",
+        "Test with a different charger if available",
+        "If charger is faulty, replace with genuine Dyson charger"
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V15 not charging Charger",
+          "search_query": "Dyson V15 not charging charger replacement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "brand": "Bissell",
+  "model": "SpinWave Hard Floor Expert Robot (3115)",
+  "image_url": "https://m.media-amazon.com/images/I/71+GjG9g7XL._AC_SL1500_.jpg", 
+  "manual_pdf": "bissell-3115.pdf",
+  "seo_keywords": [
+    "Bissell SpinWave robot not mopping",
+    "Bissell robot error 7",
+    "SpinWave robot mop pads",
+    "Bissell robot battery replacement"
+  ],
+  "problems": [
+    {
+      "id": "not-dispensing-water",
+      "title": "Not Dispensing Water / Pads Dry",
+      "description": "The robot moves but the floor stays dry.",
+      "possible_causes": [
+        "Tank cap clogged",
+        "Water tank not seated",
+        "Pump failure (using vinegar or bleach)"
+      ],
+      "solution_steps": [
+        "Ensure you are only using Bissell formula.",
+        "Check the small black valve on the tank cap.",
+        "Poke the water dispensing holes on the bottom of the robot with a pin."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Mop Pads (Microfiber)",
+          "search_query": "Bissell SpinWave Robot Mop Pads"
+        },
+        {
+          "name": "Replacement Mop Tank",
+          "search_query": "Bissell SpinWave Robot Tank"
+        }
+      ]
+    },
+    {
+      "id": "circle-dance-error",
+      "title": "Robot moving in circles / Error Light",
+      "description": "Robot backs up and spins, usually indicating a bumper or sensor issue.",
+      "possible_causes": [
+        "Dirty cliff sensors",
+        "Bumper stuck",
+        "Wheel jammed"
+      ],
+      "solution_steps": [
+        "Wipe the cliff sensors on the bottom with a dry cloth.",
+        "Tap the front bumper repeatedly to dislodge dust.",
+        "Check wheels for hair wrapping."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery (14.4V Li-Ion)",
+          "search_query": "Bissell SpinWave Robot Battery"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "brand": "Dyson",
+  "model": "Dyson V10 filter cleaning",
+  "manual_pdf": "dyson-v10-filter-cleaning.pdf",
+  "seo_keywords": [
+    "Dyson V10 filter cleaning",
+    "Dyson V10 filter cleaning repair",
+    "Dyson V10 filter cleaning troubleshooting",
+    "Dyson V10 filter cleaning parts",
+    "how to fix Dyson V10 filter cleaning",
+    "Dyson V10 filter cleaning manual",
+    "Dyson V10 filter cleaning guide",
+    "where to buy Dyson V10 filter cleaning parts",
+    "Dyson V10 filter cleaning replacement battery",
+    "Dyson V10 filter cleaning not working",
+    "fix Dyson V10 filter cleaning problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:47.024275",
+  "source_keyword": "Dyson V10 filter cleaning",
+  "problem_type": "filter",
+  "trending_score": 50,
+  "problems": [
+    {
+      "id": "filter-maintenance",
+      "title": "Filter Cleaning & Replacement",
+      "description": "Proper filter maintenance for optimal performance of Dyson V10 filter cleaning.",
+      "possible_causes": [
+        "Filter is clogged with dust and debris",
+        "Filter hasn't been cleaned recently",
+        "Filter is damaged or torn",
+        "Using wrong filter type"
+      ],
+      "solution_steps": [
+        "Check the filter indicator light (if available)",
+        "Remove the pre-filter and post-filter",
+        "Tap the filter to remove loose dust",
+        "Rinse with cold water only (no soap)",
+        "Shake gently and let air dry for 24 hours",
+        "Replace if filter is damaged or performance doesn't improve"
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V10 filter cleaning Replacement Filter",
+          "search_query": "Dyson V10 filter cleaning filter"
+        }
+      ]
+    }
+  ]
+}

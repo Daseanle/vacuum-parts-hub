@@ -1,0 +1,54 @@
+{
+  "brand": "Bissell",
+  "model": "Pet Hair Eraser Handheld Vacuum (33A1)",
+  "image_url": "https://m.media-amazon.com/images/I/71+GjG9g7XL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-33a1.pdf",
+  "seo_keywords": [
+    "Bissell Pet Hair Eraser blowing dust",
+    "Bissell handheld vacuum overheating",
+    "Bissell 33A1 filter replacement",
+    "Bissell rubber nozzle replacement"
+  ],
+  "problems": [
+    {
+      "id": "blowing-dust-out-back",
+      "title": "Blowing Dust Out / Loss of Suction",
+      "description": "Dust is escaping from the vents or suction is very weak.",
+      "possible_causes": [
+        "Filter is damaged or missing",
+        "Filter is clogged",
+        "Dirt cup is overfilled"
+      ],
+      "solution_steps": [
+        "Empty the dirt cup.",
+        "Inspect the pleated filter. If it has holes, replace it immediately.",
+        "Tap the filter against a trash can to remove fine dust."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Filter and Mesh Screen",
+          "search_query": "Bissell 33A1 Filter"
+        }
+      ]
+    },
+    {
+      "id": "nozzle-worn-out",
+      "title": "Rubber Nozzle Worn / Lost",
+      "description": "The rubber teeth on the nozzle are worn down or the nozzle is lost.",
+      "possible_causes": [
+        "Normal wear and tear",
+        "Lost part"
+      ],
+      "solution_steps": [
+        "The rubber nozzle is essential for picking up hair.",
+        "It pulls off easily and can be replaced."
+      ],
+      "required_parts": [
+        {
+          "name": "Rubber Contour Nozzle",
+          "search_query": "Bissell Pet Hair Eraser Nozzle"
+        }
+      ]
+    }
+  ]
+}

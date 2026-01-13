@@ -1,0 +1,53 @@
+{
+  "brand": "Shark",
+  "model": "Vertex DuoClean PowerFins Cordless (IZ462H)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-iz462h.pdf",
+  "seo_keywords": [
+    "Shark Vertex cordless brush roll not spinning",
+    "Shark IZ462H battery replacement",
+    "Shark Vertex cordless error codes",
+    "Shark Vertex filters"
+  ],
+  "problems": [
+    {
+      "id": "brush-roll-indicator-e4",
+      "title": "E4 Error / Brush Not Spinning",
+      "description": "Digital display shows 'E4' or nozzle nozzle light is red.",
+      "possible_causes": [
+        "Nozzle overheating",
+        "Current limit reached (jam)"
+      ],
+      "solution_steps": [
+        "Turn off and wait 45 minutes.",
+        "Check for blockages in the nozzle neck and wand.",
+        "Ensure the soft roller garage is latched shut."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Nozzle Hose",
+          "search_query": "Shark IZ462H Nozzle Hose"
+        }
+      ]
+    },
+    {
+      "id": "battery-wont-charge",
+      "title": "Battery Won't Charge / F1/F2 Error",
+      "description": "Vacuum won't turn on or display shows F codes.",
+      "possible_causes": [
+        "Charger failure",
+        "Battery pack failure"
+      ],
+      "solution_steps": [
+        "Plug the charger directly into the battery (not the vacuum).",
+        "If it still doesn't charge, the lithium pack is dead."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery Pack (Vertex)",
+          "search_query": "Shark Vertex Cordless Battery"
+        }
+      ]
+    }
+  ]
+}

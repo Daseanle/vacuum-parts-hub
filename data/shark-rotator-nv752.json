@@ -1,0 +1,54 @@
+{
+  "brand": "Shark",
+  "model": "Rotator Powered Lift-Away TruePet (NV752)",
+  "image_url": "https://m.media-amazon.com/images/I/71jX7tB2vLL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-nv752.pdf",
+  "seo_keywords": [
+    "Shark NV752 hose replacement",
+    "Shark Rotator TruePet brush not spinning",
+    "Shark NV752 suction control",
+    "Shark NV752 filters"
+  ],
+  "problems": [
+    {
+      "id": "handle-hose-tear",
+      "title": "Handle Hose Tear / Hissing Sound",
+      "description": "Loud air noise near the handle and loss of suction.",
+      "possible_causes": [
+        "Stress crack in the handle hose"
+      ],
+      "solution_steps": [
+        "Inspect the short hose connecting the handle to the wand.",
+        "This is a modular part. You replace the whole handle assembly.",
+        "Duct tape only works for a few days."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Handle & Hose Assembly",
+          "search_query": "Shark NV752 Handle Hose"
+        }
+      ]
+    },
+    {
+      "id": "brush-roll-red-light",
+      "title": "Brush Roll Light is Red",
+      "description": "Floor nozzle lights are red and brush isn't turning.",
+      "possible_causes": [
+        "Lower nozzle hose split",
+        "Debris jam",
+        "Motor failure"
+      ],
+      "solution_steps": [
+        "Check the small hose at the bottom of the floor nozzle.",
+        "If it's split, you can buy a repair hose instead of a whole new head.",
+        "Clear hair from the bristles."
+      ],
+      "required_parts": [
+        {
+          "name": "Lower Nozzle Hose Repair Part",
+          "search_query": "Shark NV752 Lower Hose"
+        }
+      ]
+    }
+  ]
+}

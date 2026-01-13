@@ -1,0 +1,57 @@
+{
+  "brand": "Numatic",
+  "model": "Henry (HVR160 / HVR200)",
+  "image_url": "https://m.media-amazon.com/images/I/71+u+s+s+L._AC_SL1500_.jpg",
+  "manual_pdf": "henry-hvr160.pdf",
+  "seo_keywords": [
+    "Henry vacuum loss of suction",
+    "Henry vacuum bags size",
+    "Henry vacuum hose replacement",
+    "Henry red light switch"
+  ],
+  "problems": [
+    {
+      "id": "suction-weak",
+      "title": "Loss of Suction",
+      "description": "Henry isn't smiling (picking up dirt) as well as he used to.",
+      "possible_causes": [
+        "Bag is full",
+        "Tritex filter is clogged",
+        "Hose split"
+      ],
+      "solution_steps": [
+        "Replace the HepaFlo bag.",
+        "Beat the large white Tritex filter (the round disc) outside to remove dust.",
+        "Check the black hose for splits."
+      ],
+      "required_parts": [
+        {
+          "name": "HepaFlo High Efficiency Bags (NVM-1CH)",
+          "search_query": "Numatic Henry Bags"
+        },
+        {
+          "name": "Tritex Filter (12-inch)",
+          "search_query": "Henry Vacuum Filter"
+        }
+      ]
+    },
+    {
+      "id": "hose-split",
+      "title": "Hose Split",
+      "description": "Whistling sound from the hose.",
+      "possible_causes": [
+        "Wear and tear"
+      ],
+      "solution_steps": [
+        "The standard Henry hose is robust but can split near the cuffs.",
+        "Replace the hose assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Flomax Hose",
+          "search_query": "Henry Vacuum Hose"
+        }
+      ]
+    }
+  ]
+}

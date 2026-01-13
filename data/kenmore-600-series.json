@@ -1,0 +1,60 @@
+{
+  "brand": "Kenmore",
+  "model": "600 Series Friendly Pop-N-Go Canister",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "kenmore-600.pdf",
+  "seo_keywords": [
+    "Kenmore 600 series suction loss",
+    "Kenmore vacuum bags type Q",
+    "Kenmore canister brush not spinning",
+    "Kenmore hose handle broken"
+  ],
+  "problems": [
+    {
+      "id": "brush-not-spinning",
+      "title": "PowerMate Brush Not Spinning",
+      "description": "The canister is running but the floor head brush isn't turning.",
+      "possible_causes": [
+        "Overload protector tripped",
+        "Dirty connections on the wand",
+        "Belt broken (rare on this model, usually direct drive)"
+      ],
+      "solution_steps": [
+        "Press the red RESET button on top of the nozzle.",
+        "Wipe the metal pins on the wand and handle connection.",
+        "Check for hair wrapped around the brush."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Floor Nozzle (PowerMate)",
+          "search_query": "Kenmore 600 Series Floor Nozzle"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction-bags",
+      "title": "Loss of Suction / Change Bag Light",
+      "description": "Vacuum feels weak or indicator is orange.",
+      "possible_causes": [
+        "Bag is full (HEPA bags fill up fast)",
+        "Pre-motor filter is black",
+        "Clog in the hose handle"
+      ],
+      "solution_steps": [
+        "Replace the Type Q HEPA bag. Do not reuse bags.",
+        "Clean the foam filter behind the bag.",
+        "Drop a coin down the hose to check for blockages."
+      ],
+      "required_parts": [
+        {
+          "name": "Kenmore Type Q HEPA Bags (6-Pack)",
+          "search_query": "Kenmore Type Q Vacuum Bags"
+        },
+        {
+          "name": "Motor Protection Filter",
+          "search_query": "Kenmore CF1 Filter"
+        }
+      ]
+    }
+  ]
+}

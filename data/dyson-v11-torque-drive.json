@@ -1,0 +1,58 @@
+{
+  "brand": "Dyson",
+  "model": "V11 Torque Drive / Animal",
+  "image_url": "https://m.media-amazon.com/images/I/61Q6yF+Xy+L._AC_SL1200_.jpg",
+  "manual_pdf": "dyson-v11.pdf",
+  "seo_keywords": [
+    "Dyson V11 filter sealing ring broken",
+    "Dyson V11 airway blocked message",
+    "Dyson V11 battery replacement click-in",
+    "Dyson V11 trigger stuck"
+  ],
+  "problems": [
+    {
+      "id": "filter-message-wont-clear",
+      "title": "Filter Message won't clear",
+      "description": "The screen says 'Filter needs cleaning' even after washing it.",
+      "possible_causes": [
+        "Filter is not completely dry",
+        "Fine dust is trapped deep in the filter media",
+        "Sensor error"
+      ],
+      "solution_steps": [
+        "Ensure filter dried for at least 24-48 hours.",
+        "Tap the filter firmly against a sink to dislodge fine dust.",
+        "If the message persists, the filter is saturated and must be replaced."
+      ],
+      "required_parts": [
+        {
+          "name": "V11 Filter Replacement Unit",
+          "search_query": "Dyson V11 Filter Replacement"
+        }
+      ]
+    },
+    {
+      "id": "trigger-broken",
+      "title": "Trigger Stuck / Not Working",
+      "description": "You pull the trigger but nothing happens, or it feels loose.",
+      "possible_causes": [
+        "Internal plastic trigger component snapped (Design flaw)",
+        "Battery failure"
+      ],
+      "solution_steps": [
+        "If the battery lights don't turn on at all, check the battery.",
+        "If the trigger feels 'limp', the internal switch is broken. You need a replacement main body or a heavy-duty trigger fix."
+      ],
+      "required_parts": [
+        {
+          "name": "Heavy Duty Replacement Trigger (Repair Part)",
+          "search_query": "Dyson V11 Trigger Replacement"
+        },
+        {
+          "name": "V11 Click-in Battery",
+          "search_query": "Dyson V11 Battery"
+        }
+      ]
+    }
+  ]
+}

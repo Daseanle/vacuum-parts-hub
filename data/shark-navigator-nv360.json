@@ -1,0 +1,51 @@
+{
+  "brand": "Shark",
+  "model": "Navigator Lift-Away Deluxe (NV360)",
+  "image_url": "https://m.media-amazon.com/images/I/81+Xy-J+hQL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-nv360.pdf",
+  "seo_keywords": [
+    "Shark NV360 hose replacement",
+    "Shark Navigator NV360 suction loss",
+    "Shark NV360 brush roll indicator red",
+    "Shark NV360 filters"
+  ],
+  "problems": [
+    {
+      "id": "handle-hose-split",
+      "title": "Hose Split near Handle",
+      "description": "Hissing noise and loss of suction at the wand.",
+      "possible_causes": [
+        "Stress fracture in the hose"
+      ],
+      "solution_steps": [
+        "This is a known weak point.",
+        "Replace the entire handle/hose assembly (it snaps right in)."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Handle & Hose",
+          "search_query": "Shark NV360 Handle Hose"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction",
+      "title": "Loss of Suction",
+      "description": "Vacuum pushes dirt around.",
+      "possible_causes": [
+        "Dirty foam filters",
+        "Clogged nozzle hose"
+      ],
+      "solution_steps": [
+        "Wash foam/felt filters.",
+        "Check the lower hose on the floor nozzle."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Kit (Foam + Felt + HEPA)",
+          "search_query": "Shark NV360 Filter Kit"
+        }
+      ]
+    }
+  ]
+}

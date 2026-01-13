@@ -1,0 +1,53 @@
+{
+  "brand": "Dyson",
+  "model": "Cinetic Big Ball Animal Canister",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-cinetic.pdf",
+  "seo_keywords": [
+    "Dyson Cinetic Big Ball loss of suction",
+    "Dyson Big Ball bin stuck",
+    "Dyson Cinetic handle replacement",
+    "Dyson turbine head not spinning"
+  ],
+  "problems": [
+    {
+      "id": "bin-wont-open",
+      "title": "Bin Stuck / Won't Empty",
+      "description": "The red bin runner is jammed and the bottom won't drop.",
+      "possible_causes": [
+        "Fine dust jammed in the runner mechanism",
+        "Runner plastic track broken"
+      ],
+      "solution_steps": [
+        "Use compressed air to blow out the runner tracks.",
+        "If the plastic rail is snapped, you need a new bin assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Bin Assembly",
+          "search_query": "Dyson Big Ball Bin"
+        }
+      ]
+    },
+    {
+      "id": "turbine-head-stopped",
+      "title": "Turbine Head Not Spinning",
+      "description": "The floor tool brush bar stopped turning.",
+      "possible_causes": [
+        "Air turbine clogged with hair",
+        "Suction leak in hose"
+      ],
+      "solution_steps": [
+        "Remove the small screws on the head to access the turbine.",
+        "Cut away hair.",
+        "Check the main hose for splits."
+      ],
+      "required_parts": [
+        {
+          "name": "Carbon Fibre Turbine Floor Tool",
+          "search_query": "Dyson Big Ball Turbine Head"
+        }
+      ]
+    }
+  ]
+}

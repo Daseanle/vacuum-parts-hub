@@ -1,0 +1,53 @@
+{
+  "brand": "Hoover",
+  "model": "Linx Cordless Stick Vacuum (BH50010)",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "hoover-linx.pdf",
+  "seo_keywords": [
+    "Hoover Linx battery not charging",
+    "Hoover Linx handle broken",
+    "Hoover Linx filter",
+    "Hoover Linx brush roll"
+  ],
+  "problems": [
+    {
+      "id": "battery-flashing-blue",
+      "title": "Battery Flashing Blue / Won't Charge",
+      "description": "Charger flashes blue rapidly or battery holds no charge.",
+      "possible_causes": [
+        "Battery cell failure",
+        "Charger failure"
+      ],
+      "solution_steps": [
+        "The Linx battery (Fade-Free Lithium) is known to fail after 2-3 years.",
+        "Replace the battery pack."
+      ],
+      "required_parts": [
+        {
+          "name": "18V Lithium Ion Battery",
+          "search_query": "Hoover Linx Battery"
+        }
+      ]
+    },
+    {
+      "id": "no-suction-filter",
+      "title": "No Suction / Dirt falling out",
+      "description": "Weak pickup.",
+      "possible_causes": [
+        "Sponge filter clogged",
+        "Baffle tube blocked"
+      ],
+      "solution_steps": [
+        "Remove the dust cup.",
+        "Pull out the sponge filter and wash it.",
+        "Clear the orange baffle tube in the dirt cup."
+      ],
+      "required_parts": [
+        {
+          "name": "Sponge Filter (Type 30)",
+          "search_query": "Hoover Linx Filter"
+        }
+      ]
+    }
+  ]
+}

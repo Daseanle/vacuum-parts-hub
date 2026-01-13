@@ -1,0 +1,57 @@
+{
+  "brand": "Dyson",
+  "model": "DC33 Multi-Floor Upright",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-dc33.pdf",
+  "seo_keywords": [
+    "Dyson DC33 clutch replacement",
+    "Dyson DC33 belt change",
+    "Dyson DC33 not picking up",
+    "Dyson DC33 filter"
+  ],
+  "problems": [
+    {
+      "id": "brush-not-spinning-ratchet-noise",
+      "title": "Brush Not Spinning / Ratcheting Noise",
+      "description": "Loud noise when vacuuming carpet, or brush stopped.",
+      "possible_causes": [
+        "Clutch belt snapped",
+        "Clutch assembly failed"
+      ],
+      "solution_steps": [
+        "The DC33 uses a clutch system, not a standard belt.",
+        "If the belt is snapped, you usually replace the whole clutch assembly (it's cheap and easier).",
+        "Check the dial on the front is set to 'Carpet'."
+      ],
+      "required_parts": [
+        {
+          "name": "Clutch Assembly with Belts",
+          "search_query": "Dyson DC33 Clutch Assembly"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction-hose",
+      "title": "No Suction from Hose",
+      "description": "Vacuum works on floor but not through the wand.",
+      "possible_causes": [
+        "Changeover valve blockage",
+        "Hose split near the back"
+      ],
+      "solution_steps": [
+        "Check the U-bend pipe at the back for clogs.",
+        "Inspect the long yellow/grey stretch hose for tears."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Stretch Hose",
+          "search_query": "Dyson DC33 Hose"
+        },
+        {
+          "name": "Washable Pre-Motor & HEPA Filters",
+          "search_query": "Dyson DC33 Filter Kit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "brand": "Samsung",
+  "model": "Jet 60 Fit / Pet Cordless Stick",
+  "image_url": "https://m.media-amazon.com/images/I/51+u+s+s+L._AC_SL1000_.jpg",
+  "manual_pdf": "samsung-jet60.pdf",
+  "seo_keywords": [
+    "Samsung Jet 60 turns off by itself",
+    "Samsung Jet 60 filter error",
+    "Samsung Jet 60 battery replacement",
+    "Samsung Jet 60 loss of suction"
+  ],
+  "problems": [
+    {
+      "id": "stops-working-filter-light",
+      "title": "Vacuum Stops / Filter Light Blinking",
+      "description": "The unit shuts down after a few seconds and the filter icon flashes red.",
+      "possible_causes": [
+        "Micro filter clogged with fine dust",
+        "Mesh grille blocked",
+        "Airflow path obstructed"
+      ],
+      "solution_steps": [
+        "Remove the dust bin and twist off the fine dust mesh.",
+        "Wash the micro filter (green/blue sponge) and dry for 24h.",
+        "If the filter is old, washing won't help; it restricts airflow too much."
+      ],
+      "required_parts": [
+        {
+          "name": "Samsung Jet Micro Filter & Mesh",
+          "search_query": "Samsung Jet 60 Filter"
+        }
+      ]
+    },
+    {
+      "id": "battery-dies-fast",
+      "title": "Battery Dies Too Quickly",
+      "description": "Runtime is less than 5 minutes on Max mode.",
+      "possible_causes": [
+        "Battery degradation",
+        "Normal wear"
+      ],
+      "solution_steps": [
+        "The Jet 60 battery is removable.",
+        "Buy a spare battery to double your runtime."
+      ],
+      "required_parts": [
+        {
+          "name": "Samsung Jet 60 Replacement Battery",
+          "search_query": "Samsung Jet 60 Battery"
+        }
+      ]
+    }
+  ]
+}

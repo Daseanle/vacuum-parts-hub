@@ -1,0 +1,39 @@
+{
+  "brand": "Shop-Vac",
+  "model": "5 Gallon Wet/Dry Vacuum (Classic)",
+  "image_url": "https://m.media-amazon.com/images/I/61Kq99iZlNL._AC_SL1500_.jpg",
+  "manual_pdf": "shop-vac-5gal.pdf",
+  "seo_keywords": [
+    "Shop Vac blowing dust",
+    "Shop Vac filter 90304",
+    "Shop Vac suction loss",
+    "Shop Vac bag for drywall dust"
+  ],
+  "problems": [
+    {
+      "id": "blowing-dust-out-exhaust",
+      "title": "Blowing Dust out of Exhaust",
+      "description": "Fine white dust shoots out the back when vacuuming.",
+      "possible_causes": [
+        "Filter is missing or damaged",
+        "Using wrong filter for drywall dust",
+        "Filter not seated correctly"
+      ],
+      "solution_steps": [
+        "Ensure the cartridge filter is locked down with the nut.",
+        "If vacuuming fine dust (drywall/ash), you MUST use a collection bag in addition to the filter.",
+        "Replace the cartridge if it has holes."
+      ],
+      "required_parts": [
+        {
+          "name": "Cartridge Filter Type U (90304)",
+          "search_query": "Shop Vac 90304 Filter"
+        },
+        {
+          "name": "Fine Dust Collection Bags",
+          "search_query": "Shop Vac 5 Gallon Bags"
+        }
+      ]
+    }
+  ]
+}

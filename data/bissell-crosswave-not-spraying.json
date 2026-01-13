@@ -1,0 +1,49 @@
+{
+  "brand": "Bissell",
+  "model": "Bissell Crosswave not spraying",
+  "manual_pdf": "bissell-crosswave-not-spraying.pdf",
+  "seo_keywords": [
+    "Bissell Crosswave not spraying",
+    "Bissell Crosswave not spraying repair",
+    "Bissell Crosswave not spraying troubleshooting",
+    "Bissell Crosswave not spraying parts",
+    "how to fix Bissell Crosswave not spraying",
+    "Bissell Crosswave not spraying manual",
+    "Bissell Crosswave not spraying guide",
+    "where to buy Bissell Crosswave not spraying parts",
+    "Bissell Crosswave not spraying replacement battery",
+    "Bissell Crosswave not spraying not working",
+    "fix Bissell Crosswave not spraying problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:50.076052",
+  "source_keyword": "Bissell Crosswave not spraying",
+  "problem_type": "power",
+  "trending_score": 50,
+  "problems": [
+    {
+      "id": "power-issues",
+      "title": "Vacuum Won't Turn On or Start",
+      "description": "Diagnosing why your Bissell Crosswave not spraying won't power on.",
+      "possible_causes": [
+        "Battery is completely drained",
+        "Battery is dead and needs replacement",
+        "Power button malfunction",
+        "Internal electrical fault"
+      ],
+      "solution_steps": [
+        "Charge the vacuum for at least 4 hours",
+        "Check all connections are secure",
+        "Test the power button responsiveness",
+        "Look for any error lights or beeps",
+        "If completely dead, battery replacement is likely needed"
+      ],
+      "required_parts": [
+        {
+          "name": "Bissell Crosswave not spraying Diagnostic Tool",
+          "search_query": "Bissell Crosswave not spraying troubleshooting"
+        }
+      ]
+    }
+  ]
+}

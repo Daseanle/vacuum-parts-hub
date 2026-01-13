@@ -1,0 +1,54 @@
+{
+  "brand": "Bissell",
+  "model": "CrossWave Cordless Max (2554)",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-2554.pdf",
+  "seo_keywords": [
+    "CrossWave Cordless Max lights flashing",
+    "Bissell 2554 not charging",
+    "CrossWave Max wifi reset",
+    "CrossWave Max brush not turning"
+  ],
+  "problems": [
+    {
+      "id": "not-charging-lights-flashing",
+      "title": "Not Charging / Lights Flashing",
+      "description": "Vacuum sits on dock but won't charge.",
+      "possible_causes": [
+        "Robot not aligned on pads",
+        "Adapter failure",
+        "Battery failure"
+      ],
+      "solution_steps": [
+        "Wipe the charging pads on the dock and the unit.",
+        "Ensure the unit is upright.",
+        "If the adapter light doesn't turn on, replace the charger."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Charger (36V)",
+          "search_query": "Bissell CrossWave Cordless Max Charger"
+        }
+      ]
+    },
+    {
+      "id": "dirty-tank-full-error",
+      "title": "Dirty Tank Full (False Alarm)",
+      "description": "Machine stops and indicates full tank when empty.",
+      "possible_causes": [
+        "Filter is wet",
+        "Float stack is dirty"
+      ],
+      "solution_steps": [
+        "Dry the pleated filter for 24 hours.",
+        "Clean the float stack in the dirty tank lid."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter & Brush Roll Bundle",
+          "search_query": "Bissell CrossWave Max Filter"
+        }
+      ]
+    }
+  ]
+}

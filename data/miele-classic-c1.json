@@ -1,0 +1,54 @@
+{
+  "brand": "Miele",
+  "model": "Classic C1 Canister Vacuum",
+  "image_url": "https://m.media-amazon.com/images/I/61Kq99iZlNL._AC_SL1500_.jpg",
+  "manual_pdf": "miele-c1.pdf",
+  "seo_keywords": [
+    "Miele C1 orange light",
+    "Miele vacuum overheating",
+    "Miele GN bags vs FJM",
+    "Miele C1 suction control"
+  ],
+  "problems": [
+    {
+      "id": "overheating-shutoff",
+      "title": "Overheating / Shuts Off",
+      "description": "The vacuum turns off after 10 minutes and feels hot.",
+      "possible_causes": [
+        "Bag is overfilled and blocking airflow",
+        "Exhaust filter is clogged",
+        "Clog in the hose"
+      ],
+      "solution_steps": [
+        "Replace the AirClean 3D bag.",
+        "Change the Super Air Clean filter (the white pad).",
+        "Wait 30 minutes for the thermal cutout to reset."
+      ],
+      "required_parts": [
+        {
+          "name": "Miele AirClean 3D Efficiency Bags (Type GN)",
+          "search_query": "Miele GN Vacuum Bags"
+        }
+      ]
+    },
+    {
+      "id": "lid-wont-close",
+      "title": "Canister Lid Won't Close",
+      "description": "The dust compartment cover pops open or won't click shut.",
+      "possible_causes": [
+        "Bag is not seated correctly",
+        "Bag holder bracket is broken"
+      ],
+      "solution_steps": [
+        "Ensure the bag collar is slid fully into the guide.",
+        "Check if the plastic bag holder hinge is snapped (common issue)."
+      ],
+      "required_parts": [
+        {
+          "name": "Dust Bag Holder Bracket",
+          "search_query": "Miele C1 Bag Holder"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "brand": "Shark",
+  "model": "Rotator Professional Lift-Away (NV501)",
+  "image_url": "https://m.media-amazon.com/images/I/71jX7tB2vLL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-nv501.pdf",
+  "seo_keywords": [
+    "Shark NV501 hose replacement",
+    "Shark Rotator brush roll indicator red",
+    "Shark NV501 front wheel replacement",
+    "Shark NV501 filters"
+  ],
+  "problems": [
+    {
+      "id": "brush-roll-indicator-red",
+      "title": "Brush Roll Indicator Light is Red",
+      "description": "The brush roll stops spinning and the light on the nozzle turns red.",
+      "possible_causes": [
+        "Brush roll is jammed with debris",
+        "Belt is broken (rare, usually geared)",
+        "Nozzle hose clog"
+      ],
+      "solution_steps": [
+        "Turn off and unplug.",
+        "Remove the bottom cover (3 locks) and cut away hair.",
+        "Check the nozzle hose for blockages."
+      ],
+      "required_parts": [
+        {
+          "name": "Floor Nozzle Hose",
+          "search_query": "Shark NV501 Nozzle Hose"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction-hissing",
+      "title": "Loss of Suction / Hissing Noise",
+      "description": "Vacuum isn't picking up dirt and sounds like air is escaping.",
+      "possible_causes": [
+        "Handle hose is torn",
+        "Filters are black/dirty",
+        "Bin is full"
+      ],
+      "solution_steps": [
+        "Check the hose near the handle for tears.",
+        "Wash the foam and felt filters.",
+        "If filters are crumbling, replace them immediately to save the motor."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Kit (Foam + Felt + HEPA)",
+          "search_query": "Shark NV501 Filter Kit"
+        },
+        {
+          "name": "Replacement Handle Hose",
+          "search_query": "Shark NV501 Handle Hose"
+        }
+      ]
+    }
+  ]
+}

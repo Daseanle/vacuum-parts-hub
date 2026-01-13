@@ -1,0 +1,49 @@
+{
+  "brand": "Shark",
+  "model": "Shark Rocket brush not spinning",
+  "manual_pdf": "shark-rocket-brush-not-spinning.pdf",
+  "seo_keywords": [
+    "Shark Rocket brush not spinning",
+    "Shark Rocket brush not spinning repair",
+    "Shark Rocket brush not spinning troubleshooting",
+    "Shark Rocket brush not spinning parts",
+    "how to fix Shark Rocket brush not spinning",
+    "Shark Rocket brush not spinning manual",
+    "Shark Rocket brush not spinning guide",
+    "where to buy Shark Rocket brush not spinning parts",
+    "Shark Rocket brush not spinning replacement battery",
+    "Shark Rocket brush not spinning not working",
+    "fix Shark Rocket brush not spinning problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:48.039188",
+  "source_keyword": "Shark Rocket brush not spinning",
+  "problem_type": "power",
+  "trending_score": 50,
+  "problems": [
+    {
+      "id": "power-issues",
+      "title": "Vacuum Won't Turn On or Start",
+      "description": "Diagnosing why your Shark Rocket brush not spinning won't power on.",
+      "possible_causes": [
+        "Battery is completely drained",
+        "Battery is dead and needs replacement",
+        "Power button malfunction",
+        "Internal electrical fault"
+      ],
+      "solution_steps": [
+        "Charge the vacuum for at least 4 hours",
+        "Check all connections are secure",
+        "Test the power button responsiveness",
+        "Look for any error lights or beeps",
+        "If completely dead, battery replacement is likely needed"
+      ],
+      "required_parts": [
+        {
+          "name": "Shark Rocket brush not spinning Diagnostic Tool",
+          "search_query": "Shark Rocket brush not spinning troubleshooting"
+        }
+      ]
+    }
+  ]
+}

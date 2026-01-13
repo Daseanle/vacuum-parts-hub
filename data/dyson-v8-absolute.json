@@ -1,0 +1,78 @@
+{
+  "brand": "Dyson",
+  "model": "V8 Absolute / Animal Cordless",
+  "manual_pdf": "dyson-v8.pdf",
+  "seo_keywords": [
+    "Dyson V8 pulsing problem",
+    "Dyson V8 battery replacement",
+    "Dyson V8 filter cleaning",
+    "Dyson V8 soft roller not spinning",
+    "Dyson V8 troubleshooting"
+  ],
+  "problems": [
+    {
+      "id": "motor-pulsing-on-off",
+      "title": "Motor is Pulsing (Turning On and Off)",
+      "description": "The vacuum makes a 'breathing' sound or pulses on and off while holding the trigger.",
+      "possible_causes": [
+        "Filter is blocked or needs washing",
+        "Blockage in the wand or bin inlet",
+        "Blockage in the cleaner head"
+      ],
+      "solution_steps": [
+        "Check the pre-motor filter (the stick one) and post-motor filter (the back one). Wash them and dry for 24 hours.",
+        "Remove the wand and check for clogs inside the tube.",
+        "Check the flapper valve inside the dust bin inlet.",
+        "If filters are clean and no blockages, the filter might be worn out and needs replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "V8 Filter Replacement Kit (Pre & Post Filters)",
+          "search_query": "Dyson V8 Filter Replacement Kit"
+        }
+      ]
+    },
+    {
+      "id": "battery-not-holding-charge",
+      "title": "Battery dies quickly / Not Charging",
+      "description": "The vacuum runs for only a few minutes or shows a red light when charging.",
+      "possible_causes": [
+        "Battery has reached end of life (common after 2-3 years)",
+        "Charger is faulty"
+      ],
+      "solution_steps": [
+        "Check the light on the battery. Solid red usually means a battery fault.",
+        "If it flashes red, call Dyson.",
+        "If it's blue but lasts 2 minutes, the battery cells are degraded and need replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V8 Replacement Battery (21.6V)",
+          "search_query": "Dyson V8 Replacement Battery"
+        }
+      ]
+    },
+    {
+      "id": "brush-bar-not-spinning",
+      "title": "Brush Bar Not Spinning",
+      "description": "The roller head doesn't turn even though the vacuum has suction.",
+      "possible_causes": [
+        "Hair wrapped around the roller",
+        "Connection pins bent or dirty",
+        "Motorhead failure"
+      ],
+      "solution_steps": [
+        "Use a coin to unlock the side cap and pull out the brush bar.",
+        "Remove any hair or debris.",
+        "Wipe the electrical contact points on the wand and the head.",
+        "Reassemble and test."
+      ],
+      "required_parts": [
+        {
+          "name": "V8 Motorhead Brush Bar",
+          "search_query": "Dyson V8 Brush Bar Replacement"
+        }
+      ]
+    }
+  ]
+}

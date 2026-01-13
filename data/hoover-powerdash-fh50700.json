@@ -1,0 +1,60 @@
+{
+  "brand": "Hoover",
+  "model": "PowerDash Pet Compact Carpet Cleaner (FH50700)",
+  "image_url": "https://m.media-amazon.com/images/I/71f-7hM-1eL._AC_SL1500_.jpg",
+  "manual_pdf": "hoover-fh50700.pdf",
+  "seo_keywords": [
+    "Hoover PowerDash not picking up water",
+    "Hoover PowerDash belt replacement",
+    "Hoover FH50700 burning smell",
+    "Hoover PowerDash brush not spinning"
+  ],
+  "problems": [
+    {
+      "id": "brush-not-spinning-burning-smell",
+      "title": "Brush Not Spinning / Burning Smell",
+      "description": "The brush roll stopped turning and there is a smell of burnt rubber.",
+      "possible_causes": [
+        "Belt is broken or stretched (Very common)",
+        "Debris jammed in brush roll ends",
+        "Motor shaft seized"
+      ],
+      "solution_steps": [
+        "Unplug immediately.",
+        "Remove the nozzle cover and check the belt. If it's snapped or loose, replace it.",
+        "Clear hair from the brush roll bearings."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Belt (Style HT19)",
+          "search_query": "Hoover PowerDash Belt"
+        },
+        {
+          "name": "Brush Roll Assembly",
+          "search_query": "Hoover PowerDash Brush Roll"
+        }
+      ]
+    },
+    {
+      "id": "not-picking-up-water",
+      "title": "Not Picking Up Water / Carpet stays wet",
+      "description": "Suction is weak and dirty water is not entering the tank.",
+      "possible_causes": [
+        "Dirty water tank is full",
+        "Nozzle front is clogged with lint",
+        "Red filter screen is blocked"
+      ],
+      "solution_steps": [
+        "Empty the dirty water tank.",
+        "Remove the front nozzle and rinse out carpet fibers/hair clogging the suction path.",
+        "Clean the red filter screen under the dirty water tank."
+      ],
+      "required_parts": [
+        {
+          "name": "Nozzle Clean-Out Tool",
+          "search_query": "Hoover PowerDash Nozzle Tool"
+        }
+      ]
+    }
+  ]
+}

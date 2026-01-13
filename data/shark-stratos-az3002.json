@@ -1,0 +1,52 @@
+{
+  "brand": "Shark",
+  "model": "Stratos Upright Vacuum (AZ3002)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-az3002.pdf",
+  "seo_keywords": [
+    "Shark Stratos bad smell",
+    "Shark Odor Neutralizer replacement",
+    "Shark Stratos brush roll red light",
+    "Shark Stratos filters"
+  ],
+  "problems": [
+    {
+      "id": "bad-smell-cartridge",
+      "title": "Bad Smell / Cartridge Empty",
+      "description": "Vacuum smells or the odor dial is on max but no scent.",
+      "possible_causes": [
+        "Odor Neutralizer Cartridge is empty",
+        "Filters dirty"
+      ],
+      "solution_steps": [
+        "Check the dial on the floor nozzle.",
+        "Replace the cartridge every 6 months."
+      ],
+      "required_parts": [
+        {
+          "name": "Odor Neutralizer Technology Cartridges",
+          "search_query": "Shark Odor Neutralizer Cartridge"
+        }
+      ]
+    },
+    {
+      "id": "brush-roll-red",
+      "title": "Nozzle Light Red",
+      "description": "Brush roll blockage.",
+      "possible_causes": [
+        "Hair wrap",
+        "Soft roller jam"
+      ],
+      "solution_steps": [
+        "Open the garage lid.",
+        "Clean the soft roller and rear fins."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Soft Roller",
+          "search_query": "Shark Stratos Soft Roller"
+        }
+      ]
+    }
+  ]
+}

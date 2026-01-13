@@ -1,0 +1,43 @@
+{
+  "brand": "Dyson",
+  "model": "V15 Detect - guide",
+  "manual_pdf": "v15-detect-manual.pdf",
+  "seo_keywords": [
+    "V15 Detect guide",
+    "Fix V15 Detect guide",
+    "Dyson V15 Detect troubleshooting",
+    "V15 Detect HEPA Filter replacement",
+    "how to manual for V15 Detect"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:14:17.030192",
+  "source_keyword": "V15 Detect guide",
+  "problem_type": "guide",
+  "trending_score": 76,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on V15 Detect",
+      "description": "Comprehensive guide to resolving guide issues. If your V15 Detect is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out HEPA Filter",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the HEPA Filter for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the HEPA Filter."
+      ],
+      "required_parts": [
+        {
+          "name": "V15 Detect HEPA Filter",
+          "search_query": "V15 Detect HEPA Filter replacement"
+        }
+      ]
+    }
+  ]
+}

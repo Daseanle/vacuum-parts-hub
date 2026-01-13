@@ -1,0 +1,50 @@
+{
+  "brand": "Ecovacs",
+  "model": "Ecovacs Deebot not charging",
+  "manual_pdf": "ecovacs-deebot-not-charging.pdf",
+  "seo_keywords": [
+    "Ecovacs Deebot not charging",
+    "Ecovacs Deebot not charging repair",
+    "Ecovacs Deebot not charging troubleshooting",
+    "Ecovacs Deebot not charging parts",
+    "how to fix Ecovacs Deebot not charging",
+    "Ecovacs Deebot not charging manual",
+    "Ecovacs Deebot not charging guide",
+    "where to buy Ecovacs Deebot not charging parts",
+    "Ecovacs Deebot not charging replacement battery",
+    "Ecovacs Deebot not charging not working",
+    "fix Ecovacs Deebot not charging problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:54.131896",
+  "source_keyword": "Ecovacs Deebot not charging",
+  "problem_type": "charging",
+  "trending_score": 65,
+  "problems": [
+    {
+      "id": "charging-issues",
+      "title": "Charging Problems & Solutions",
+      "description": "Troubleshooting and fixing charging issues with Ecovacs Deebot not charging.",
+      "possible_causes": [
+        "Dirty charging contacts",
+        "Faulty charger or docking station",
+        "Battery cannot accept charge anymore",
+        "Charging port damage"
+      ],
+      "solution_steps": [
+        "Clean the metal contacts on both vacuum and charger",
+        "Try a different power outlet",
+        "Check if the charger LED indicator is working",
+        "Inspect the charging port for debris or damage",
+        "Test with a different charger if available",
+        "If charger is faulty, replace with genuine Ecovacs charger"
+      ],
+      "required_parts": [
+        {
+          "name": "Ecovacs Deebot not charging Charger",
+          "search_query": "Ecovacs Deebot not charging charger replacement"
+        }
+      ]
+    }
+  ]
+}

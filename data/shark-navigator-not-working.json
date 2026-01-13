@@ -1,0 +1,49 @@
+{
+  "brand": "Shark",
+  "model": "Shark Navigator not working",
+  "manual_pdf": "shark-navigator-not-working.pdf",
+  "seo_keywords": [
+    "Shark Navigator not working",
+    "Shark Navigator not working repair",
+    "Shark Navigator not working troubleshooting",
+    "Shark Navigator not working parts",
+    "how to fix Shark Navigator not working",
+    "Shark Navigator not working manual",
+    "Shark Navigator not working guide",
+    "where to buy Shark Navigator not working parts",
+    "Shark Navigator not working replacement battery",
+    "Shark Navigator not working not working",
+    "fix Shark Navigator not working problems"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-07T13:04:47.531862",
+  "source_keyword": "Shark Navigator not working",
+  "problem_type": "power",
+  "trending_score": 65,
+  "problems": [
+    {
+      "id": "power-issues",
+      "title": "Vacuum Won't Turn On or Start",
+      "description": "Diagnosing why your Shark Navigator not working won't power on.",
+      "possible_causes": [
+        "Battery is completely drained",
+        "Battery is dead and needs replacement",
+        "Power button malfunction",
+        "Internal electrical fault"
+      ],
+      "solution_steps": [
+        "Charge the vacuum for at least 4 hours",
+        "Check all connections are secure",
+        "Test the power button responsiveness",
+        "Look for any error lights or beeps",
+        "If completely dead, battery replacement is likely needed"
+      ],
+      "required_parts": [
+        {
+          "name": "Shark Navigator not working Diagnostic Tool",
+          "search_query": "Shark Navigator not working troubleshooting"
+        }
+      ]
+    }
+  ]
+}

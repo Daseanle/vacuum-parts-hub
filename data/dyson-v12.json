@@ -1,0 +1,85 @@
+{
+  "brand": "Dyson",
+  "model": "Dyson V12",
+  "model_code": "V12",
+  "problem_description": "pulsing",
+  "manual_pdf": "dyson-v12.pdf",
+  "seo_keywords": [
+    "Dyson V12 pulsing",
+    "Dyson V12 repair",
+    "Dyson V12 troubleshooting",
+    "Dyson V12 parts",
+    "how to fix Dyson V12",
+    "Dyson V12 manual",
+    "Dyson V12 guide",
+    "Dyson V12 suction pulsating",
+    "Dyson V12 revving up and down",
+    "fix Dyson V12 pulsing",
+    "Dyson V12 not constant suction",
+    "Dyson V12 surging",
+    "why does Dyson V12 pulse",
+    "Dyson V12 pulsing and stopping",
+    "troubleshoot Dyson V12 pulsing",
+    "stop Dyson V12 from pulsing"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-08T23:29:56.088664",
+  "source_keyword": "Dyson V12 pulsing",
+  "problem_type": "pulsing",
+  "trending_score": 70,
+  "trending_source": "database",
+  "problems": [
+    {
+      "id": "pulsing-troubleshooting",
+      "title": "Dyson V12 Pulsing or Surging Power",
+      "description": "Fixing pulsing, surging, or inconsistent power on your Dyson V12. Understand why power fluctuates and how to resolve it.",
+      "possible_causes": [
+        "Dirty or clogged filters causing airflow restriction",
+        "Bin is overfilled restricting airflow",
+        "Brush roll is obstructed causing resistance changes",
+        "Motor is failing and power delivery is inconsistent",
+        "PCB board issue causing voltage fluctuations",
+        "Battery is failing and cannot deliver consistent power"
+      ],
+      "solution_steps": [
+        "Empty and clean the dust bin on your Dyson V12",
+        "Remove and clean all filters (let them dry completely for 24 hours)",
+        "Clean the brush roll and remove any tangled hair or debris",
+        "Check for any blockages in the air pathways",
+        "Test with a fully charged battery to rule out power issues",
+        "If pulsing continues, the motor or PCB may need replacement",
+        "Contact Dyson support if the issue persists after cleaning"
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V12 Replacement Filter",
+          "search_query": "Dyson V12 filter"
+        },
+        {
+          "name": "Dyson V12 Replacement Motor",
+          "search_query": "Dyson V12 motor"
+        }
+      ],
+      "persona": {
+        "type": "frustrated_user",
+        "name": "愤怒用户",
+        "tone": "直接、情绪化、痛点共鸣",
+        "opening": "I was about to throw my Dyson Dyson V12 against the wall...",
+        "phrases": [
+          "Here's what actually works (trust me, I tried everything)...",
+          "Finally, a solution that actually lasts...",
+          "This will save you hours of frustration..."
+        ]
+      },
+      "dynamic_cta": {
+        "urgency": "high",
+        "text": "⚡ Fix Pulsing Issue - Stop the Annoying On-Off Cycle",
+        "subtext": "Pulsing means a sensor or blockage issue. We have the parts to fix it permanently.",
+        "color": "orange",
+        "icon": "📳",
+        "pain_point": "Vacuum keeps pulsing on and off"
+      },
+      "trending_source": "database"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "brand": "Roborock",
+  "model": "S5 Max Robot Vacuum",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "roborock-s5max.pdf",
+  "seo_keywords": [
+    "Roborock S5 Max error 1",
+    "Roborock S5 Max lidar stuck",
+    "Roborock S5 Max mop cloth",
+    "Roborock S5 Max filter"
+  ],
+  "problems": [
+    {
+      "id": "error-1-lidar",
+      "title": "Error 1: LiDAR Turret Jammed",
+      "description": "The orange turret on top isn't spinning.",
+      "possible_causes": [
+        "Debris blocking turret",
+        "Motor failure"
+      ],
+      "solution_steps": [
+        "Spin the turret by hand to dislodge debris.",
+        "Use compressed air to blow out dust.",
+        "If motor failed, replace the LDS unit."
+      ],
+      "required_parts": [
+        {
+          "name": "LDS Laser Motor / Module",
+          "search_query": "Roborock S5 Max Lidar Motor"
+        }
+      ]
+    },
+    {
+      "id": "mop-bracket-broken",
+      "title": "Mop Bracket Issues",
+      "description": "Mop cloth falls off or bracket cracked.",
+      "possible_causes": [
+        "Plastic clips broken",
+        "Velcro worn out"
+      ],
+      "solution_steps": [
+        "Replace the mop cloth plate."
+      ],
+      "required_parts": [
+        {
+          "name": "Mop Cloth Mount / Bracket",
+          "search_query": "Roborock S5 Max Mop Bracket"
+        }
+      ]
+    }
+  ]
+}

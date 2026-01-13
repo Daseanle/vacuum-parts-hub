@@ -1,0 +1,93 @@
+# 自动化 SEO 内容生成工作流
+# 每天 UTC-8 时区早上 8 点自动生成新的维修指南页面
+
+name: 🤖 SEO Auto Content Generator
+
+on:
+  # 每天早上 8 点运行（UTC-8 时区，即 PST/MST）
+  schedule:
+    - cron: '0 16 * * *'  # UTC 16:00 = UTC-8 早上 8:00
+    # 注意：PST(太平洋标准时间) 或 MST(山地标准时间) 的早上 8 点
+
+  # 每周日额外运行一次，生成更多内容
+  schedule:
+    - cron: '0 16 * * 0'  # 每周日早上 8 点
+
+  # 手动触发
+  workflow_dispatch:
+
+  # 也可以在推送到 main 分支时运行（可选）
+  # push:
+  #   branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-seo-content:
+    name: 生成 SEO 内容
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🟢 设置 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          # 如果有 requirements.txt，在这里安装
+
+      - name: 🤖 运行 AI 内容生成器
+        run: |
+          python scripts/ai-content-generator.py
+        env:
+          # Telegram Bot 配置（用于发送每日报告）
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # 可以在这里添加 API 密钥等环境变量
+          # OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PYTHONUNBUFFERED: 1
+
+      - name: 📊 生成统计报告
+        run: |
+          echo "📊 内容生成统计"
+          echo "===================="
+          echo "生成的文件数: $(ls -1 data/*.json 2>/dev/null | wc -l)"
+          echo "最新文件: $(ls -t data/*.json 2>/dev/null | head -5)"
+          echo ""
+
+      - name: 📝 创建提交
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 自动生成 SEO 内容 $(date +'%Y-%m-%d')"
+
+      - name: 🚀 推送更改
+        run: git push
+
+      - name: ✅ 完成通知
+        if: success()
+        run: |
+          echo "✅ SEO 内容生成完成！"
+          echo "📅 时间: $(date)"
+          echo "🔄 下次运行: 明天早上 8 点 (UTC-8)"
+
+  # 可选：部署到 Vercel（如果生成了新内容）
+  deploy:
+    name: 触发部署
+    needs: generate-seo-content
+    if: success()
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚀 触发 Vercel 重新部署
+        run: |
+          echo "✅ 新内容已生成，Vercel 会自动检测并部署"
+          echo "🌐 网站将在几分钟内更新"

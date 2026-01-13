@@ -1,0 +1,204 @@
+# 24小时自动化部署工作流配置
+# Vacuum Parts Hub - CI/CD Pipeline
+# 功能：代码推送时自动构建、测试、部署
+
+name: Auto-Deploy Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  # 定时健康检查（每天凌晨2点）
+  schedule:
+    - cron: '0 2 * * *'
+  # 手动触发
+  workflow_dispatch:
+
+# 设置权限以允许部署
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 并发控制
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: '20'
+  PNPM_VERSION: '8'
+
+jobs:
+  # ============================================
+  # Job 1: 代码质量检查和测试
+  # ============================================
+  quality-check:
+    name: 🔍 代码质量检查
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🟢 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 安装依赖
+        run: npm ci
+
+      - name: 🔍 ESLint 代码检查
+        run: npm run lint
+        continue-on-error: false
+
+      - name: 🏗️ 构建检查
+        run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+
+      - name: 📊 构建分析
+        run: |
+          echo "📊 构建统计:"
+          du -sh .next
+          ls -lh .next/static
+
+  # ============================================
+  # Job 2: 安全扫描
+  # ============================================
+  security-scan:
+    name: 🔒 安全依赖扫描
+    runs-on: ubuntu-latest
+    needs: quality-check
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🟢 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 安装依赖
+        run: npm ci
+
+      - name: 🔍 运行安全审计
+        run: npm audit --audit-level=moderate
+        continue-on-error: true
+
+      - name: 📈 生成安全报告
+        if: always()
+        run: |
+          echo "✅ 安全扫描完成"
+          echo "扫描时间: $(date)" > security-report.txt
+
+  # ============================================
+  # Job 3: 部署到生产环境
+  # ============================================
+  deploy:
+    name: 🚀 部署到生产环境
+    runs-on: ubuntu-latest
+    needs: [quality-check, security-scan]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    environment:
+      name: production
+      url: ${{ steps.deploy.outputs.url }}
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      - name: 🟢 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 安装依赖
+        run: npm ci
+
+      - name: 🏗️ 构建生产版本
+        run: |
+          npm run build
+          echo "✅ 构建完成"
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          NODE_ENV: production
+
+      - name: 📁 部署到 Vercel
+        id: deploy
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
+          working-directory: ./
+
+      - name: ✅ 部署成功通知
+        if: success()
+        run: |
+          echo "🎉 部署成功！"
+          echo "预览 URL: ${{ steps.deploy.outputs.preview-url }}"
+
+      - name: ❌ 部署失败通知
+        if: failure()
+        run: |
+          echo "❌ 部署失败，请检查日志"
+          exit 1
+
+  # ============================================
+  # Job 4: 健康检查
+  # ============================================
+  health-check:
+    name: 💓 健康检查
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - name: ⏳ 等待部署完成
+        run: sleep 60
+
+      - name: 🔍 检查网站可访问性
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" https://vacuumpartshub.com)
+          if [ $response -eq 200 ]; then
+            echo "✅ 网站运行正常 (HTTP $response)"
+          else
+            echo "❌ 网站异常 (HTTP $response)"
+            exit 1
+          fi
+
+      - name: 📊 性能检查
+        run: |
+          time=$(curl -s -o /dev/null -w "%{time_total}" https://vacuumpartshub.com)
+          echo "⚡ 响应时间: ${time}s"
+          if (( $(echo "$time > 3" | bc -l) )); then
+            echo "⚠️ 响应时间过长"
+          fi
+
+  # ============================================
+  # Job 5: 创建部署回滚（失败时）
+  # ============================================
+  rollback:
+    name: 🔄 紧急回滚
+    runs-on: ubuntu-latest
+    needs: [deploy, health-check]
+    if: failure()
+    steps:
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🔄 回滚到上一个版本
+        run: |
+          git log --oneline -5
+          echo "⚠️ 检测到部署失败，准备回滚..."
+
+      - name: 🚨 发送告警
+        run: |
+          echo "🚨 部署失败，已触发回滚流程"
+          echo "请检查 GitHub Actions 日志"

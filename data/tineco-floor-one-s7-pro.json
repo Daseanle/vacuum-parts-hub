@@ -1,0 +1,52 @@
+{
+  "brand": "Tineco",
+  "model": "Floor One S7 Pro",
+  "image_url": "https://m.media-amazon.com/images/I/6182-qfG6pL._AC_SL1500_.jpg",
+  "manual_pdf": "tineco-s7pro.pdf",
+  "seo_keywords": [
+    "Tineco S7 Pro screen not working",
+    "Tineco S7 Pro wheels stuck",
+    "Tineco S7 Pro dirty water tank error",
+    "Tineco S7 Pro solution"
+  ],
+  "problems": [
+    {
+      "id": "wheels-stuck-assist-failure",
+      "title": "Wheels Stuck / Self-Propel Failed",
+      "description": "The SmoothPower self-propulsion system isn't helping move the vacuum.",
+      "possible_causes": [
+        "Debris jammed in wheel motors",
+        "Software glitch"
+      ],
+      "solution_steps": [
+        "Clean hair from the rear wheel axles.",
+        "Place on dock and run a self-cleaning cycle to reset sensors."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brush Roller",
+          "search_query": "Tineco S7 Pro Brush Roller"
+        }
+      ]
+    },
+    {
+      "id": "solution-tank-error",
+      "title": "Solution Tank Empty Error",
+      "description": "Vacuum says solution is empty but it's full.",
+      "possible_causes": [
+        "Air lock in the line",
+        "Using non-Tineco foam solution"
+      ],
+      "solution_steps": [
+        "Remove and firmly reseat the Clean Water Tank.",
+        "Ensure you are using Tineco solution (others foam up and trick sensors)."
+      ],
+      "required_parts": [
+        {
+          "name": "Tineco Multi-Surface Cleaning Solution",
+          "search_query": "Tineco Cleaning Solution"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "brand": "Bissell",
+  "model": "SpotClean Pro Portable (3624)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-3624.pdf",
+  "seo_keywords": [
+    "Bissell SpotClean Pro hose replacement",
+    "Bissell 3624 leaking",
+    "SpotClean Pro no suction",
+    "Bissell stain tool"
+  ],
+  "problems": [
+    {
+      "id": "hose-cracked",
+      "title": "Hose Cracked / Leaking",
+      "description": "Hose has split near the handle.",
+      "possible_causes": [
+        "Fatigue from storage"
+      ],
+      "solution_steps": [
+        "Bissell does not sell the hose separately (requires unit disassembly).",
+        "Many users use tape or buy a donor unit for parts."
+      ],
+      "required_parts": [
+        {
+          "name": "3-Inch Tough Stain Tool (Replacement)",
+          "search_query": "Bissell SpotClean Tool"
+        }
+      ]
+    },
+    {
+      "id": "tank-leaking",
+      "title": "Dirty Water Tank Leaking",
+      "description": "Leaking from the bottom of the tank.",
+      "possible_causes": [
+        "Rubber gasket seal lost or damaged"
+      ],
+      "solution_steps": [
+        "Check the black rubber plug on the bottom.",
+        "Buy a new tank assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Dirty Water Tank Assembly",
+          "search_query": "Bissell SpotClean Pro Dirty Tank"
+        }
+      ]
+    }
+  ]
+}

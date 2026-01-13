@@ -1,0 +1,54 @@
+{
+  "brand": "Dyson",
+  "model": "Gen5detect / Gen5outsize",
+  "image_url": "https://m.media-amazon.com/images/I/51+u+s+s+L._AC_SL1000_.jpg",
+  "manual_pdf": "dyson-gen5.pdf",
+  "seo_keywords": [
+    "Dyson Gen5detect filter cleaning",
+    "Dyson Gen5 airway blocked message",
+    "Dyson Gen5 battery replacement",
+    "Dyson Gen5 laser not working"
+  ],
+  "problems": [
+    {
+      "id": "airway-blocked-message",
+      "title": "Airway Blocked Message",
+      "description": "The LCD screen shows an animation of a blockage even after cleaning the filter.",
+      "possible_causes": [
+        "Hidden dust inside the built-in crevice tool",
+        "Sensor needs reset",
+        "HEPA filter is not dry"
+      ],
+      "solution_steps": [
+        "Remove the wand and check the built-in dusting and crevice tool for lint.",
+        "Tap the HEPA filter firmly to dislodge fine dust.",
+        "Ensure the filter is 100% dry (48 hours)."
+      ],
+      "required_parts": [
+        {
+          "name": "Gen5 HEPA Filter",
+          "search_query": "Dyson Gen5detect Filter"
+        }
+      ]
+    },
+    {
+      "id": "battery-run-time-low",
+      "title": "Battery Run Time Low",
+      "description": "Vacuum doesn't last 70 minutes as advertised.",
+      "possible_causes": [
+        "Using Boost mode constantly",
+        "Battery degradation"
+      ],
+      "solution_steps": [
+        "Switch to Auto or Eco mode.",
+        "The Gen5 battery is click-in and can be swapped easily."
+      ],
+      "required_parts": [
+        {
+          "name": "Gen5 Click-in Battery",
+          "search_query": "Dyson Gen5detect Battery"
+        }
+      ]
+    }
+  ]
+}

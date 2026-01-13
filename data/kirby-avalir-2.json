@@ -1,0 +1,53 @@
+{
+  "brand": "Kirby",
+  "model": "Avalir 2",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "kirby-avalir.pdf",
+  "seo_keywords": [
+    "Kirby Avalir 2 belt replacement",
+    "Kirby vacuum not picking up",
+    "Kirby Avalir bags",
+    "Kirby brush roll height adjustment"
+  ],
+  "problems": [
+    {
+      "id": "burning-smell-rubber",
+      "title": "Burning Rubber Smell / Brush Stopped",
+      "description": "Smell of burnt rubber and the green light on the nozzle flickers.",
+      "possible_causes": [
+        "Belt has snapped or melted",
+        "Brush roll height set too low"
+      ],
+      "solution_steps": [
+        "Use the belt lifter handle to loosen the belt.",
+        "Remove the nozzle cover.",
+        "Replace the knurled belt. Kirby belts are designed to break to save the motor."
+      ],
+      "required_parts": [
+        {
+          "name": "Kirby Genuine Belts (Knurled)",
+          "search_query": "Kirby Avalir 2 Belts"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction",
+      "title": "Loss of Suction",
+      "description": "Vacuum pushes dirt.",
+      "possible_causes": [
+        "Bag is full (fill line reached)",
+        "Mini Emptor (bag dock) clogged"
+      ],
+      "solution_steps": [
+        "Replace the disposable bag. Do not reuse.",
+        "Check the tube connecting the bag to the unit."
+      ],
+      "required_parts": [
+        {
+          "name": "Kirby Micron Magic HEPA Bags",
+          "search_query": "Kirby Avalir 2 Bags"
+        }
+      ]
+    }
+  ]
+}

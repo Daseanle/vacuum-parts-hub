@@ -1,0 +1,52 @@
+{
+  "brand": "Eureka",
+  "model": "Mighty Mite Canister (3670G)",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "eureka-3670g.pdf",
+  "seo_keywords": [
+    "Eureka Mighty Mite bags MM",
+    "Eureka 3670G hose replacement",
+    "Eureka Mighty Mite overheating",
+    "Eureka canister filter"
+  ],
+  "problems": [
+    {
+      "id": "blowing-dust",
+      "title": "Blowing Dust / Suction Loss",
+      "description": "Dust escapes from the back.",
+      "possible_causes": [
+        "Bag is full or burst",
+        "Wrong bag type"
+      ],
+      "solution_steps": [
+        "Replace the paper bag.",
+        "Ensure you are using Type MM bags."
+      ],
+      "required_parts": [
+        {
+          "name": "Type MM Vacuum Bags",
+          "search_query": "Eureka MM Bags"
+        }
+      ]
+    },
+    {
+      "id": "overheating",
+      "title": "Overheating / Shuts Off",
+      "description": "Vacuum gets very hot and stops.",
+      "possible_causes": [
+        "Rear exhaust filter clogged",
+        "Bag overfilled"
+      ],
+      "solution_steps": [
+        "Check the small filter on the back of the unit.",
+        "Replace if black."
+      ],
+      "required_parts": [
+        {
+          "name": "Motor Filter",
+          "search_query": "Eureka 3670G Filter"
+        }
+      ]
+    }
+  ]
+}

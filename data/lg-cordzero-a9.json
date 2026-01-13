@@ -1,0 +1,54 @@
+{
+  "brand": "LG",
+  "model": "CordZero A9 / A9 Kompressor",
+  "image_url": "https://m.media-amazon.com/images/I/61+u+s+s+L._AC_SL1200_.jpg",
+  "manual_pdf": "lg-a9.pdf",
+  "seo_keywords": [
+    "LG CordZero A9 blocked pipe error",
+    "LG CordZero A9 battery not charging",
+    "LG A9 filter cleaning",
+    "LG CordZero brush not spinning"
+  ],
+  "problems": [
+    {
+      "id": "clogged-pipe-alert",
+      "title": "Blinking Blockage Alert",
+      "description": "The blockage indicator flashes and the motor pulses.",
+      "possible_causes": [
+        "Clog in the wand",
+        "Pre-filter is caked with dust",
+        "Kompressor lever is stuck"
+      ],
+      "solution_steps": [
+        "Twist open the top lid and remove the green pre-filter.",
+        "Wash the metal mesh filter.",
+        "Check the Kompressor lever inside the bin."
+      ],
+      "required_parts": [
+        {
+          "name": "LG A9 Filter Kit (Pre-filter + Exhaust)",
+          "search_query": "LG CordZero A9 Filter"
+        }
+      ]
+    },
+    {
+      "id": "nozzle-wheels-broken",
+      "title": "Nozzle Hard to Push / Wheels Broken",
+      "description": "The floor head drags on the carpet.",
+      "possible_causes": [
+        "Small wheels on the nozzle are jammed or broken"
+      ],
+      "solution_steps": [
+        "Flip the nozzle and check the small rollers.",
+        "Remove hair wrapped around the axles.",
+        "If wheels are flat, replace the nozzle assembly."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Power Drive Nozzle",
+          "search_query": "LG CordZero A9 Nozzle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "brand": "Hoover",
+  "model": "SmartWash Automatic - guide",
+  "manual_pdf": "smartwash-automatic-manual.pdf",
+  "seo_keywords": [
+    "SmartWash Automatic guide",
+    "Fix SmartWash Automatic guide",
+    "Hoover SmartWash Automatic troubleshooting",
+    "SmartWash Automatic Filters replacement",
+    "how to manual for SmartWash Automatic"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:14:14.019174",
+  "source_keyword": "SmartWash Automatic guide",
+  "problem_type": "guide",
+  "trending_score": 90,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on SmartWash Automatic",
+      "description": "Comprehensive guide to resolving guide issues. If your SmartWash Automatic is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out Filters",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the Filters for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the Filters."
+      ],
+      "required_parts": [
+        {
+          "name": "SmartWash Automatic Filters",
+          "search_query": "SmartWash Automatic Filters replacement"
+        }
+      ]
+    }
+  ]
+}

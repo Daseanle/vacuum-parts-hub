@@ -1,0 +1,60 @@
+{
+  "brand": "Miele",
+  "model": "Complete C3 Canister (Alize / Marin / Cat & Dog)",
+  "image_url": "https://m.media-amazon.com/images/I/61Kq99iZlNL._AC_SL1500_.jpg",
+  "manual_pdf": "miele-c3.pdf",
+  "seo_keywords": [
+    "Miele C3 red light warning",
+    "Miele C3 bag full indicator",
+    "Miele C3 power head not spinning",
+    "Miele GN bags bulk"
+  ],
+  "problems": [
+    {
+      "id": "airflow-indicator-orange",
+      "title": "Airflow Indicator is Orange/Red",
+      "description": "The light on the canister turns orange, indicating reduced suction.",
+      "possible_causes": [
+        "Bag is completely full",
+        "Exhaust HEPA filter is saturated",
+        "Clog in the hose or wand"
+      ],
+      "solution_steps": [
+        "Replace the GN HyClean bag immediately. Never empty and reuse.",
+        "Check the HEPA filter status strip. If red, replace it.",
+        "Drop a coin down the wand to check for blockages."
+      ],
+      "required_parts": [
+        {
+          "name": "Miele GN HyClean 3D Efficiency Bags",
+          "search_query": "Miele GN Bags"
+        },
+        {
+          "name": "HEPA AirClean Filter (SF-HA 50)",
+          "search_query": "Miele HEPA Filter SF-HA 50"
+        }
+      ]
+    },
+    {
+      "id": "power-brush-stopped",
+      "title": "Power Brush Not Spinning",
+      "description": "The carpet head (SEB 228/236) lights up but the brush doesn't turn.",
+      "possible_causes": [
+        "Thermal overload tripped",
+        "Debris wrapped around brush",
+        "Wand connection pins dirty"
+      ],
+      "solution_steps": [
+        "Turn off and press the reset button on the power head.",
+        "Cut away hair wrapped around the roller.",
+        "Reseat the electro-wand connections."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brush Roller",
+          "search_query": "Miele SEB 228 Brush Roll"
+        }
+      ]
+    }
+  ]
+}

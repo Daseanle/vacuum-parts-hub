@@ -1,0 +1,55 @@
+{
+  "brand": "Hoover",
+  "model": "WindTunnel T-Series Rewind Bagless",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "hoover-windtunnel.pdf",
+  "seo_keywords": [
+    "Hoover WindTunnel belt replacement",
+    "Hoover vacuum burning smell",
+    "Hoover WindTunnel filter cleaning",
+    "Hoover cord rewind broken"
+  ],
+  "problems": [
+    {
+      "id": "burning-smell-belt",
+      "title": "Burning Rubber Smell / Brush Not Spinning",
+      "description": "Smoke or smell comes from the foot, brush roll stops.",
+      "possible_causes": [
+        "Belt #56 is broken or stretched",
+        "Brush roll is jammed"
+      ],
+      "solution_steps": [
+        "Unplug immediately.",
+        "Flip over, remove the plate (4 screws), and check the belt.",
+        "Replace the belt if it is loose or snapped."
+      ],
+      "required_parts": [
+        {
+          "name": "Belt #56 (2-Pack)",
+          "search_query": "Hoover WindTunnel Belt 56"
+        }
+      ]
+    },
+    {
+      "id": "loss-of-suction",
+      "title": "Loss of Suction / System Check Light",
+      "description": "The green/red indicator is red.",
+      "possible_causes": [
+        "HEPA filter is clogged",
+        "Rinsable filter is dirty",
+        "Clog in the hose"
+      ],
+      "solution_steps": [
+        "Rinse the blue filter under the bin.",
+        "Tap the black HEPA filter (do not wash). Replace if grey.",
+        "Clear the hose with a broom handle."
+      ],
+      "required_parts": [
+        {
+          "name": "Filter Kit (HEPA + Rinsable)",
+          "search_query": "Hoover WindTunnel T-Series Filter"
+        }
+      ]
+    }
+  ]
+}

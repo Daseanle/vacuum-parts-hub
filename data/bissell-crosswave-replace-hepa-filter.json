@@ -1,0 +1,43 @@
+{
+  "brand": "Bissell",
+  "model": "CrossWave - guide",
+  "manual_pdf": "crosswave-manual.pdf",
+  "seo_keywords": [
+    "CrossWave guide",
+    "Fix CrossWave guide",
+    "Bissell CrossWave troubleshooting",
+    "CrossWave HEPA Filter replacement",
+    "how to manual for CrossWave"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-13T04:14:16.028686",
+  "source_keyword": "CrossWave guide",
+  "problem_type": "guide",
+  "trending_score": 59,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on CrossWave",
+      "description": "Comprehensive guide to resolving guide issues. If your CrossWave is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out HEPA Filter",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the HEPA Filter for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the HEPA Filter."
+      ],
+      "required_parts": [
+        {
+          "name": "CrossWave HEPA Filter",
+          "search_query": "CrossWave HEPA Filter replacement"
+        }
+      ]
+    }
+  ]
+}

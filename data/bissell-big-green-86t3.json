@@ -1,0 +1,53 @@
+{
+  "brand": "Bissell",
+  "model": "Big Green Machine Professional (86T3)",
+  "image_url": "https://m.media-amazon.com/images/I/61N+X+uFqYL._AC_SL1500_.jpg",
+  "manual_pdf": "bissell-86t3.pdf",
+  "seo_keywords": [
+    "Bissell Big Green not picking up water",
+    "Bissell Big Green belt replacement",
+    "Bissell 86T3 flow indicator not spinning",
+    "Bissell Big Green leaking"
+  ],
+  "problems": [
+    {
+      "id": "flow-indicator-not-spinning",
+      "title": "Flow Indicator Not Spinning",
+      "description": "The little spinner on top stopped moving.",
+      "possible_causes": [
+        "Tank not seated",
+        "Pump belt broken",
+        "Filter clogged"
+      ],
+      "solution_steps": [
+        "If it sprays but doesn't spin, the indicator itself might be jammed.",
+        "If it doesn't spray, check the pump belt (rare) or tank valve."
+      ],
+      "required_parts": [
+        {
+          "name": "Flow Indicator Assembly",
+          "search_query": "Bissell Big Green Flow Indicator"
+        }
+      ]
+    },
+    {
+      "id": "brush-belt-broken",
+      "title": "Brush Not Turning / Belt Broken",
+      "description": "Large brush roll isn't scrubbing.",
+      "possible_causes": [
+        "Belt snapped due to obstruction"
+      ],
+      "solution_steps": [
+        "Unscrew the side cover.",
+        "This machine uses a geared belt which is very tough, but can break.",
+        "Replace if teeth are stripped."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Belt",
+          "search_query": "Bissell Big Green Belt"
+        }
+      ]
+    }
+  ]
+}

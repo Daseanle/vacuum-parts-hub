@@ -1,0 +1,53 @@
+{
+  "brand": "Ecovacs",
+  "model": "Deebot N8 Pro+ / T8",
+  "image_url": "https://m.media-amazon.com/images/I/71R3yYw9mAL._AC_SL1500_.jpg",
+  "manual_pdf": "deebot-n8.pdf",
+  "seo_keywords": [
+    "Deebot N8 Pro+ map not loading",
+    "Ecovacs Deebot side brush not spinning",
+    "Deebot N8 filter replacement",
+    "Deebot not emptying bin"
+  ],
+  "problems": [
+    {
+      "id": "side-brush-tangled",
+      "title": "Side Brush Tangled / Error",
+      "description": "Robot stops and alerts about the side brush.",
+      "possible_causes": [
+        "Hair wrapped tightly around the brush motor",
+        "Brush bent"
+      ],
+      "solution_steps": [
+        "Pop off the side brushes (color coded red/green).",
+        "Use the cleaning tool to cut hair.",
+        "If bristles are splayed, replace them."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Brushes & Filters Kit",
+          "search_query": "Ecovacs Deebot N8 Parts"
+        }
+      ]
+    },
+    {
+      "id": "auto-empty-failed",
+      "title": "Not Emptying into Station",
+      "description": "Dust bin remains full after docking.",
+      "possible_causes": [
+        "Auto-empty vents on bin blocked",
+        "Station bag full"
+      ],
+      "solution_steps": [
+        "Check the two flaps on the bottom of the robot's bin.",
+        "Replace the dust bag in the station."
+      ],
+      "required_parts": [
+        {
+          "name": "Auto-Empty Station Dust Bags",
+          "search_query": "Ecovacs Deebot Dust Bags"
+        }
+      ]
+    }
+  ]
+}

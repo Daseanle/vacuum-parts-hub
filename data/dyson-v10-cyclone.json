@@ -1,0 +1,56 @@
+{
+  "brand": "Dyson",
+  "model": "Cyclone V10 Absolute / Animal",
+  "image_url": "https://m.media-amazon.com/images/I/61Kq99iZlNL._AC_SL1500_.jpg",
+  "manual_pdf": "dyson-v10.pdf",
+  "seo_keywords": [
+    "Dyson V10 battery replacement",
+    "Dyson V10 pulsing",
+    "Dyson V10 filter light on",
+    "Dyson V10 bin runner broken"
+  ],
+  "problems": [
+    {
+      "id": "battery-lights-flashing",
+      "title": "Battery lights flashing / Not Charging",
+      "description": "One red light or flashing blue lights. Vacuum won't turn on.",
+      "possible_causes": [
+        "Battery life ended (cycle count limit)",
+        "Charger failure",
+        "Battery too hot"
+      ],
+      "solution_steps": [
+        "If 3 blue lights flash, it's a temporary fault (let it cool down).",
+        "If 1 red light flashes, the battery has a cell fault.",
+        "Dyson V10 batteries typically last 2-4 years before needing replacement."
+      ],
+      "required_parts": [
+        {
+          "name": "V10 Replacement Battery (Screw-in type)",
+          "search_query": "Dyson V10 Battery Replacement"
+        }
+      ]
+    },
+    {
+      "id": "airway-blocked-light",
+      "title": "Airway Blocked Light / Pulsing",
+      "description": "The blockage indicator (pipe icon) lights up and motor pulses.",
+      "possible_causes": [
+        "Filter unit is not fully twisted in",
+        "Clog in the main body inlet",
+        "Dirty filter"
+      ],
+      "solution_steps": [
+        "Remove the filter, wash it, and ensure it is bone dry.",
+        "Shine a torch into the bin inlet to check for debris.",
+        "Twist the filter firmly until you feel a click."
+      ],
+      "required_parts": [
+        {
+          "name": "V10 Filter Replacement (2-Pack)",
+          "search_query": "Dyson V10 Filter"
+        }
+      ]
+    }
+  ]
+}

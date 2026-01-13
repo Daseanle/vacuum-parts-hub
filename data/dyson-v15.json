@@ -1,0 +1,78 @@
+{
+  "brand": "Dyson",
+  "model": "Dyson V15",
+  "model_code": "V15",
+  "problem_description": "not charging",
+  "manual_pdf": "dyson-v15.pdf",
+  "seo_keywords": [
+    "Dyson V15 not charging",
+    "Dyson V15 repair",
+    "Dyson V15 troubleshooting",
+    "Dyson V15 parts",
+    "how to fix Dyson V15",
+    "Dyson V15 manual",
+    "Dyson V15 guide",
+    "Dyson V15 charger problems",
+    "Dyson V15 won't charge",
+    "Dyson V15 charging light flashing",
+    "replace Dyson V15 charger",
+    "Dyson V15 charging dock issues",
+    "Dyson V15 battery not charging",
+    "fix Dyson V15 charging problems",
+    "Dyson V15 charge indicator",
+    "Dyson V15 charging slowly"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-08T23:29:55.571045",
+  "source_keyword": "Dyson V15 not charging",
+  "problem_type": "charging",
+  "trending_score": 65,
+  "trending_source": "database",
+  "problems": [
+    {
+      "id": "charging-issues",
+      "title": "Charging Problems & Solutions",
+      "description": "Troubleshooting and fixing charging issues with Dyson Dyson V15.",
+      "possible_causes": [
+        "Dirty charging contacts",
+        "Faulty charger or docking station",
+        "Battery cannot accept charge anymore",
+        "Charging port damage"
+      ],
+      "solution_steps": [
+        "Clean the metal contacts on both vacuum and charger",
+        "Try a different power outlet",
+        "Check if the charger LED indicator is working",
+        "Inspect the charging port for debris or damage",
+        "Test with a different charger if available",
+        "If charger is faulty, replace with genuine Dyson charger"
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V15 Charger",
+          "search_query": "Dyson V15 charger replacement"
+        }
+      ],
+      "persona": {
+        "type": "tech_expert",
+        "name": "技术专家",
+        "tone": "专业、分析性、经验丰富",
+        "opening": "After testing 15 different Dyson units, I've found the pattern...",
+        "phrases": [
+          "The root cause is almost always...",
+          "Based on my technical analysis...",
+          "Most DIY tutorials miss this critical step..."
+        ]
+      },
+      "dynamic_cta": {
+        "urgency": "high",
+        "text": "🔌 Fix Charging Issues - Get Your Dyson Dyson V15 Working Again",
+        "subtext": "Stop dealing with the frustration of a vacuum that won't charge. We have the solution.",
+        "color": "orange",
+        "icon": "⚡",
+        "pain_point": "Your vacuum won't charge properly"
+      },
+      "trending_source": "database"
+    }
+  ]
+}

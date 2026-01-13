@@ -1,0 +1,51 @@
+{
+  "brand": "Shark",
+  "model": "ION Robot (RV750 / RV761)",
+  "image_url": "https://m.media-amazon.com/images/I/71BS4+3tQSL._AC_SL1500_.jpg",
+  "manual_pdf": "shark-rv750.pdf",
+  "seo_keywords": [
+    "Shark RV750 battery replacement",
+    "Shark ION robot beeping",
+    "Shark robot side brushes falling off",
+    "Shark RV750 filters"
+  ],
+  "problems": [
+    {
+      "id": "short-runtime",
+      "title": "Short Runtime / Dies off dock",
+      "description": "Robot runs for 10-15 minutes only.",
+      "possible_causes": [
+        "Battery degradation"
+      ],
+      "solution_steps": [
+        "The RV750 battery typically lasts 18-24 months.",
+        "Replace the battery pack (2-prong connector)."
+      ],
+      "required_parts": [
+        {
+          "name": "Replacement Battery (RVBAT850)",
+          "search_query": "Shark RV750 Battery"
+        }
+      ]
+    },
+    {
+      "id": "side-brushes-fall-off",
+      "title": "Side Brushes Fall Off",
+      "description": "Brushes detach during cleaning.",
+      "possible_causes": [
+        "Pegs worn out",
+        "Brush plastic expanded"
+      ],
+      "solution_steps": [
+        "Snap on new side brushes.",
+        "Ensure they click into place."
+      ],
+      "required_parts": [
+        {
+          "name": "Side Brush Replacement Kit",
+          "search_query": "Shark RV750 Side Brushes"
+        }
+      ]
+    }
+  ]
+}

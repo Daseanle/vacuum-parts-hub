@@ -1,0 +1,57 @@
+{
+  "brand": "Dyson",
+  "model": "V6 Absolute / Animal / Motorhead",
+  "image_url": "https://m.media-amazon.com/images/I/710Rz8+iR4L._AC_SL1500_.jpg",
+  "manual_pdf": "dyson-v6.pdf",
+  "seo_keywords": [
+    "Dyson V6 battery replacement",
+    "Dyson V6 pulsing",
+    "Dyson V6 runs for few seconds then stops",
+    "Dyson V6 filter cleaning"
+  ],
+  "problems": [
+    {
+      "id": "battery-dead-flashing-red",
+      "title": "Runs briefly then stops / Red Light",
+      "description": "The vacuum runs for a few seconds and cuts out, or the light flashes red.",
+      "possible_causes": [
+        "Battery cells dead (Very common)",
+        "Max mode left on"
+      ],
+      "solution_steps": [
+        "If the light flashes red (more than 12 times), the battery is faulty.",
+        "If it flashes blue but dies fast, the battery holds no charge.",
+        "Replacement is the only fix."
+      ],
+      "required_parts": [
+        {
+          "name": "Dyson V6 Replacement Battery (21.6V)",
+          "search_query": "Dyson V6 Battery"
+        },
+        {
+          "name": "Pre-Filter (Cone)",
+          "search_query": "Dyson V6 Filter"
+        }
+      ]
+    },
+    {
+      "id": "pulsing-on-off",
+      "title": "Motor Pulsing (Surging)",
+      "description": "Engine revs up and down repeatedly.",
+      "possible_causes": [
+        "Blocked filter",
+        "Clog in wand"
+      ],
+      "solution_steps": [
+        "Wash the cone filter.",
+        "Check the flap inside the dust bin inlet."
+      ],
+      "required_parts": [
+        {
+          "name": "V6 Filter Kit",
+          "search_query": "Dyson V6 Filter Replacement"
+        }
+      ]
+    }
+  ]
+}
