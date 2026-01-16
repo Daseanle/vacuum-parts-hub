@@ -142,6 +142,35 @@ def run_shell(command):
         log(f"❌ Command failed: {command}\nError: {e.stderr}")
         return False, e.stderr
 
+import urllib.request
+import urllib.parse
+
+def send_telegram_notification(message):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    
+    if not token or not chat_id:
+        log("⚠️ Telegram credentials not found. Skipping notification.")
+        return
+
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    headers = {'Content-Type': 'application/json'}
+    data = {
+        "chat_id": chat_id,
+        "text": message,
+        "parse_mode": "Markdown"
+    }
+    
+    try:
+        req = urllib.request.Request(url, data=json.dumps(data).encode('utf-8'), headers=headers)
+        with urllib.request.urlopen(req) as response:
+            if response.getcode() == 200:
+                log("✅ Telegram notification sent.")
+            else:
+                log(f"❌ Failed to send Telegram notification: {response.read().decode('utf-8')}")
+    except Exception as e:
+        log(f"❌ Error sending Telegram notification: {e}")
+
 def git_commit_and_push(generated_files):
     log("📦 Starting Git Push sequence...")
     run_shell(f"git add .")
@@ -151,8 +180,12 @@ def git_commit_and_push(generated_files):
     
     if success:
         log("✅ Git Push Successful!")
+        # Send Success Notification
+        report = f"✅ *Vacuum Parts Hub Auto-SEO Success*\nGenerated {len(generated_files)} new guides:\n" + "\n".join([f"• {f}" for f in generated_files])
+        send_telegram_notification(report)
     else:
         log("❌ Git Push Failed.")
+        send_telegram_notification("❌ *Vacuum Parts Hub Auto-SEO Failed* during git push.")
     return success
 
 # =================MAIN EXECUTION=================

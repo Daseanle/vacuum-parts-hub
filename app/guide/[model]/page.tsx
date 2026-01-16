@@ -1,6 +1,6 @@
 import { getModelData, getAllModelSlugs } from '@/lib/vacuum-data';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
 
 export async function generateStaticParams() {
@@ -23,6 +23,11 @@ export default async function ModelPage({ params }: { params: { model: string } 
     return notFound();
   }
 
+  // Auto-redirect if there's only one problem (Flatten structure)
+  if (data.problems.length === 1) {
+    redirect(`/guide/${params.model}/${data.problems[0].id}`);
+  }
+
   // 占位图逻辑（虽然用了CSS卡片，但这行留着防止报错）
   const placeholderText = `${data.brand} ${data.model}`;
   const placeholderUrl = `https://placehold.co/600x400/2563eb/ffffff?text=${encodeURIComponent(data.brand + '\n' + data.model)}`;
@@ -38,17 +43,17 @@ export default async function ModelPage({ params }: { params: { model: string } 
         {/* --- 升级版：纯 CSS 生成的维修手册封面 Start --- */}
         <div className="flex justify-center mb-8">
           <div className="relative w-full max-w-lg aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-xl border border-slate-700 flex flex-col items-center justify-center p-8 text-center text-white overflow-hidden group">
-            
+
             {/* 背景装饰（齿轮图标） */}
             <div className="absolute text-white opacity-5 group-hover:opacity-10 transition-opacity duration-500 transform scale-150">
-              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 2v2"/><path d="M12 22v-2"/><path d="m17 20.66-1-1.73"/><path d="M11 10.27 7 3.34"/><path d="m20.66 17-1.73-1"/><path d="m3.34 7 1.73 1"/><path d="M14 12h8"/><path d="M2 12h2"/><path d="m20.66 7-1.73 1"/><path d="m3.34 17 1.73-1"/><path d="m17 3.34-1 1.73"/><path d="m11 13.73-4 6.93"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" /><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" /><path d="M12 2v2" /><path d="M12 22v-2" /><path d="m17 20.66-1-1.73" /><path d="M11 10.27 7 3.34" /><path d="m20.66 17-1.73-1" /><path d="m3.34 7 1.73 1" /><path d="M14 12h8" /><path d="M2 12h2" /><path d="m20.66 7-1.73 1" /><path d="m3.34 17 1.73-1" /><path d="m17 3.34-1 1.73" /><path d="m11 13.73-4 6.93" /></svg>
             </div>
 
             {/* 品牌名 */}
             <h3 className="text-xl md:text-2xl font-bold text-slate-400 uppercase tracking-widest mb-2 z-10">
               {data.brand}
             </h3>
-            
+
             {/* 型号名 (大字) */}
             <h2 className="text-3xl md:text-4xl font-extrabold text-white leading-tight z-10 drop-shadow-md">
               {data.model}
@@ -75,8 +80,8 @@ export default async function ModelPage({ params }: { params: { model: string } 
 
       <div className="grid gap-6 md:grid-cols-2 mb-auto">
         {data.problems.map((problem) => (
-          <Link 
-            key={problem.id} 
+          <Link
+            key={problem.id}
             href={`/guide/${params.model}/${problem.id}`}
             className="block group"
           >
