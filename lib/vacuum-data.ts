@@ -24,6 +24,7 @@ export interface VacuumManual {
   manual_pdf: string;
   seo_keywords: string[];
   problems: Problem[];
+  faqs?: { question: string; answer: string; }[];
 }
 
 // lib/vacuum-data.ts 的 getAllModelSlugs 必须长这样：
@@ -34,7 +35,7 @@ export async function getAllModelSlugs() {
     return [];
   }
   const fileNames = fs.readdirSync(dataDirectory);
-  
+
   // 关键修改：过滤掉 vacuums.json 以及未来可能添加的 sharks.json 等聚合文件
   // 我们只保留那些针对单个型号的维修指南 JSON
   const repairGuideFiles = fileNames.filter(fileName => {

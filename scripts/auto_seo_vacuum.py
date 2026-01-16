@@ -116,7 +116,23 @@ def generate_content(brand, model, topic, title):
         ]
     }
     
-    # 4. Final JSON Structure
+    # 4. Generate FAQs for Schema (Boosts SERP CTR)
+    faqs = [
+        {
+            "question": f"Is it worth fixing the {problem_type.lower()} on a {model}?",
+            "answer": f"Yes. A replacement {part_type} costs significantly less than a new ${random.randint(300, 600)} vacuum. This repair takes about 15 minutes."
+        },
+        {
+            "question": f"How do I know if my {model} {part_type} is broken?",
+            "answer": f"Common signs include {random.choice(['loud grinding noises', 'loss of suction', 'burning smell'])} and the device failing to complete a cleaning cycle."
+        },
+        {
+            "question": f"Do I need special tools to replace the {model} {part_type}?",
+            "answer": "Most repairs only require a Phillips screwdriver and a T8 Torx driver. No soldering or advanced skills needed."
+        }
+    ]
+
+    # 5. Final JSON Structure
     data = {
         "brand": brand,
         "model": f"{model} - {problem_type}", # Acts as the page H1
@@ -127,7 +143,8 @@ def generate_content(brand, model, topic, title):
         "source_keyword": f"{model} {problem_type}",
         "problem_type": problem_type.lower(),
         "trending_score": random.randint(50, 90),
-        "problems": [problem_entry]
+        "problems": [problem_entry],
+        "faqs": faqs
     }
     
     return data
