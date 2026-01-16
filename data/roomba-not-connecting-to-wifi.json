@@ -45,5 +45,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Roomba not connecting to WiFi?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $453 vacuum, and extending the life of your Roomba is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Roomba not connecting to WiFi needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Roomba not connecting to WiFi myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

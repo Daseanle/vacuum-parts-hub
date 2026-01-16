@@ -46,5 +46,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a SpotClean Pro Portable (3624)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $315 vacuum, and extending the life of your Bissell is eco-friendly."
+    },
+    {
+      "question": "How do I know if my SpotClean Pro Portable (3624) needs a new part?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my SpotClean Pro Portable (3624) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

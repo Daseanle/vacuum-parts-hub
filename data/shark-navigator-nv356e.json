@@ -56,5 +56,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Navigator Lift-Away Professional (NV356E)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $503 vacuum, and extending the life of your Shark is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Navigator Lift-Away Professional (NV356E) needs a new filter or seal?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Navigator Lift-Away Professional (NV356E) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

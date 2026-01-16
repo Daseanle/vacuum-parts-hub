@@ -48,5 +48,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the battery on a Dyson V8 battery replacement?",
+      "answer": "Yes. A replacement battery typically costs significantly less than a new $550 vacuum, and extending the life of your Dyson is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Dyson V8 battery replacement needs a new battery?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the battery on my Dyson V8 battery replacement myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

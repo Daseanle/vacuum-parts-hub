@@ -48,5 +48,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Rocket Corded Stick Vacuum (HV302)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $455 vacuum, and extending the life of your Shark is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Rocket Corded Stick Vacuum (HV302) needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Rocket Corded Stick Vacuum (HV302) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

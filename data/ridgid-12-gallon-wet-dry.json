@@ -52,5 +52,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a 12 Gallon Wet/Dry Vac (NXT)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $354 vacuum, and extending the life of your Ridgid is eco-friendly."
+    },
+    {
+      "question": "How do I know if my 12 Gallon Wet/Dry Vac (NXT) needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my 12 Gallon Wet/Dry Vac (NXT) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

@@ -50,5 +50,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the filter on a Jet 75 / 90 Cordless Stick?",
+      "answer": "Yes. A replacement filter typically costs significantly less than a new $519 vacuum, and extending the life of your Samsung is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Jet 75 / 90 Cordless Stick needs a new filter?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter on my Jet 75 / 90 Cordless Stick myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

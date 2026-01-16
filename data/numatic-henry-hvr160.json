@@ -53,5 +53,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Henry (HVR160 / HVR200)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $591 vacuum, and extending the life of your Numatic is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Henry (HVR160 / HVR200) needs a new filter or seal?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Henry (HVR160 / HVR200) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

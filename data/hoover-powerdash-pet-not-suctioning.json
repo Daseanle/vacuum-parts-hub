@@ -39,5 +39,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a PowerDash Pet?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $404 vacuum, and extending the life of your Hoover is eco-friendly."
+    },
+    {
+      "question": "How do I know if my PowerDash Pet needs a new filter or seal?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my PowerDash Pet myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

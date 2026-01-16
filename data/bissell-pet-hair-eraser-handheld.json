@@ -50,5 +50,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Pet Hair Eraser Handheld Vacuum (33A1)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $303 vacuum, and extending the life of your Bissell is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Pet Hair Eraser Handheld Vacuum (33A1) needs a new filter or seal?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Pet Hair Eraser Handheld Vacuum (33A1) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

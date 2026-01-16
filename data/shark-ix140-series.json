@@ -125,5 +125,19 @@
       ],
       "required_parts": []
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Rocket Cordless Stick Vacuum (IX140 / IZ140 / IX141)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $552 vacuum, and extending the life of your Shark is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Rocket Cordless Stick Vacuum (IX140 / IZ140 / IX141) needs a new filter or seal?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Rocket Cordless Stick Vacuum (IX140 / IZ140 / IX141) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

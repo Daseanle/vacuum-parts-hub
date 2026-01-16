@@ -52,5 +52,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a SRX / E2 Type 12 Black?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $424 vacuum, and extending the life of your Rainbow is eco-friendly."
+    },
+    {
+      "question": "How do I know if my SRX / E2 Type 12 Black needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my SRX / E2 Type 12 Black myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

@@ -56,5 +56,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Rotator Professional Lift-Away (NV501)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $367 vacuum, and extending the life of your Shark is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Rotator Professional Lift-Away (NV501) needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Rotator Professional Lift-Away (NV501) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

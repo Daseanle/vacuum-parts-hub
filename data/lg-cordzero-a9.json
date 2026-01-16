@@ -50,5 +50,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a CordZero A9 / A9 Kompressor?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $325 vacuum, and extending the life of your LG is eco-friendly."
+    },
+    {
+      "question": "How do I know if my CordZero A9 / A9 Kompressor needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my CordZero A9 / A9 Kompressor myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

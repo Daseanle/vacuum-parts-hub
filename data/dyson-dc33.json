@@ -53,5 +53,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a DC33 Multi-Floor Upright?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $523 vacuum, and extending the life of your Dyson is eco-friendly."
+    },
+    {
+      "question": "How do I know if my DC33 Multi-Floor Upright needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my DC33 Multi-Floor Upright myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

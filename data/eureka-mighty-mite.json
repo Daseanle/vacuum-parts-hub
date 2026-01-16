@@ -48,5 +48,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Mighty Mite Canister (3670G)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $489 vacuum, and extending the life of your Eureka is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Mighty Mite Canister (3670G) needs a new filter or seal?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Mighty Mite Canister (3670G) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

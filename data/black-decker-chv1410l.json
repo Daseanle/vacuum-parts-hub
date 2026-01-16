@@ -51,5 +51,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Dustbuster Handheld Vacuum (CHV1410L)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $349 vacuum, and extending the life of your Black+Decker is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Dustbuster Handheld Vacuum (CHV1410L) needs a new filter or seal?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Dustbuster Handheld Vacuum (CHV1410L) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

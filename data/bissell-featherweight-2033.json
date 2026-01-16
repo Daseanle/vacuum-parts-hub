@@ -72,5 +72,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Featherweight Stick Vacuum (2033 Series)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $410 vacuum, and extending the life of your Bissell is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Featherweight Stick Vacuum (2033 Series) needs a new filter or seal?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Featherweight Stick Vacuum (2033 Series) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

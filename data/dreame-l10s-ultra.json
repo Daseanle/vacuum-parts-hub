@@ -48,5 +48,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Dreame L10s Ultra?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $388 vacuum, and extending the life of your Dreametech is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Dreame L10s Ultra needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Dreame L10s Ultra myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

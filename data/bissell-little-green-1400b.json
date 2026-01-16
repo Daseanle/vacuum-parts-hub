@@ -55,5 +55,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Little Green Portable Cleaner (1400B)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $493 vacuum, and extending the life of your Bissell is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Little Green Portable Cleaner (1400B) needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Little Green Portable Cleaner (1400B) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

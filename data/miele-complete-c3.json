@@ -56,5 +56,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Complete C3 Canister (Alize / Marin / Cat & Dog)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $488 vacuum, and extending the life of your Miele is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Complete C3 Canister (Alize / Marin / Cat & Dog) needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Complete C3 Canister (Alize / Marin / Cat & Dog) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

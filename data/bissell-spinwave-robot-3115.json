@@ -1,7 +1,7 @@
 {
   "brand": "Bissell",
   "model": "SpinWave Hard Floor Expert Robot (3115)",
-  "image_url": "https://m.media-amazon.com/images/I/71+GjG9g7XL._AC_SL1500_.jpg", 
+  "image_url": "https://m.media-amazon.com/images/I/71+GjG9g7XL._AC_SL1500_.jpg",
   "manual_pdf": "bissell-3115.pdf",
   "seo_keywords": [
     "Bissell SpinWave robot not mopping",
@@ -55,6 +55,20 @@
           "search_query": "Bissell SpinWave Robot Battery"
         }
       ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a SpinWave Hard Floor Expert Robot (3115)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $345 vacuum, and extending the life of your Bissell is eco-friendly."
+    },
+    {
+      "question": "How do I know if my SpinWave Hard Floor Expert Robot (3115) needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my SpinWave Hard Floor Expert Robot (3115) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
     }
   ]
 }

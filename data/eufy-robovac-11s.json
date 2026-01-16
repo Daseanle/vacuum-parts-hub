@@ -49,5 +49,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a RoboVac 11S / 11S MAX?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $484 vacuum, and extending the life of your Eufy is eco-friendly."
+    },
+    {
+      "question": "How do I know if my RoboVac 11S / 11S MAX needs a new part?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my RoboVac 11S / 11S MAX myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

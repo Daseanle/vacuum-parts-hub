@@ -49,5 +49,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the battery on a Linx Cordless Stick Vacuum (BH50010)?",
+      "answer": "Yes. A replacement battery typically costs significantly less than a new $357 vacuum, and extending the life of your Hoover is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Linx Cordless Stick Vacuum (BH50010) needs a new battery?",
+      "answer": "Common signs include strange noises and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the battery on my Linx Cordless Stick Vacuum (BH50010) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

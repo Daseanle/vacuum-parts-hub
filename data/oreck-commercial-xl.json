@@ -49,5 +49,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Commercial XL Upright (XL2100RHS)?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $600 vacuum, and extending the life of your Oreck is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Commercial XL Upright (XL2100RHS) needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Commercial XL Upright (XL2100RHS) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

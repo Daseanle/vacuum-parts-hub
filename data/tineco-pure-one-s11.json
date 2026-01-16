@@ -45,5 +45,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the filter on a Pure One S11 Cordless Stick?",
+      "answer": "Yes. A replacement filter typically costs significantly less than a new $380 vacuum, and extending the life of your Tineco is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Pure One S11 Cordless Stick needs a new filter?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter on my Pure One S11 Cordless Stick myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

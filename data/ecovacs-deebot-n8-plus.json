@@ -49,5 +49,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Deebot N8 Pro+ / T8?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $397 vacuum, and extending the life of your Ecovacs is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Deebot N8 Pro+ / T8 needs a new part?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Deebot N8 Pro+ / T8 myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

@@ -81,5 +81,19 @@
       },
       "trending_source": "database"
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Dyson V12?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $308 vacuum, and extending the life of your Dyson is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Dyson V12 needs a new part?",
+      "answer": "Common signs include intermittent power and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Dyson V12 myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

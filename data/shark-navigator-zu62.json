@@ -47,5 +47,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the suction on a Navigator Pet Pro (ZU62)?",
+      "answer": "Yes. A replacement filter or seal typically costs significantly less than a new $568 vacuum, and extending the life of your Shark is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Navigator Pet Pro (ZU62) needs a new filter or seal?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the filter or seal on my Navigator Pet Pro (ZU62) myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }

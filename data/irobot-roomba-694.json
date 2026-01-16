@@ -52,5 +52,19 @@
         }
       ]
     }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the issue on a Roomba 694 Robot Vacuum?",
+      "answer": "Yes. A replacement part typically costs significantly less than a new $390 vacuum, and extending the life of your iRobot is eco-friendly."
+    },
+    {
+      "question": "How do I know if my Roomba 694 Robot Vacuum needs a new part?",
+      "answer": "Common signs include reduced performance and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Can I replace the part on my Roomba 694 Robot Vacuum myself?",
+      "answer": "Yes, this is a user-serviceable repair. Most replacements generally require just a screwdriver and about 10-20 minutes of time."
+    }
   ]
 }
