@@ -1,0 +1,57 @@
+{
+  "brand": "Hoover",
+  "model": "WindTunnel 3 - guide",
+  "manual_pdf": "windtunnel-3-manual.pdf",
+  "seo_keywords": [
+    "WindTunnel 3 guide",
+    "Fix WindTunnel 3 guide",
+    "Hoover WindTunnel 3 troubleshooting",
+    "WindTunnel 3 Filters replacement",
+    "how to manual for WindTunnel 3"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-17T05:30:08.784403",
+  "source_keyword": "WindTunnel 3 guide",
+  "problem_type": "guide",
+  "trending_score": 74,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on WindTunnel 3",
+      "description": "Comprehensive guide to resolving guide issues. If your WindTunnel 3 is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out Filters",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the Filters for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the Filters."
+      ],
+      "required_parts": [
+        {
+          "name": "WindTunnel 3 Filters",
+          "search_query": "WindTunnel 3 Filters replacement"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the guide on a WindTunnel 3?",
+      "answer": "Yes. A replacement Filters costs significantly less than a new $331 vacuum. This repair takes about 15 minutes."
+    },
+    {
+      "question": "How do I know if my WindTunnel 3 Filters is broken?",
+      "answer": "Common signs include loss of suction and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Do I need special tools to replace the WindTunnel 3 Filters?",
+      "answer": "Most repairs only require a Phillips screwdriver and a T8 Torx driver. No soldering or advanced skills needed."
+    }
+  ]
+}

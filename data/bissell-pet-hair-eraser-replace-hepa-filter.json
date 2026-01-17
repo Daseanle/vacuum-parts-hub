@@ -1,0 +1,57 @@
+{
+  "brand": "Bissell",
+  "model": "Pet Hair Eraser - guide",
+  "manual_pdf": "pet-hair-eraser-manual.pdf",
+  "seo_keywords": [
+    "Pet Hair Eraser guide",
+    "Fix Pet Hair Eraser guide",
+    "Bissell Pet Hair Eraser troubleshooting",
+    "Pet Hair Eraser HEPA Filter replacement",
+    "how to manual for Pet Hair Eraser"
+  ],
+  "auto_generated": true,
+  "generated_date": "2026-01-17T05:30:07.779017",
+  "source_keyword": "Pet Hair Eraser guide",
+  "problem_type": "guide",
+  "trending_score": 76,
+  "problems": [
+    {
+      "id": "guide-issue",
+      "title": "Fixing: guide on Pet Hair Eraser",
+      "description": "Comprehensive guide to resolving guide issues. If your Pet Hair Eraser is acting up, followed these steps.",
+      "possible_causes": [
+        "Worn out HEPA Filter",
+        "Blockage in the airway",
+        "Electrical connection failure",
+        "Sensor malfunction"
+      ],
+      "solution_steps": [
+        "Turn off and unplug the device.",
+        "Inspect the HEPA Filter for visible damage or debris.",
+        "Clean all contact points using a dry cloth.",
+        "Reset the machine by holding the power button for 10 seconds.",
+        "If the issue persists, replace the HEPA Filter."
+      ],
+      "required_parts": [
+        {
+          "name": "Pet Hair Eraser HEPA Filter",
+          "search_query": "Pet Hair Eraser HEPA Filter replacement"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it worth fixing the guide on a Pet Hair Eraser?",
+      "answer": "Yes. A replacement HEPA Filter costs significantly less than a new $356 vacuum. This repair takes about 15 minutes."
+    },
+    {
+      "question": "How do I know if my Pet Hair Eraser HEPA Filter is broken?",
+      "answer": "Common signs include loss of suction and the device failing to complete a cleaning cycle."
+    },
+    {
+      "question": "Do I need special tools to replace the Pet Hair Eraser HEPA Filter?",
+      "answer": "Most repairs only require a Phillips screwdriver and a T8 Torx driver. No soldering or advanced skills needed."
+    }
+  ]
+}
